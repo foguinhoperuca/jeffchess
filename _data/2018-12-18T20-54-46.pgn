@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "12/18/2018, 8:54:46 PM"]
+[White "Jefferson Campos"]
+[Black "Jefferson Nunes"]
+[Result "*"]
+[PlyCount "78"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "white resign"]
+
+1. e4 d5 2. Nc3 dxe4 3. Nxe4 Nf6 4. d3 Nxe4 5. dxe4 Qxd1+ 6. Kxd1 Bg4+ 7. f3 Bh5 8. Bf4 c6 9. Kd2 Nd7 10. Rd1 e5 11. Bg3 O-O-O 12. Kc1 f6 13. Bf2 Kb8 14. Bc4 Be7 15. Be6 Nc5 16. Bxc5 Rxd1+ 17. Kxd1 Bxc5 18. Ne2 Be3 19. Ng3 Bg6 20. Nf5 Bxf5 21. Bxf5 g6 22. Be6 Re8 23. Ke2 Rxe6 24. Kxe3 Kc7 25. Kd2 Kd6 26. Rd1 Kc5 27. b3 b5 28. Rb1 a5 29. a3 Rd6+ 30. Kc3 b4+ 31. axb4+ axb4+ 32. Kb2 Rd2 33. Rg1 Kd4 34. Kc1 Ke3 35. h4 Rd6 36. Rh1 Kf2 37. Rh2 Kg3 38. Rh3+ Kxg2 39. h5 g5 *
