@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "12/4/2018, 10:03:29 PM"]
+[White "Jefferson Campos"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "59"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e6 2. Nf3 d5 3. d3 Nc6 4. Bg5 Be7 5. exd5 Qxd5 6. Be3 Bf6 7. Nbd2 Bxb2 8. Rb1 Qxa2 9. d4 Bc3 10. Be2 b6 11. O-O Bb7 12. Bc4 Qa5 13. Rb5 Qa3 14. d5 Nce7 15. Nb1 Qa1 16. Bd4 Ba6 17. Bxc3 Qa4 18. Rb4 Qa5 19. dxe6 Bxc4 20. exf7+ Bxf7 21. Rg4 Qf5 22. Qd4 Nf6 23. Rxg7 Ned5 24. Ne5 c5 25. Qa4+ Kf8 26. Rxf7+ Kg8 27. Qc6 Nxc3 28. Qxa8+ Qc8 29. Qxc8+ Ne8 30. Qxe8# 1-0
