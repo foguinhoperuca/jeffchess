@@ -1,46 +1,41 @@
---
---
+{% assign challenge = site.data.challenges['JR_2017-10-12_17-57-00'] %}
 <! DOCTYPE html>
 <html>
   <head>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/pgnvjs.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/chessboard-0.3.0.min.css" media="screen" />
 
-	<!-- custom-javascript-list:
-       - "https://code.jquery.com/jquery-3.2.1.min.js"
-       - "/js/pgnvjs.js"
-       - "/js/chessboard-0.3.0.js"
-		 custom-css-list:
-       - "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-       - "/css/pgnvjs.css"
-       - "/css/chessboard-0.3.0.min.css" -->
-
-
+	<script src="{{ site.baseurl }}/js/chessboard-0.3.0.js"></script>
+	<script src="{{ site.baseurl }}/js/pgnvjs.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	
-	<!-- <script>
-		 /* var boardProblem = pgnEdit('boardProblem', {
-		 position: '{{ challenge.fen }}',
-		 pieceStyle: 'wikipedia',
-		 theme: 'blue'
-		 });
+	<script>
+	 var boardProblem = pgnEdit('boardProblem', {
+	   position: '{{ challenge.fen }}',
+	   pieceStyle: 'wikipedia',
+	   theme: 'blue'
+	 });
 
-		 function solution() {
-		 pgnView('boardSolution', {
+	 function solution() {
+	   pgnView('boardSolution', {
 		 position: '{{ challenge.fen }}',
 		 pgn: '{{ challenge.pgn }}',
 		 pieceStyle: 'wikipedia',
 		 theme: 'informator'
-		 });
-		 }
+	   });
+	 }
 
-		 $("#showSolutionBtn").click(function(){
-		 solution();
-		 $("#boardSolution").toggle();
-		 });
+	 $("#showSolutionBtn").click(function(){
+	   solution();
+	   $("#boardSolution").toggle();
+	 });
 
-		 $(document).ready(function(){
-		 solution();
-		 $("#boardSolution").hide();
-		 });*/
-		 </script> -->
+	 $(document).ready(function(){
+	   solution();
+	   $("#boardSolution").hide();
+	 });
+	</script>
 
   </head>
   <body>

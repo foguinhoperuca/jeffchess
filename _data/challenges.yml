@@ -1,0 +1,9 @@
+JR_2018-05-18_10-09-00:
+  fen: r3qrnk/pbp5/1p1pp2b/5pNQ/2PPPP2/2N1B3/PP6/2K3RR w KQkq - 0 1
+  descripton: Brancas jogam. Qual o melhor lance?
+  pgn: 1. Qh5-h6+ Ng8xh6 2. Rh1xh6 Kg7 3. Nf7+ Kg7xf7 4. Rh6-h7+ Kf7-f6 5. e5 d6xe5 6. f4xe5#
+
+JR_2017-10-12_17-57-00:
+  fen: 5r2/pp4k1/2p3p1/2P1P3/3p3p/1q1Nb2P/1PR3P1/3Q3K b - - 0 1
+  descripton: Pretas jogam e dão checkmate.
+  pgn: 1...Qxc2 2. Qd1xc2 Rf1+ 3. Kh2 Bg1+ 4. Kh1 Bf2 5. Kh2Bg3#
