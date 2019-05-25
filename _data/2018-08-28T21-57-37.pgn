@@ -1,0 +1,12 @@
+[Event "Casual Game Padaria Sta Rosália"]
+[Site "https://lichess.org"]
+[Date "8/28/2018, 9:57:37 PM"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "78"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. d4 d5 2. e3 e6 3. c4 Nc6 4. Nf3 Nf6 5. a3 Ne4 6. Bd3 a6 7. b4 Be7 8. b5 Na5 9. Bd2 b6 10. Nc3 axb5 11. cxd5 O-O 12. Nxe4 exd5 13. Nc3 Ba6 14. e4 b4 15. axb4 Bxd3 16. bxa5 dxe4 17. Ng1 Qxd4 18. Nge2 Qd7 19. O-O Rxa5 20. Rxa5 bxa5 21. Re1 a4 22. Nxa4 c5 23. Nac3 c4 24. Ng3 f5 25. Bf4 Bc5 26. Qh5 Qd4 27. Be3 Qxc3 28. Rc1 Qe5 29. Bxc5 Qxc5 30. h3 e3 31. f3 e2+ 32. Kh2 Qf2 33. Nh1 Qf1 34. Qg5 h6 35. Qg6 Qxc1 36. Qe6+ Kh7 37. Ng3 e1=Q 38. Qd6 f4 39. Nh5 Qh1# 0-1

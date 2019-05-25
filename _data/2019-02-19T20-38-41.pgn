@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2/19/2019, 8:38:51 PM"]
+[White "Jefferson Nunes"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "127"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nc6 4. dxe5 Nxe5 5. Nxe5 dxe5 6. Qxd8+ Kxd8 7. Bc4 Be6 8. Bxe6 fxe6 9. Be3 Kd7 10. Nc3 a6 11. O-O-O+ Kc8 12. f4 Bd6 13. fxe5 Bxe5 14. Bg5 Nf6 15. Rhf1 h6 16. Bxf6 gxf6 17. g3 Kb8 18. Rd7 Ka7 19. Rfd1 h5 20. Na4 h4 21. Rg7 hxg3 22. hxg3 Rhg8 23. Rdd7 Bxg3 24. Nc5 Bf4+ 25. Kb1 Rxg7 26. Rxg7 Re8 27. a3 f5 28. exf5 exf5 29. Rf7 Be3 30. Nd3 f4 31. Nxf4 Bxf4 32. Rxf4 a5 33. b4 axb4 34. axb4 Rc8 35. c4 c5 36. bxc5 Rxc5 37. Kb2 Ka6 38. Kb3 b5 39. Rf6+ Ka5 40. cxb5 Rxb5+ 41. Kc4 Rb4+ 42. Kc5 Rb5+ 43. Kc4 Rb4+ 44. Kc3 Ka4 45. Rf8 Ka3 46. Rd8 Rb3+ 47. Kc2 Rb4 48. Rd3+ Ka4 49. Rd8 Rc4+ 50. Kd3 Rb4 51. Kc3 Kb5 52. Rb8+ Kc5 53. Rxb4 Kd5 54. Rb5+ Ke6 55. Kd4 Kd6 56. Rb6+ Kc7 57. Kc5 Kd7 58. Kd5 Kc7 59. Rh6 Kd7 60. Rh7+ Kc8 61. Kd6 Kb8 62. Kc6 Ka8 63. Kb6 Kb8 64. Rh8# 1-0
