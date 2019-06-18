@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "1/29/2019, 9:03:43 PM"]
+[White "Jefferson Campos"]
+[Black "Emerson Sbrana"]
+[Result "0-1"]
+[PlyCount "44"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Nf6 5. Nc3 Bc5 6. O-O d6 7. h3 Bd7 8. a3 Qc8 9. b4 Bb6 10. b5 Ne7 11. a4 a6 12. bxa6 bxa6 13. Nd5 Nexd5 14. exd5 Nh5 15. a5 Ba7 16. c3 Nf4 17. Bxf4 exf4 18. Re1+ Kf8 19. Re4 Bxh3 20. gxh3 Qxh3 21. Rxf4 Qg3+ 22. Kf1 Qxf2{ver a partida de 2019-01-15T21:14:33 com Jefferson Nunes onde termina com Qf2# também}# 0-1
