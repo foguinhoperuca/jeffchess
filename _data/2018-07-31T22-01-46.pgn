@@ -3,30 +3,10 @@
 [Date "7/31/2018, 10:01:46 PM"]
 [White "Jefferson Campos"]
 [Black "João Carlos Oliveira"]
-[Result "drawn"]
+[Result "1/2-1/2"]
 [PlyCount "109"]
 [FEN "r2q1rk1/p1p2pp1/1p1pb2p/8/3QP3/P2P3P/1PP2PP1/R3KB1R w KQ - 1 15"]
 [Variant "Standard"]
-[Termination "drawn"]
+[Termination "normal"]
 
-29. Qe3 c5 30. Be2 Qf6 31. O-O Qxb2 32. Qd2 Qf6 33. Bf3 Qg6 34. e5 Bxh3 35. g3 Bxf1 36. Bxa8 Rxa8 37. Rxf1 dxe5 38. Re1 Re8 39. Qe3 f5 40. f4 Qd6 41. fxe5 Qd4 42. Kf1 Qxe3 43. Rxe3 Re6 44. Kf2 g5 45. Kf3 Kg7 46. g4 f4 47. Re2 Kg6 48. c4 h5 49. Ke4 h4 50. Kd5 Kf7 51. a4 Ke7 52. d4 h3 53. dxc5 bxc5 54. Rb2 Rb6 55. Rh2 Rb3 56. Kxc5 Re3 57. Kd5 Rg3 58. c5 Rd3+ 59. Kc4 Rd7 60. Rxh3 Ke6 61. c6 Rc7 62. Kd4 Rxc6 63. Rh6+ Kd7 64. Rxc6 Kxc6 65. a5 Kd7 66. Ke4 Ke6 67. a6 Kd7 68. Kf3 Ke6 69. Ke4 *
-
-
-Yan Richard 1-0 Vandiner, Cnvcs, 2018.08.01
-[Event "Cnvcs"]
-[Site "Cnvcs"]
-[Date "2018.08.01"]
-[Round "2"]
-[White "Yan Richard"]
-[Black "Vandiner"]
-[Result "1-0"]
-[WhiteElo "1327"]
-[BlackElo "1315"]
-[ECO "D02"]
-[Source "Analyze This App"]
-
-1. d4 d5 2. Nf3 Nf6 3. e4 Bg4 4. Nc3 e6 5. Bg5 h6 6. exd5 hxg5 7. Ne5 Bxd1 8. 
-Bb5+ c6 9. dxc6 Qxd4 10. cxb7+ Kd8 11. Nxf7+ Kc7 12. bxa8=N+ Kb7 13. Rxd1 Qg4 
-14. Nd8+ Kxa8 15. O-O Be7 16. Nf7 Rf8 17. h3 Qh5 18. Ne5 g4 19. Rfe1 Rd8 20. Be2 
-Qxe5 21. hxg4 Bd6 22. Bf3+ Ne4 23. Bxe4+ Nc6 24. Bxc6+ 1-0
-
+29. Qe3 c5 30. Be2 Qf6 31. O-O Qxb2 32. Qd2 Qf6 33. Bf3 Qg6 34. e5 Bxh3 35. g3 Bxf1 36. Bxa8 Rxa8 37. Rxf1 dxe5 38. Re1 Re8 39. Qe3 f5 40. f4 Qd6 41. fxe5 Qd4 42. Kf1 Qxe3 43. Rxe3 Re6 44. Kf2 g5 45. Kf3 Kg7 46. g4 f4 47. Re2 Kg6 48. c4 h5 49. Ke4 h4 50. Kd5 Kf7 51. a4 Ke7 52. d4 h3 53. dxc5 bxc5 54. Rb2 Rb6 55. Rh2 Rb3 56. Kxc5 Re3 57. Kd5 Rg3 58. c5 Rd3+ 59. Kc4 Rd7 60. Rxh3 Ke6 61. c6 Rc7 62. Kd4 Rxc6 63. Rh6+ Kd7 64. Rxc6 Kxc6 65. a5 Kd7 66. Ke4 Ke6 67. a6 Kd7 68. Kf3 Ke6 69. Ke4 1/2-1/2
