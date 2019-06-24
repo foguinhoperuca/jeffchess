@@ -1,0 +1,13 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "04/10/2017, 00:00:00 AM"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "10"]
+[FEN "1r6/5kpp/p2ppb2/q6P/4P3/1Pp1B2B/2P5/1KQR2R1 b K - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+[Comment "Black plays. Mate in 5."]
+
+2. Rxb3+ cxb3 3. c2+ Kxc2 4. Qc3+ Kb1 5. Qxb3+ Qb2 6. Qxb2# 0-1

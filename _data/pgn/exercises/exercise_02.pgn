@@ -1,0 +1,11 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "08/18/2018, 00:00:00 AM"]
+[White "Jefferson Campos"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[FEN "5B2/1Pp5/2B2pNP/2PN4/p3k2K/P7/3R4/8 w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+[Comment "Brancas jogam. Mate em 3 lances."]
+1.b8=N f5 2. Nb6+ Ke3 3.Nc4#
