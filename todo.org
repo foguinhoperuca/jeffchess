@@ -1,4 +1,7 @@
 * My games
 ** DONE Google Keep
 ** Whatsapp
-*** Apenas conferência de jogos que estão no google keep
+*** DONE Apenas conferência de jogos que estão no google keep
+*** DONE 2017
+*** TODO 2018
+*** TODO 2019

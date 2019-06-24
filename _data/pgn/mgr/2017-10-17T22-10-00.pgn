@@ -1,0 +1,14 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "10/17/2017, 22:10:00"]
+[White "João Carlos Oliveira"]
+[Black "Jeferson Campos"]
+[Result "*"]
+[PlyCount "8"]
+[FEN "6k1/p1P2p2/4p3/1p4Pp/1P1rbP2/P2r3P/5K2/2R3R1 b - -"]
+[Variant "Standard"]
+[Termination "?"]
+{Jogo pausado sem registro das jogadas anteriores}
+{Images "2017-10-17T22-10-00_image-01.jpg"}
+{Sugestão de continuação por José Roberto Oliveira}
+1... Bb7 2. c8=Q+ Bxc8 3. Rxc8+ Kg7 4. Rc7 Kg6

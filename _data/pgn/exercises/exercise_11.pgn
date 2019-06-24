@@ -1,0 +1,12 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "12/17/2017, 21:06:00"]
+[White "Jefferson Campos"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "1"]
+[FEN "3r3r/1Bp1qppp/4bn2/1Q6/1bP2B2/2NkP1PP/PP3P2/R3K2R w KkQq -"]
+[Variant "Standard"]
+[Termination "mate"]
+{White plays. Mate in 1.}
+1. O-O-O#

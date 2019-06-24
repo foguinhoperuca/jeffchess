@@ -1,0 +1,12 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "10/12/2017, 17:57:00"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "5"]
+[FEN "5r2/pp4k1/2p3p1/2P1P3/3p3p/1q1Nb2P/1PR3P1/3Q3K b - -"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. .. Qxc2 2.Qxc2 Rf1+ 3. Kh2 Bg1+ 4.Kh1 Bf2+ 5.Kh2 Bg3#

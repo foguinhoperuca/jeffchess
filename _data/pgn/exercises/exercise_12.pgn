@@ -1,0 +1,13 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "12/17/2017, 21:06:00"]
+[White "Jefferson Campos"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "3"]
+[FEN "4b3/3PPP2/2KPkPP1/2ppppp1/4P3/8/8/8 w - -"]
+[Variant "Standard"]
+[Termination "mate"]
+{White plays. Mate in 2.}
+1. f8=N+ Kxf6 2. dxe8=N#
+
