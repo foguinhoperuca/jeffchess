@@ -1,0 +1,12 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "01/31/2018, 01:13:00"]
+[White "Jefferson Campos"]
+[Black "Jefferson Nunes"]
+[Result "1-0"]
+[PlyCount "8"]
+[FEN "3r1b2/3q1ppk/7p/3N1P2/2b1P3/3p1QRP/1B4PK/8 w - -"]
+[Variant "Standard"]
+[Termination "mate"]
+{White plays and wins.}
+

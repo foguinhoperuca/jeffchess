@@ -1,0 +1,12 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "01/14/2018, 12:40:00"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "8"]
+[FEN "4r3/1Q3pbk/1p4pp/8/1BPp4/1P2q3/P3PnB1/R3R1K1 b - -"]
+[Variant "Standard"]
+[Termination "mate"]
+{Black plays and wins.}
+1... Nh3+ 2. Kh1 Qg1+ 3. Rxg1 Nf2+ 4. Kh2 Be5#
