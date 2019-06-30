@@ -1,0 +1,12 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "05/11/2018, 23:57:00"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "3"]
+[FEN "r1k1r3/pp5p/2p2np1/8/1bP5/NP1Q4/1P3PPP/q1BKR3 b - -"]
+[Variant "Standard"]
+[Termination "mate"]
+{How many moves black's checkmate?.}
+1. .. Rxe1+ 2. Kc2 Qxc1# {Works with Rxc1 too!}

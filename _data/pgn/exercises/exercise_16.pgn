@@ -1,0 +1,11 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "04/23/2018, 11:28:00"]
+[White "Jefferson Campos"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "?"]
+[FEN "r3nbk1/pbrn1p1p/1q6/1p1PpNBB/2p1P3/8/PP3PPP/R1QR2K1 w KQkq -"]
+[Variant "Standard"]
+[Termination "mate"]
+{White plays.}

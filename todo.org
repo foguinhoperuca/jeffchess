@@ -5,5 +5,6 @@
 *** DONE 2017
 *** TODO 2018
 **** DONE Until march/2018
-**** TODO Apr-Dec
+**** DONE Apr-May-13T10:19
+**** TODO May-Dex
 *** TODO 2019

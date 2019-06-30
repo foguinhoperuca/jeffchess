@@ -1,0 +1,12 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "05/13/2018, 10:19:00"]
+[White "Jefferson Campos"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "3"]
+[FEN ""]
+[Variant "Standard"]
+[Termination "mate"]
+{white plays. Mate in 2.}
+1. Rb4 Qa3 2. Qe7#

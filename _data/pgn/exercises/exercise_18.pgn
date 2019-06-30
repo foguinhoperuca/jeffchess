@@ -1,0 +1,12 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "04/23/2018, 16:46:00"]
+[White "Jefferson Campos"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "9"]
+[FEN "rk6/p2p4/KPRp4/8/3P4/8/8/8 w - -"]
+[Variant "Standard"]
+[Termination "abandoned"]
+{White plays and wins.}
+1. Rc8+ Kxc8 2. b7+ Kb8 3. d5 Kc7 4. bxa=B {Now checkmate is forced.}
