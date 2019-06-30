@@ -6,6 +6,7 @@
 *** TODO 2018
 **** DONE Until march/2018
 **** DONE Apr-May-13T10:19
+**** DONE 2018-07-42T22:00:54
 **** TODO May-Jun
 **** TODO Jul-Dec
 **** TODO Image 2018-06-30
