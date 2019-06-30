@@ -1,12 +1,11 @@
 [Event "Exercise"]
 [Site "https://lichess.org"]
-[Date "05/13/2018, 10:19:00"]
+[Date "05/19/2018, 09:48:00"]
 [White "Jefferson Campos"]
 [Black "José Roberto Oliveira"]
 [Result "1-0"]
-[PlyCount "3"]
-[FEN "8/8/8/p2R3p/r3R1pk/2p5/2pr1NKN/2qbQ3 w - -"]
+[PlyCount "?"]
+[FEN "r2q1rk1/pb1n1ppp/1pnbp3/3pN3/3p1P2/1P1BPR2/PBPN2PP/R2Q2K1 w - -"]
 [Variant "Standard"]
 [Termination "mate"]
-{White plays. Mate in 2.}
-1. Rb4 Qa3 2. Qe7#
+{White plays.}
