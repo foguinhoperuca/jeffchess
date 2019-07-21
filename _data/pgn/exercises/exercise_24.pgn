@@ -1,0 +1,12 @@
+[Event "Exercise"]
+[Site "https://lichess.org"]
+[Date "18/05/2018, 10:09:00"]
+[White "Jefferson Campos"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "13"]
+[FEN "r3qrnk/pbp5/1p1pp2b/5pNQ/2PPPP2/2N1B3/PP6/2K3RR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+{White plays and wins.}
+1. Qh5xh6+ Ng8xh6 2. Rh1xh6 Kg7 3. Nf7+ Kg7xf7 4. Rh6xh7+ Kf7xf6 5. e5 d6xe5 6. f4xe5#
