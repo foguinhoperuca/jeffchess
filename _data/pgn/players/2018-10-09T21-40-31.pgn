@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "10/9/2018, 9:40:31 PM"]
+[White "José Carlos Xadrez Sta Rosália"]
+[Black "José Roberto Oliveira"]
+[Result "0-1"]
+[PlyCount "48"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. d3 d6 4. g4 Bxg4 5. h3 Bh5 6. Bg5 Be7 7. Bxe7 Ngxe7 8. Qd2 Nd4 9. Nxd4 exd4 10. Qg5 g6 11. Qb5+ c6 12. Qxb7 O-O 13. b4 Bf3 14. Rg1 d5 15. e5 a5 16. b5 cxb5 17. Qxb5 Rb8 18. Qa6 Rb2 19. c3 dxc3 20. Nxc3 d4 21. Nb5 Nf5 22. Nd6 Nxd6 23. exd6 Qe8+ 24. Be2 Qxe2# 0-1
