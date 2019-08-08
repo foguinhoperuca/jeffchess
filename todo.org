@@ -14,3 +14,8 @@
 **** TODO Image 2018-06-30
 **** TODO Image 2018-12-27
 *** TODO 2019
+**** DONE JAN - 2019-02-19
+**** TODO FEB - AUG
+**** TODO Várias imagens de 2019-02-20
+**** TODO Image 2019-01-08T22:59 - dúvida dos jogadores
+**** TODO Image 2019-01-29T22:09 - verificar se bate com o jogo com timestamp muito próximo
