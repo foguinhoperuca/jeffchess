@@ -1,0 +1,12 @@
+Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "5/21/2019, 9:27:15 PM"]
+[White "Emerson Sbrana"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "59"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. Nc3 d6 5. Bf4 Nf6 6. Bxe5 Qe7 7. Bxf6 Qxf6 8. Nd5 Qd8 9. Bc4 Be6 10. b3 Bxd5 11. Bxd5 g6 12. Qf3 Qe7 13. Nh3 Bg7 14. Rd1 O-O 15. O-O c6 16. Bc4 b5 17. Be2 Rad8 18. c4 b4 19. Bd3 a5 20. Qg4 Qe5 21. c5 Qb2 22. Bc4 Qxa2 23. Ng5 Kh8 24. Qh3 h5 25. Nxf7+ Rxf7 26. Bxf7 Kh7 27. Rxd6 Rf8 28. Bxg6+ Kh8 29. Qxh5+ Kg8 30. Qh7# 1-0

@@ -16,6 +16,28 @@
 *** TODO 2019
 **** DONE JAN - 2019-02-19
 **** DONE FEB - MAR until 2019-03-12
-**** TODO Várias imagens de 2019-02-20
-**** TODO Image 2019-01-08T22:59 - dúvida dos jogadores
-**** TODO Image 2019-01-29T22:09 - verificar se bate com o jogo com timestamp muito próximo
+**** DONE MAR - JUL
+**** DONE AUG
+**** TODO TATIC
+***** TODO TATIC https://lichess.org/training/93626
+***** TODO TATIC https://lichess.org/training/69193
+***** TODO TATIC https://lichess.org/training/95025
+***** TODO TATIC https://lichess.org/training/54894
+***** TODO TATIC https://lichess.org/training/71147
+**** TODO GAME Anon
+***** TODO GAME Anon https://lichess.org/Wz7C6Ye5
+***** TODO GAME Anon https://lichess.org/kwOl169H
+***** TODO GAME Anon https://lichess.org/wYEKi5uU
+***** TODO GAME Anon https://lichess.org/32WbeFdw
+***** TODO GAME Anon https://lichess.org/RAbkjMhg
+***** TODO GAME Anon https://lichess.org/Msh37IUI
+***** TODO GAME Anon https://lichess.org/0bRUwumE (JR de brancas)
+***** TODO GAME Anon https://lichess.org/CshzSz8k
+**** TODO IMAGE
+***** TODO Continuação jogo de 15 dias atrás (Jeff X João Carlos - pretas desistem de 2019-05-28 {Image "2019-05-28T20-43-00_image-01.jpeg"}
+***** TODO Várias imagens de 2019-02-20
+***** TODO Image 2019-01-08T22:59 - dúvida dos jogadores
+***** TODO Image 2019-01-29T22:09 - verificar se bate com o jogo com timestamp muito próximo
+***** TODO Image 2019-06-25T22-07 - dúvida jogadores
+***** TODO Image 2019-07-29T00-30 - dúvida jogadores
+***** TODO Image 2019-07-30T22-08 - dúvida jogadores

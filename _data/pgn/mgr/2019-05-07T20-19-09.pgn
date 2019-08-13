@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "5/7/2019, 8:19:09 PM"]
+[White "João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "63"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. Nc3 a6 5. a3 Bc5 6. d3 Nge7 7. O-O d6 8. h3 Nd4 9. Nxd4 Bxd4 10. Qf3 O-O 11. Qg3 b5 12. Bxh6 g6 13. Bxf8 Qxf8 14. Bb3 Bb7 15. Nd5 Nxd5 16. c3 Ba7 17. exd5 Qh6 18. c4 Bd4 19. Rab1 Qf4 20. Qxf4 exf4 21. Bd1 Re8 22. Bf3 Re5 23. b3 Rg5 24. Rbe1 Kg7 25. Re7 Rg3 26. Rxc7 Ba8 27. Re1 Rg5 28. Ree7 Re5 29. Rxf7+ Kh6 30. Rh7+ Kg5 31. h4+ Kf5 32. Rhf7# 1-0

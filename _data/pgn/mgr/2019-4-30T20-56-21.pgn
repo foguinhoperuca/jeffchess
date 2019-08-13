@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "4/30/2019, 8:26:21 PM"]
+[White "Jefferson Campos"]
+[Black "Jefferson Nunes"]
+[Result "0-1"]
+[PlyCount "44"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 d5 2. Nc3 dxe4 3. Nxe4 Nf6 4. f3 Nxe4 5. fxe4 e5 6. Nf3 Nc6 7. d3 Bd6 8. Bg5 f6 9. Bh4 Be6 10. a3 Qe7 11. Qd2 O-O-O 12. O-O-O Bxa3 13. Be1 Bb4 14. Qf2 Bxe1 15. Qxe1 Bg4 16. h3 Bxf3 17. gxf3 Nd4 18. Qe3 Qc5 19. Kb1 Qxc2+ 20. Ka1 Qxd1+ 21. Ka2 Rd6 22. Bg2 Ra6# 0-1

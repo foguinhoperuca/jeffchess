@@ -1,0 +1,12 @@
+[Event "Em andamento"]
+[Site "https://lichess.org"]
+[Date "6/11/2019, 10:07:39 PM"]
+[White "João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "*"]
+[PlyCount "33"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 5. Nxe5 Qe7 6. d4 d6 7. Nf3 Qxe4+ 8. Be3 Bg4 9. Nbd2 Qe7 10. O-O Nf6 11. Bg5 Be6 12. Ne4 d5 13. Nc5 g6 14. Ne5 Bg7 15. Nxc6 Qd6 16. Ne5 O-O 17. Qd2 *

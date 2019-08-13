@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "5/7/2019, 8:40:26 PM"]
+[White "José Carlos Xadrez Sta Rosália"]
+[Black "João Carlos Oliveira"]
+[Result "0-1"]
+[PlyCount "28"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Bb5 Nc6 3. Nf3 a6 4. Ba4 Bc5 5. O-O Qf6 6. d3 h6 7. g4 d6 8. g5 hxg5 9. Bxg5 Qg6 10. Bxc6+ bxc6 11. Re1 Bg4 12. Nbd2 f6 13. Be3 Bxf3+ 14. Kf1 Qg2# 0-1

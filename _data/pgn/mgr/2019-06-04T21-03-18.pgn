@@ -1,0 +1,12 @@
+[Event "Pretas Desistem"]
+[Site "https://lichess.org"]
+[Date "6/4/2019, 9:03:18 PM"]
+[White "Jefferson Campos"]
+[Black "Mário Sérgio Bueno Miranda"]
+[Result "1-0"]
+[PlyCount "33"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Nc3 Bc5 5. d3 Bxf2+ 6. Kxf2 Ng4+ 7. Ke1 Qf6 8. Nd5 Qd6 9. Ng5 h5 10. Nxc7+ Qxc7 11. Bxf7+ Kd8 12. Bxh5 Qa5+ 13. Bd2 Ne3 14. Nf7+ Ke7 15. Nxh8 Nxg2+ 16. Kf2 Qd8 17. Bg5+ *

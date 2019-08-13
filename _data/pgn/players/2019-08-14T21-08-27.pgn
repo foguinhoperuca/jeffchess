@@ -1,0 +1,12 @@
+Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "8/14/2018, 9:08:27 PM"]
+[White "João Carlos Oliveira"]
+[Black "José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "57"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 d6 5. Be3 Nd4 6. Nxd4 exd4 7. Bxd4 Ne7 8. Qf3 f6 9. Qh5+ g6 10. Qf3 f5 11. Bxh8 fxe4 12. Qf7+ Kd7 13. Be6+ Kc6 14. Bxc8 Nxc8 15. dxe4 b6 16. Qd5+ Kd7 17. Qxa8 Qg5 18. O-O Qh5 19. Nc3 d5 20. Nxd5 Bd6 21. Nf6+ Kd8 22. Nxh5 gxh5 23. Rad1 Kd7 24. e5 h4 25. Qb7 Ne7 26. Rxd6+ Ke8 27. Qxc7 h3 28. Re6 hxg2 29. Qxe7# 1-0

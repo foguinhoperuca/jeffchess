@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "3/19/2019, 9:34:37 PM"]
+[White "José Roberto Oliveira"]
+[Black "João Carlos Oliveira"]
+[Result "0-1"]
+[PlyCount "52"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. d4 d5 2. e3 Bf5 3. c4 e6 4. Nf3 Nc6 5. Nc3 Nb4 6. a3 Nc2+ 7. Ke2 Nxa1 8. Qa4+ c6 9. cxd5 exd5 10. Ne5 Be6 11. e4 Nf6 12. exd5 Nxd5 13. Ne4 Qb6 14. b4 Qb5+ 15. Qxb5 cxb5 16. Nc5 Rb8 17. Nxe6 fxe6 18. Bb2 Nb3 19. g3 Rc8 20. Nd3 Bd6 21. Bh3 Ke7 22. f4 Rc2+ 23. Kf3 Nd2+ 24. Kg4 h5+ 25. Kg5 Kf7 26. Re1 Be7# 0-1

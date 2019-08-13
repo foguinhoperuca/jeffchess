@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "4/2/2019, 9:35:21 PM"]
+[White "Jefferson Campos"]
+[Black "Jefferson Nunes"]
+[Result "1-0"]
+[PlyCount "91"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 d5 2. Nc3 dxe4 3. Nxe4 Nf6 4. d3 Nxe4 5. dxe4 Qxd1+ 6. Kxd1 Bd7 7. Be3 Nc6 8. Kd2 O-O-O 9. Rd1 g6 10. Kc1 Bg7 11. a3 Bg4 12. Rxd8+ Rxd8 13. Ne2 e6 14. f3 Bh5 15. g4 Bxg4 16. fxg4 f5 17. gxf5 gxf5 18. exf5 exf5 19. Bh3 Re8 20. Bxf5+ Kb8 21. Rg1 Bf6 22. Rg3 b6 23. Bd7 Rxe3 24. Rxe3 Bg5 25. Bxc6 Bxe3+ 26. Kb1 h6 27. h3 a5 28. a4 Kc8 29. Ka2 Kd8 30. Kb3 Ke7 31. Kc4 Kd6 32. Kd3 Bg5 33. Bg2 Kc5 34. Kc3 c6 35. b3 Bf6+ 36. Kd3 b5 37. axb5 cxb5 38. c4 bxc4+ 39. bxc4 Kb4 40. Bd5 a4 41. Kc2 a3 42. Kb1 Kc5 43. Bf7 Bb2 44. Ka2 Kb4 45. Nf4 Kc5 46. Nd3+ * {My first victory!}
