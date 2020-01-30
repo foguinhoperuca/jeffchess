@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "8/27/2019, 9:39:01 PM"]
+[White "@José Carlos Xadrez Sta Rosália"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "77"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. c3 Nf6 4. Bd3 Bc5 5. b4 Bb6 6. h3 O-O 7. a4 a6 8. g4 d5 9. exd5 Nxd5 10. b5 axb5 11. Bxb5 e4 12. c4 exf3 13. O-O Nf4 14. Qxf3 Qf6 15. Ra3 Nd4 16. Qd1 c6 17. c5 Bxc5 18. Rc3 Nde2+ 19. Bxe2 Bxf2+ 20. Rxf2 Nxh3+ 21. Rxh3 Qd4 22. Rd3 Qb4 23. Ba3 Qxa4 24. Qc1 Re8 25. Nc3 Qxa3 26. Qc2 b5 27. Nxb5 Qa1+ 28. Rf1 Qe5 29. Re3 Qxe3+ 30. dxe3 Rxe3 31. Nd6 Ba6 32. Bc4 Rg3+ 33. Kh2 Bxc4 34. Qxc4 Re3 35. Qxf7+ Kh8 36. Rf2 g6 37. Qf6+ Kg8 38. Nf7 c5 39. Qh8# 1-0
