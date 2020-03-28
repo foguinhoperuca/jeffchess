@@ -1,0 +1,38 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "9/17/2019, 09:27:00 PM"]
+[White "João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "*"]
+[PlyCount "?"]
+[FEN "r2qr1k1/bbp2pp1/p6p/1p6/1P1np1Q1/P1PPN2P/BB3PP1/R3K2R b - - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+[Images "2019-09-17T21-27-00_image-01.jpeg, 2019-09-17T21-27-00_image-02.jpeg"]
+{Jogo pausado sem registro das jogadas anteriores}
+
+[Event "Jogo 02 de 2019-09-17 pausado"]
+[Site "https://lichess.org"]
+[Date "9/17/2019, 9:57:58 PM"]
+[White "@João Carlos Oliveira "]
+[Black "Jefferson Campos"]
+[Result "*"]
+[PlyCount "41"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Bc5 5. Nc3 Nf6 6. h3 a6 7. a3 b5 8. Ba2 Bb7 9. b4 Ba7 10. Nd5 Nd4 11. Nxe5 O-O 12. Ne3 d5 13. Bb2 Re8 14. N5g4 Nxg4 15. Qxg4 dxe4 16. c3 Nc2+ 17. Nxc2 exd3+ 18. Ne3 Bxe3 19. O-O Bg5 20. c4 Re4 21. Qd1 *
+
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "9/24/2019, 9:13:58 PM"]
+[White "@João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "66"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+{Finalização do jogo da semana passada}
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Bc5 5. Nc3 Nf6 6. h3 a6 7. a3 b5 8. Ba2 Bb7 9. b4 Ba7 10. Nd5 Nd4 11. Nxe5 O-O 12. Ne3 d5 13. Bb2 Re8 14. N5g4 Nxg4 15. Qxg4 dxe4 16. c3 Nc2+ 17. Nxc2 exd3+ 18. Ne3 Bxe3 19. O-O Bg5 20. c4 Re4 21. Qd1 bxc4 22. f3 Re2 23. Bc3 Rc2 24. Be1 Bf6 25. Bb1 Qd4+ 26. Bf2 Qxa1 27. Bxc2 dxc2 28. Qxa1 Bxa1 29. Rxa1 Bc6 30. Rc1 Ba4 31. Kf1 Rd8 32. Ke2 Rd3 33. Be3 Rxa3 *
