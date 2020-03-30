@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "12/18/2019, 8:34:13 PM"]
+[White "Jefferson Campos"]
+[Black "@José Carlos Xadrez Sta Rosália"]
+[Result "0-1"]
+[PlyCount "24"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+{queen was lost}
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 b5 5. Bb3 Qf6 6. Nc3 Bb4 7. Nd5 Qd6 8. Nxb4 Nxb4 9. c3 Nd3+ 10. Ke2 Nf4+ 11. Ke1 Nxg2+ 12. Kf1 Ne3+ *

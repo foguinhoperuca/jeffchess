@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "12/10/2019, 9:42:07 PM"]
+[White "Jefferson Campos"]
+[Black "@Emerson Sbrana"]
+[Result "1-0"]
+[PlyCount "75"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. Nc3 a6 5. d4 Nd7 6. d5 b5 7. Bb3 Ngf6 8. a3 Nc5 9. Qe2 Bd7 10. h3 a5 11. a4 b4 12. Nb5 Nfxe4 13. Be3 Nxb3 14. cxb3 Be7 15. Rc1 Nc5 16. Bxc5 dxc5 17. Nxe5 O-O 18. O-O Bc8 19. Nc6 Qd7 20. Nxe7+ Kh8 21. Nxc8 Raxc8 22. Rxc5 Rfe8 23. Qc2 Re5 24. Rxc7 Rxc7 25. Nxc7 Rg5 26. Re1 g6 27. Kh1 Kg7 28. Ne8+ Kh8 29. Nf6 Qd6 30. Ne4 Qe5 31. Nxg5 Qxe1+ 32. Kh2 Qe5+ 33. f4 Qxf4+ 34. Kg1 Qxg5 35. d6 Qd8 36. Qc7 Qg5 37. d7 Qe3+ 38. Kh2 *

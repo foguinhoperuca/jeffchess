@@ -1,0 +1,13 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "1/7/2020, 10:01:49 PM"]
+[White "Jefferson Campos"]
+[Black "@José Roberto Oliveira"]
+[Result "*"]
+[PlyCount "32"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+[Images "2020-01-07T22-01-49_image-01.jpeg"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 exd4 5. d3 Bc5 6. Nd2 c6 7. Ba4 Qe7 8. Nf3 d5 9. e5 Bg4 10. O-O O-O-O 11. Re1 h5 12. Bg5 f6 13. exf6 Qd7 14. fxg7 Qxg7 15. Bxd8 Kxd8 16. Kh1 Bb4 *
