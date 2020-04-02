@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "1/14/2020, 9:17:14 PM"]
+[White "Jefferson Campos"]
+[Black "@João Carlos Oliveira"]
+[Result "1-0"]
+[PlyCount "70"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Qf6 4. d3 h6 5. b3 a6 6. Bxc6 dxc6 7. Bb2 Bg4 8. Bxe5 Bxf3 9. Bxf6 Bxd1 10. Be5 Bxc2 11. Bxc7 Bb4+ 12. Nd2 Bxd3 13. Bf4 Bxe4 14. O-O Bxd2 15. Bxd2 Nf6 16. Bb4 O-O-O 17. Be7 Rd5 18. Rfe1 Rg5 19. Bxf6 Rxg2+ 20. Kf1 gxf6 21. Rxe4 Rhg8 22. Ke2 Rxh2 23. Rd1 Rd8 24. Rf4 Rxd1 25. Kxd1 Rg2 26. Rxf6 Rg1+ 27. Ke2 Ra1 28. a4 Ra3 29. Rxf7 Rxb3 30. f4 Rb4 31. f5 Rxa4 32. f6 Rf4 33. Ke3 Rg4 34. Re7 Rg8 35. f7 Rf8 *

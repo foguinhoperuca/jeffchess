@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "1/14/2020, 8:23:21 PM"]
+[White "@João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "15"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+{Estava prestando a atenção no centro e nem percebi a ameaça}
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nge7 5. Ng5 d5 6. exd5 Nxd5 7. Qf3 h6 8. Qxf7# 1-0
