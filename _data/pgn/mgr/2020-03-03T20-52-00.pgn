@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "3/3/2020, 8:52:00 PM"]
+[White "Jefferson Campos"]
+[Black "@José Roberto Oliveira"]
+[Result "1-0"]
+[PlyCount "69"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 d6 5. c3 Nf6 6. Nbd2 a6 7. Bb3 b5 8. O-O Ng4 9. h3 h5 10. Re1 Bxf2+ 11. Kf1 Bxe1 12. Kxe1 Nf6 13. Ng5 Be6 14. Nxe6 fxe6 15. Bxe6 Qe7 16. Bb3 O-O-O 17. a4 Na5 18. axb5 Nxb3 19. Nxb3 Kd7 20. bxa6 Ra8 21. Nd2 d5 22. a7 dxe4 23. dxe4 Qc5 24. Qa4+ c6 25. b4 Qg1+ 26. Ke2 Qxg2+ 27. Kd1 Rhb8 28. axb8=Q Rxb8 29. Qa7+ Kc8 30. Ra6 Qh1+ 31. Kc2 Nxe4 32. Rxc6+ Kd8 33. Qxb8+ Kd7 34. Qb7+ Ke8 35. Rc8# 1-0
