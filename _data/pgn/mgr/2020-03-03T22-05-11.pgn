@@ -1,14 +1,15 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
+[Site "https://lichess.org/50uxKBp6"]
 [Date "3/3/2020, 10:05:11 PM"]
 [White "@José Roberto Oliveira"]
 [Black "Jefferson Campos"]
 [Result "*"]
+[Result "1/2-1/2"]
 [PlyCount "61"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
 [Images "2020-03-03T22-05-11_image-01.jpeg"]
 
 {Na anotação inicial eu estava de brancas e o Zé estava de negras. Porém, pela foto, aparentemente eu estava de negras. Vou seguir pela foto.}
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 5. d4 exd4 6. Ng5 Qe7 7. Bxf7+ Kf8 8. O-O Nf6 9. cxd4 Nxe4 10. Re1 d5 11. dxc5 Qxc5 12. Ne6+ Bxe6 13. Be3 Qe7 14. Bh5 g6 15. Bf3 Rd8 16. Qc1 Ke8 17. Nc3 Kd7 18. Nxe4 dxe4 19. Bxe4 Kc8 20. Bg5 Qf7 21. Bxd8 Nxd8 22. f3 Bf5 23. Qc5 Kb8 24. Rad1 Bxe4 25. Rxe4 Ne6 26. Qd5 a6 27. Rxe6 Kc8 28. Rde1 Rd8 29. Qg5 Qd7 30. Re7 Qd4+ 31. Kh1 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 d6 5. d4 exd4 6. Ng5 Qe7 7. Bxf7+ Kf8 8. O-O Nf6 9. cxd4 Nxe4 10. Re1 d5 11. dxc5 Qxc5 12. Ne6+ Bxe6 13. Be3 Qe7 14. Bh5 g6 15. Bf3 Rd8 16. Qc1 Ke8 17. Nc3 Kd7 18. Nxe4 dxe4 19. Bxe4 Kc8 20. Bg5 Qf7 21. Bxd8 Nxd8 22. f3 Bf5 23. Qc5 Kb8 24. Rad1 Bxe4 25. Rxe4 Ne6 26. Qd5 a6 27. Rxe6 Kc8 28. Rde1 Rd8 29. Qg5 Qd7 30. Re7 Qd4+ 31. Kh1 {Desafio aceito as 2020-04-02T15:25:49 da posição FEN "2kr4/1pp1R2p/p5p1/6Q1/3q4/5P2/PP4PP/4R2K b - - 8 31" no lichess.org} Qb4 32. b3 h6 33. Qc1 c6 34. h3 h5 35. Qg5 h4 36. Qxg6 Kb8 37. R7e4 Qd2 38. Qg4 Qxa2 39. Qxh4 Rd2 40. Rg1 Qxb3 41. Rb4 Qe3 42. Re1 Qc3 43. Re8+ Ka7 44. Qe7 Rd7 45. Qxd7 Qxb4 46. Qc8 Qf4 47. Qa8+ Kb6 48. Re7 Qc1+ 49. Kh2 Qf4+ 50. Kg1 Qc1+ 51. Kf2 Qc5+ 52. Kg3 Qxe7 { The game is a draw. } 53. Qg8 1/2-1/2

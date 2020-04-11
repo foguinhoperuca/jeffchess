@@ -1,0 +1,23 @@
+[Event "Casual Standard game"]
+[Site "https://lichess.org/o59eet6c"]
+[Date "2020.03.30"]
+[Round "-"]
+[White "foguinho_peruca"]
+[Black "jc1952"]
+[Result "1/2-1/2"]
+[UTCDate "2020.03.30"]
+[UTCTime "14:50:46"]
+[WhiteElo "1500"]
+[BlackElo "1500"]
+[Variant "From Position"]
+[TimeControl "-"]
+[ECO "?"]
+[Opening "?"]
+[Termination "Normal"]
+[FEN "8/2R5/2p3pk/2P4p/2N2p2/P4P1P/r5P1/4n1K1 b - - 0 1"]
+[SetUp "1"]
+[Annotator "lichess.org"]
+
+1... Nxg2 2. Rxc6 Nh4 3. Ne5 Rxa3 4. Nf7+ Kg7 5. Rc7 Nxf3+ 6. Kf2 Nh4 7. c6 Ra2+ 8. Kf1 Rc2 9. Nd8+ Kf8 10. Ne6+ Ke8 11. Ng7+ Kd8 { The game is a draw. } 12. Ne6+ 1/2-1/2
+
+
