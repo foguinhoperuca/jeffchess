@@ -1,13 +1,13 @@
-[Event "Casual Game"]
-[Site "https://lichess.org"]
-[Date "1/7/2020, 10:01:49 PM"]
+[Event "Continuação de 2020-01-07 JR"]
+[Site "https://lichess.org/as8vwfd6"]
+[Date "2020-01-07T22:01:49"]
 [White "Jefferson Campos"]
 [Black "@José Roberto Oliveira"]
-[Result "*"]
+[Result "1/2-1/2"]
 [PlyCount "32"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
 [Images "2020-01-07T22-01-49_image-01.jpeg"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 exd4 5. d3 Bc5 6. Nd2 c6 7. Ba4 Qe7 8. Nf3 d5 9. e5 Bg4 10. O-O O-O-O 11. Re1 h5 12. Bg5 f6 13. exf6 Qd7 14. fxg7 Qxg7 15. Bxd8 Kxd8 16. Kh1 Bb4 *
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 exd4 5. d3 Bc5 6. Nd2 c6 7. Ba4 Qe7 8. Nf3 d5 9. e5 Bg4 10. O-O O-O-O 11. Re1 h5 12. Bg5 f6 13. exf6 Qd7 14. fxg7 Qxg7 15. Bxd8 Kxd8 16. Kh1 Bb4 {FEN "3k2nr/pp4q1/2p5/3p3p/Bb1p2b1/3P1N2/PPP2PPP/R2QR2K w - - 2 17"} 17. Rg1 {restart "2020-04-26T20:05:07"} Nf6 18. a3 Bd6 19. Qd2 Bxf3 20. gxf3 Qc7 21. Qg5 Rf8 22. f4 Bxf4 23. Qg7 Nd7 24. Qxd4 Bxh2 25. Qh4+ Kc8 26. Qxh2 Qa5 27. Rg7 Qxa4 28. Qd6 Qh4+ 29. Kg2 Qxf2+ 30. Kh1 Qh4+ 31. Kg1 Qd4+ 32. Kh1 Qxg7 33. Rg1 { [%eval 0.97] } 33... Qxb2?! { (0.97 → 2.05) Inaccuracy. Ne7 was best. } { [%eval 2.05] } (33... Ne7 34. c4) 34. c4?! { (2.05 → 1.39) Inaccuracy. Qc1 was best. } { [%eval 1.39] } (34. Qc1 Bxf3 35. gxf3 Qf8 36. Qf4 Bd6 37. Qxd4 Nd7 38. f4 Kc7 39. c4 Bc5 40. Qg7 Bxf2) 34... Rf2 { [%eval 1.57] } 35. Rg8+ { [%eval 1.5] } 35... Nf8 { [%eval 1.32] } 36. Rxf8+ { [%eval 1.39] } 36... Rxf8?! { (1.39 → 2.31) Inaccuracy. Qd7 was best. } { [%eval 2.31] } (36... Qd7) 37. Qxf8+ { [%eval 2.2] } 37... Kc7 { [%eval 2.07] } 38. Qe7+ { [%eval 1.58] } 38... Kb6 { [%eval 1.61] } 39. Qe3+ { [%eval 1.53] } 39... Ka6?! { (1.53 → 2.11) Inaccuracy. Qf7 was best. } { [%eval 2.11] } (39... Qf7 40. Qxf7 Rxf7 41. h3 Nd7 42. Rg8+ Kc7 43. Bb3 Nc5 44. Kg1 a5 45. a4 Rf6 46. Re1) 40. cxd5 { [%eval 1.57] } 40... Qa1+?? { (1.57 → 6.61) Blunder. Qe5 was best. } { [%eval 6.61] } (40... Qe5 41. Qxe5) 41. Kg2 { [%eval 6.77] } 41... Qa2+ { [%eval 6.69] } 42. Kg3 { [%eval 6.22] } 42... Qxd5 { [%eval 7.44] } 43. d4 { [%eval 7.3] } 43... b5 { [%eval 7.12] } 44. Qe8?? { (7.12 → 3.17) Blunder. Re1 was best. } { [%eval 3.17] } (44. Re1) 44... Qd6+ { [%eval 3.18] } 45. Kh4?? { (3.18 → 0.00) Blunder. Qh2 was best. } { [%eval 0.0] } (45. Qh2) 45... Qd5 { [%eval 1.08] } 46. Qc8+ { [%eval 0.79] } 46... Ka5? { (0.79 → 2.02) Mistake. Qf3+ was best. } { [%eval 2.02] } (46... Qf3+ 47. Kh2 Qf2+ 48. Rg2 Qh4+ 49. Kg1 Qd4+ 50. Kh1 Qxb2 51. Rag1 Qd4 52. Rg8 Qh4+ 53. Qh2) 47. Qc7+?? { (2.02 → -9.20) Blunder. Qh2 was best. } { [%eval -9.2] } (47. Qh2 Qf6) 47... Ka6 { [%eval -8.87] } 48. Qc8+ { [%eval -9.27] } 48... Ka5 { [%eval -9.27] } 49. Qc7+ { [%eval -9.05] } 49... Ka4 { [%eval -8.79] } { The game is a draw. } 1/2-1/2
