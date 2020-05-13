@@ -3,10 +3,10 @@
 [Date "7/16/2019, 10:03:12 PM"]
 [White "José Roberto Oliveira"]
 [Black "Jefferson Campos"]
-[Result "*"]
+[Result "1-0"]
 [PlyCount "72"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "abandoned"]
 {Image "2019-07-16T22-03-12_image-01.jpeg, 2019-07-16T22-03-12_image-02.jpeg"}
-1. d4 d5 2. e3 Nc6 3. c4 Nf6 4. Nc3 e6 5. h3 Bb4 6. Bd2 Ne4 7. Nxe4 Bxd2+ 8. Qxd2 dxe4 9. a3 O-O 10. f3 exf3 11. Nxf3 Re8 12. Bd3 h6 13. O-O-O a6 14. Kb1 Rb8 15. g4 b5 16. c5 Bb7 17. h4 Ne7 18. h5 Bxf3 19. Rhf1 Bxd1 20. Qxd1 Nd5 21. Qf3 Qf6 22. Qe4 Qg5 23. Qh7+ Kf8 24. Bg6 Nf6 25. Qh8+ Ke7 26. Qxg7 Rf8 27. e4 b4 28. e5 bxa3 29. exf6+ Kd7 30. c6+ Kxc6 31. Rc1+ Kd7 32. Rc2 Kd6 33. Ka2 Qd5+ 34. Kb1 Rxb2+ 35. Rxb2 axb2 36. Qxf8+ Kc6 37. Qa8+
+1. d4 d5 2. e3 Nc6 3. c4 Nf6 4. Nc3 e6 5. h3 Bb4 6. Bd2 Ne4 7. Nxe4 Bxd2+ 8. Qxd2 dxe4 9. a3 O-O 10. f3 exf3 11. Nxf3 Re8 12. Bd3 h6 13. O-O-O a6 14. Kb1 Rb8 15. g4 b5 16. c5 Bb7 17. h4 Ne7 18. h5 Bxf3 19. Rhf1 Bxd1 20. Qxd1 Nd5 21. Qf3 Qf6 22. Qe4 Qg5 23. Qh7+ Kf8 24. Bg6 Nf6 25. Qh8+ Ke7 26. Qxg7 Rf8 27. e4 b4 28. e5 bxa3 29. exf6+ Kd7 30. c6+ Kxc6 31. Rc1+ Kd7 32. Rc2 Kd6 33. Ka2 Qd5+ 34. Kb1 Rxb2+ 35. Rxb2 axb2 36. Qxf8+ Kc6 37. Qa8+  { The game was abandoned. } 1-0
