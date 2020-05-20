@@ -1,12 +1,14 @@
-Event "Casual Game"]
-[Site "https://lichess.org"]
-[Date "2/19/2019, 10:01:01 PM"]
+[Event "Casual Game"]
+[Site "https://lichess.org/doOaIolR"]
+[Date "2019-02-19T22-01-01"]
 [White "José Roberto Oliveira"]
 [Black "Jefferson Campos"]
-[Result "*"]
+[Result "0-1"]
 [PlyCount "41"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[TimeControl "-"]
+[Annotator "lichess.org"]
+[Termination "Normal"]
 {Images "2019-02-19T22-01-01_image-01.jpeg, 2019-02-19T22-01-01_image-02.jpeg"}
-1. Nf3 d5 2. d4 e6 3. e3 Nc6 4. c4 dxc4 5. Bxc4 Bb4+ 6. Bd2 a6 7. O-O Nf6 8. h3 Bd6 9. a3 O-O 10. e4 Be7 11. e5 Ne4 12. Be3 Ng5 13. Nc3 b5 14. Bd3 Nxf3+ 15. Qxf3 Nxd4 16. Qg4 f5 17. Qd1 f4 18. Bxd4 Qxd4 19. Re1 Bh4 20. Ne4 Bb7 21. Qg4 *
+1. Nf3 d5 2. d4 e6 3. e3 Nc6 4. c4 dxc4 5. Bxc4 Bb4+ 6. Bd2 a6 7. O-O Nf6 8. h3 Bd6 9. a3 O-O 10. e4 Be7 11. e5 Ne4 12. Be3 Ng5 13. Nc3 b5 14. Bd3 Nxf3+ 15. Qxf3 Nxd4 16. Qg4 f5 17. Qd1 f4 18. Bxd4 Qxd4 19. Re1 Bh4 20. Ne4 Bb7 21. Qg4 {restart at 2020-05-13 FEN "r4rk1/1bp3pp/p3p3/1p2P3/3qNpQb/P2B3P/1P3PP1/R3R1K1 b - - 5 21"} Bxe4 22. Qxh4 Qxd3 23. Rad1 Qc4 24. Rc1 Qd5 25. Rxc7 Qxe5 26. f3 Qd4+ 27. Kh2 Bg6 28. Rxe6 Qd8 29. Ree7 Rf7 30. Qg5 Rxe7 31. Rxe7 Qf8 32. h4 Qf5 33. Rxg7+ Kxg7 34. Qe7+ Qf7 35. Qe5+ Qf6 36. Qd5 { White resigns. } Rd8 0-1
