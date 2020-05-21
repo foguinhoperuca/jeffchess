@@ -1,12 +1,67 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
-[Date "9/24/2019, 9:56:51 PM"]
+[Site "https://lichess.org/9aZfd5RD"]
+[Date "2019-09-24T21:56:41"]
 [White "Jefferson Campos"]
 [Black "@João Carlos Oliveira"]
-[Result "*"]
-[PlyCount "20"]
+[Result "1/2-1/2"]
+[PlyCount "113"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Annotator "lichess.org"]
+[Termination "Normal"]
 {Images "2019-09-24T21-56-41_image-01.jpeg, 2019-09-24T21-56-41_image-02.jpeg, 2019-09-24T21-56-41_image-03.jpeg"}
-1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Ba4 Nc6 5. Nc3 Qf6 6. Nd5 Qd6 7. a3 Nf6 8. Nxf6+ Qxf6 9. b4 Qg6 10. Bxc6 dxc6 * {troca de bispo por cavalo}
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nd4 4. Ba4 Nc6 5. Nc3 Qf6 6. Nd5 Qd6 7. a3 Nf6 8. Nxf6+ Qxf6 9. b4 Qg6 10. Bxc6 dxc6 {troca de bispo por cavalo}
+
+{Retomando em 2020-04-14T20:37:15 com FEN "r1b1kb1r/ppp2ppp/2p3q1/4p3/1P2P3/P4N2/2PP1PPP/R1BQK2R w KQkq - 0 11" em https://lichess.org/ByLp3iB1. Porém, por algum motivo não claramente identificado, o roque não estava disponível para as brancas. Assim foi aberto um segundo jogo para continuar e finalizar essa partida (este jogo intermediário foi declarado empatado para não prejudicar ninguém).}
+
+
+11. h3 Qxe4+ 12. Qe2 Qxe2+ 13. Kxe2 Bd6 14. Re1 0-0
+
+
+{ A parte final foi retomado logo a seguir em 2020-04-19T16:46:48 FEN "r1b2rk1/ppp2ppp/2pb4/4p3/1P2P3/P4N1P/2PPKPP1/R1B1R3 w - - 0 1" e já com o roque feito para as negras para não termos problema.}
+
+15. Bb2 Re8
+16. c4 b6
+17. Kf1 c5
+18. b5 h6
+19. d3 a6
+20. a4 a5
+21. Re3 Bd7
+22. Nh4 Re6
+23. Nf5 Rf6
+24. Rae1 c6
+25. Nxd6 Rxd6
+26. Bxe5 Re6
+27. Bc3 cxb5
+28. cxb5 Rg6
+29. Rg3 Rxg3
+30. fxg3 Be6
+31. d4 cxd4
+32. Bxd4 Rb8
+33. Re3 g5
+34. g4 Kh7
+35. Rc3 Rb7
+36. Rc6 Bb3
+37. Rc8 f6
+38. Bxf6 Bxa4
+39. Rh8+ Kg6
+40. e5 Bxb5+
+41. Ke1 Bc4
+42. Rc8 Bd5
+43. Rd8 Be6
+44. Rd6 Kf7
+45. Rd8 a4
+46. Kd2 Rd7+
+47. Rxd7+ Bxd7
+48. Bd8 b5
+49. Ba5 Bc6
+50. g3 Bg2
+51. h4 Bh3
+52. hxg5 hxg5
+53. Kc2 Bxg4
+54. Kb2 Be6
+55. Bc3 g4
+56. Ka3 Bc4
+57. Bd4 {Muito difícil de ambas as partes progredirem mas as negras teriam mais chances por conta de um peão a mais. Talvez conseguissem desviar o bispo e colocar o rei branco em zugzwang. Já as brancas em caso de vacilo do rei negro poderia promover. Ainda, seria possível entregar o bispo pra segurar a promoção em g4 (ou mesmo entrega o peão de e5 e apoiar o bispo no peão de g3)  assim como o rei branco poderia segurar ambos os peões.}
+
+{ The game is a draw. } 1/2-1/2
