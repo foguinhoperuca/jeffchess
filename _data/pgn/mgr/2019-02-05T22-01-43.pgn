@@ -1,12 +1,12 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
-[Date "2/5/2019, 10:01:43 PM"]
+[Site "https://lichess.org/RmmyhPZX"]
+[Date "2019-02-05T22:01:43"]
 [White "Jefferson Campos"]
-[Black "José Roberto Oliveira"]
-[Result "*"]
+[Black "@José Roberto Oliveira"]
+[Result "1-0"]
 [PlyCount "42"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
 {Images "2019-02-05T22-01-43_image-01.jpeg"}
-1. e4 Nc6 2. Bc4 g6 3. Nf3 e6 4. d3 Bg7 5. O-O Nf6 6. Bg5 d5 7. exd5 exd5 8. Bb3 Be6 9. Ba4 Qd7 10. h3 O-O-O 11. Nd4 Qd6 12. Nxc6 bxc6 13. d4 Kb8 14. c3 h6 15. Bxf6 Bxf6 16. Nd2 Bd7 17. Nb3 Ka8 18. Na5 Rb8 19. b4 Rb6 20. a3 Rhb8 21. Rb1 h5 *
+1. e4 Nc6 2. Bc4 g6 3. Nf3 e6 4. d3 Bg7 5. O-O Nf6 6. Bg5 d5 7. exd5 exd5 8. Bb3 Be6 9. Ba4 Qd7 10. h3 O-O-O 11. Nd4 Qd6 12. Nxc6 bxc6 13. d4 Kb8 14. c3 h6 15. Bxf6 Bxf6 16. Nd2 Bd7 17. Nb3 Ka8 18. Na5 Rb8 19. b4 Rb6 20. a3 Rhb8 21. Rb1 h5 {restart at 2020-05-20T21:46:30 with FEN "kr6/p1pb1p2/1rpq1bp1/N2p3p/BP1P4/P1P4P/5PP1/1R1Q1RK1 w - - 0 22"} 22. Rc1 Bf5 23. c4 c5 24. bxc5 Qf4 25. cxb6 cxb6 26. Bc6+ Rb7 27. Nxb7 Bxd4 28. Nd6+ Kb8 29. Nxf5 gxf5 30. cxd5 h4 31. Qf3 Qd6 32. Qxf5 f6 33. Qd7 Qxd7 34. Bxd7 a5 35. a4 Bc5 36. Rxc5 bxc5 37. Rb1+ Kc7 38. Bc6 Kd6 39. Rb5 f5 40. Rxa5 f4 41. Rb5 { Black resigns. } 1-0
