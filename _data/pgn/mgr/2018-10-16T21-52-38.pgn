@@ -1,12 +1,13 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
+[Site "https://lichess.org/jzkcczjK"]
 [Date "2018-10-16T21:52:39"]
 [White "@Mário Sérgio Bueno Miranda"]
 [Black "Jefferson Campos"]
-[Result "*"]
+[Result "0-1"]
 [PlyCount "57"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
 {Images "2018-10-16T21-52-39_image-01.jpeg"}
-1. e4 e5 2. Bc4 Bc5 3. Nf3 h6 4. O-O Nf6 5. h3 O-O 6. a3 d6 7. Nc3 a6 8. b4 Bd4 9. Nxd4 exd4 10. Ne2 Nxe4 11. Nxd4 Qf6 12. Bb2 Qg6 13. g4 Nc6 14. Bd5 Ne5 15. Nf3 Nxg4 16. Nh4 Qh5 17. Ng2 Qxh3 18. Re1 Qh2+ 19. Kf1 Qh1+ 20. Ke2 Qxg2 21. Rf1 Ng3+ 22. Kd3 Qxd5+ 23. Kc3 Nxf1 24. Qxf1 Qe5+ 25. Kb3 Be6+ 26. c4 Qb5 27. Rc1 a5 28. Qg1 a4+ 29. Ka2 *
+1. e4 e5 2. Bc4 Bc5 3. Nf3 h6 4. O-O Nf6 5. h3 O-O 6. a3 d6 7. Nc3 a6 8. b4 Bd4 9. Nxd4 exd4 10. Ne2 Nxe4 11. Nxd4 Qf6 12. Bb2 Qg6 13. g4 Nc6 14. Bd5 Ne5 15. Nf3 Nxg4 16. Nh4 Qh5 17. Ng2 Qxh3 18. Re1 Qh2+ 19. Kf1 Qh1+ 20. Ke2 Qxg2 21. Rf1 Ng3+ 22. Kd3 Qxd5+ 23. Kc3 Nxf1 24. Qxf1 Qe5+ 25. Kb3 Be6+ 26. c4 Qb5 27. Rc1 a5 28. Qg1 a4+ 29. Ka2 {restarted at 2020-05-20T18:13:54 with position FEN "r4rk1/1pp2pp1/3pb2p/1q6/pPP3n1/P7/KB1P1P2/2R3Q1 b - - 1 29"} Bxc4+ 30. Ka1 Ne5 {para 31: h5 or ne5? - Descartado: Qg5; Be6; f5; Nf6} 31. Qg3 Bd3 32. Rg1 Bg6 33. f4 Nd3 34. f5 Qxf5 35. Bd4 c5 36. Be3 Qf6+ { White resigns. } 37. Kb1 0-1
