@@ -1,12 +1,14 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
+[Site "https://lichess.org/NbsRh695"]
 [Date "10/9/2018, 10:02:42 PM"]
 [White "Jefferson Campos"]
 [Black "José Roberto Oliveira"]
-[Result "*"]
+[TimeControl "-"]
+[Result "1-0"]
 [PlyCount "18"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
 {Images "2018-10-09T22-02-42_image-01.jpeg"}
-1. e4 c5 2. Nc3 d6 3. Nf3 g6 4. Bc4 e6 5. d3 Bg7 6. O-O a6 7. d4 b5 8. Be2 c4 9. d5 e5 *
+1. e4 c5 2. Nc3 d6 3. Nf3 g6 4. Bc4 e6 5. d3 Bg7 6. O-O a6 7. d4 b5 8. Be2 c4 9. d5 e5 {Game restarted t 2020-05-25T02:08:55 with FEN "rnbqk1nr/5pbp/p2p2p1/1p1Pp3/2p1P3/2N2N2/PPP1BPPP/R1BQ1RK1 w kq - 0 10"} 10. Be3 Nf6 11. Qd2 Nbd7 12. a3 Ng4 13. Ng5 Nxe3 14. Qxe3 Bh6 15. h4 Nc5 16. Rab1 f6 17. Nf7 Kxf7 18. Qxh6 Qg8 19. b4 Nb7 20. Qe3 f5 21. Bf3 f4 22. Qe2 Qd8 23. a4 Qxh4 24. axb5 a5 25. Ra1 Bd7 26. Qxc4 Rhc8 27. Qd3 h5 28. Na4 axb4 29. Nb6 Rc3 30. Qe2 Rxa1 31. Rxa1 Be8 32. Rb1 Qd8 33. Nc4 Bxb5 34. Rxb4 Qd7 35. Nxe5+ Ke7 36. Nxg6+ Kd8 37. Qxb5 Qxb5 38. Rxb5 Nc5 39. Nxf4 Rxc2 40. Ne6+ Nxe6 41. dxe6 h4 42. Rh5 Ke7 43. Bg4 Re2 44. Bxe2 Kxe6 { Black resigns. } 1-0
