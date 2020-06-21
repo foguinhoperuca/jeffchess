@@ -1,12 +1,13 @@
 [Event "Casual Game - última edição em 2018-09-20 keep.google.com"]
-[Site "https://lichess.org"]
+[Site "https://lichess.org/LCylPlCz"]
 [Date "9/13/2018, 9:03:36 AM"]
 [White "Jefferson Campos (provavelmente)"]
 [Black "José Roberto Oliveira (provavelmente)"]
-[Result "*"]
+[Result "1-0"]
 [PlyCount "61"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d3 h6 5. Nc3 Bg4 6. h3 Bh5 7. Bd2 Nd4 8. Be3 Nxf3+ 9. gxf3 c6 10. Qe2 Qf6 11. Rg1 Bxf3 12. Qd2 a6 13. Ne2 a5 14. O-O-O b5 15. a4 bxc4 16. dxc4 Qd8 17. Rg3 Bh5 18. Rdg1 Nf6 19. f3 c5 20. Nc3 Bg6 21. h4 Qb6 22. b3 Qb4 23. R3g2 Qa3+ 24. Kd1 Bh5 25. Ke2 Qb4 26. Nb5 Qxd2+ 27. Bxd2 Nxe4 28. Nc7+ Kd7 29. Nxa8 Kc6 30. Bxa5 Be7 31. Nc7 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. d3 h6 5. Nc3 Bg4 6. h3 Bh5 7. Bd2 Nd4 8. Be3 Nxf3+ 9. gxf3 c6 10. Qe2 Qf6 11. Rg1 Bxf3 12. Qd2 a6 13. Ne2 a5 14. O-O-O b5 15. a4 bxc4 16. dxc4 Qd8 17. Rg3 Bh5 18. Rdg1 Nf6 19. f3 c5 20. Nc3 Bg6 21. h4 Qb6 22. b3 Qb4 23. R3g2 Qa3+ 24. Kd1 Bh5 25. Ke2 Qb4 26. Nb5 Qxd2+ 27. Bxd2 Nxe4 28. Nc7+ Kd7 29. Nxa8 Kc6 30. Bxa5 Be7 31. Nc7 {restarted game with FEN "7r/2N1bpp1/2kp3p/B1p1p2b/P1P1n2P/1P3P2/2P1K1R1/6R1 b - - 2 31" at 2020-06-08T12:56:11} g5 32. Nd5 Re8 33. Ke3 Nf6 34. Nxe7+ Rxe7 35. Bd8 Re6 36. hxg5 Nh7 37. gxh6 Rxh6 38. a5 Kb7 39. c3 Nf8 40. b4 Ne6 41. Rg8 Bg6 42. b5 Rh3 43. a6+ Ka7 44. Ra1 Bh7 45. b6+ Ka8 46. Bc7+ Bxg8 47. b7+ Ka7 { White wins by checkmate. } 48. b8=Q# 1-0
