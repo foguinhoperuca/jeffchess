@@ -1,0 +1,25 @@
+[Event "Rated Correspondence game"]
+[Site "https://lichess.org/fC7uMtd4"]
+[Date "2020.06.21"]
+[Round "-"]
+[White "jrso61"]
+[Black "foguinho_peruca"]
+[Result "0-1"]
+[UTCDate "2020.06.21"]
+[UTCTime "16:01:24"]
+[WhiteElo "1500"]
+[BlackElo "1500"]
+[WhiteRatingDiff "-163"]
+[BlackRatingDiff "+162"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "C42"]
+[Opening "Russian Game: Urusov Gambit"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+{Nesta partida eu notei o gambito russo mas me confudi ao tentar tomar o cavalo - deveria ter protegido o rei antes. Posteriormente a minha postura foi continuar atacando uma vez que não tinha maiores ambição na partida. Acabou que meu adversário colaborou e consegui ir até o mate.}
+
+1. e4 { [%eval 0.0] } 1... e5 { [%eval 0.28] } 2. Bc4 { [%eval 0.16] } 2... Nf6 { [%eval 0.0] } 3. Nf3?! { (0.00 → -0.66) Inaccuracy. d3 was best. } { [%eval -0.66] } { C42 Russian Game: Urusov Gambit } (3. d3 c6 4. Bb3 d5 5. exd5 cxd5 6. Nf3 Nc6 7. O-O Be6) 3... Nxe4 { [%eval -0.52] } 4. Nxe5 { [%eval -0.5] } 4... Nd6? { (-0.50 → 0.86) Mistake. d5 was best. } { [%eval 0.86] } (4... d5 5. Be2 Bd6 6. Nf3 O-O 7. d3 Nf6 8. O-O Re8 9. d4) 5. Qe2?! { (0.86 → 0.00) Inaccuracy. Bb3 was best. } { [%eval 0.0] } (5. Bb3 Nc6 6. d4 Be7 7. c3 O-O 8. Nf3 b6 9. O-O Bb7) 5... Nxc4?? { (0.00 → 6.52) Blunder. Be7 was best. } { [%eval 6.52] } (5... Be7 6. Bb3 Nc6 7. Nf3 O-O 8. O-O Bf6 9. c3 Re8 10. Qd1) 6. Nc6+ { [%eval 6.23] } 6... Be7 { [%eval 6.57] } 7. Nxd8 { [%eval 6.81] } 7... Kxd8 { [%eval 8.92] } 8. Qxc4 { [%eval 9.03] } 8... b6 { [%eval 10.55] } 9. Qxf7 { [%eval 9.91] } 9... Rf8 { [%eval 11.63] } 10. Qxg7 { [%eval 11.61] } 10... Bc5 { [%eval 12.05] } 11. Qxh7 { [%eval 10.76] } 11... Bxf2+ { [%eval 10.86] } 12. Ke2 { [%eval 10.68] } 12... Ba6+ { [%eval 10.68] } 13. d3 { [%eval 10.67] } 13... Nc6 { [%eval 13.19] } 14. Bg5+ { [%eval 12.93] } 14... Kc8 { [%eval 12.71] } 15. c3 { [%eval 9.38] } 15... Kb7 { [%eval 9.41] } 16. Qxd7 { [%eval 8.39] } 16... Rae8+ { [%eval 8.4] } 17. Kd2 { [%eval 7.8] } 17... Ne5 { [%eval 7.87] } 18. Qd5+ { [%eval 7.69] } 18... Kb8 { [%eval 7.69] } 19. d4 { [%eval 7.56] } 19... Nc4+ { [%eval 8.39] } 20. Kc1 { [%eval 7.57] } 20... Re2 { [%eval 7.95] } 21. Rd1?? { (7.95 → 2.13) Blunder. Na3 was best. } { [%eval 2.13] } (21. Na3 Nxb2) 21... Nxb2?? { (2.13 → 11.94) Blunder. Be3+ was best. } { [%eval 11.94] } (21... Be3+ 22. Nd2 c6 23. Qxc4 Bxd2+ 24. Rxd2 Bxc4 25. b3 Rf1+ 26. Kb2 Rxa1 27. Kxa1 Rxd2 28. Bxd2) 22. Rd2 { [%eval 11.66] } 22... Nd3+ { [%eval 11.26] } 23. Rxd3?? { (11.26 → 0.25) Blunder. Kc2 was best. } { [%eval 0.25] } (23. Kc2 Rfe8 24. Rxe2 Rxe2+ 25. Nd2 Be1 26. Qf7 Bxd2 27. Bxd2 Rf2 28. Qe8+ Kb7 29. Qe3 Re2) 23... Bxd3 { [%eval 0.48] } 24. Nd2 { [%eval 0.58] } 24... Be1 { [%eval 0.45] } 25. g3?? { (0.45 → -7.81) Blunder. Kb2 was best. } { [%eval -7.81] } (25. Kb2 Bxd2) 25... Bxd2+ { [%eval -7.36] } 26. Kb2 { [%eval -11.22] } 26... Bxg5+ { [%eval -11.04] } 27. Ka3 { [%eval -13.34] } 27... Be7+ { [%eval -12.89] } 28. Ka4 { [%eval -21.79] } 28... Rf5 { [%eval -17.0] } 29. Qg8+?! { (-17.00 → Mate in 5) Checkmate is now unavoidable. Qxf5 was best. } { [%eval #-5] } (29. Qxf5 Bxf5) 29... Kb7 { [%eval #-4] } 30. Rd1 { [%eval #-2] } 30... Ra5+ { [%eval #-1] } 31. Kb3 { [%eval #-1] } 31... Ra3# { Black wins by checkmate. } 0-1
+
+
