@@ -1,12 +1,14 @@
 [Event "Em andamento"]
-[Site "https://lichess.org"]
-[Date "6/11/2019, 10:07:39 PM"]
+[Site "https://lichess.org/rM0OAlHz"]
+[Date "2019-06-11T22:07:39"]
 [White "João Carlos Oliveira"]
 [Black "Jefferson Campos"]
-[Result "*"]
+[Result "1/2-1/2"]
 [PlyCount "33"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[TimeControl "-"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[SetUp "1"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 5. Nxe5 Qe7 6. d4 d6 7. Nf3 Qxe4+ 8. Be3 Bg4 9. Nbd2 Qe7 10. O-O Nf6 11. Bg5 Be6 12. Ne4 d5 13. Nc5 g6 14. Ne5 Bg7 15. Nxc6 Qd6 16. Ne5 O-O 17. Qd2 *
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 bxc6 5. Nxe5 Qe7 6. d4 d6 7. Nf3 Qxe4+ 8. Be3 Bg4 9. Nbd2 Qe7 10. O-O Nf6 11. Bg5 Be6 12. Ne4 d5 13. Nc5 g6 14. Ne5 Bg7 15. Nxc6 Qd6 16. Ne5 O-O 17. Qd2 {Restarted at 2020-06-08T19:24:40 with FEN "r4rk1/2p2pbp/p2qbnp1/2NpN1B1/3P4/8/PPPQ1PPP/R4RK1 b - - 4 17"} Ne4 18. Nxe4 dxe4 19. Bf4 Qb6 20. d5 Rad8 21. Nc4 Qb5 22. Qa5 Bxd5 23. Qxb5 axb5 24. Ne3 Be6 25. Bxc7 Rc8 26. Bd6 Bxb2 27. Rab1 Rfd8 28. Be7 Re8 29. Rxb2 Rxe7 30. Rfb1 f5 31. Rxb5 f4 32. Nd5 Bxd5 33. Rxd5 Rxc2 34. a4 Ra2 35. Rd4 e3 36. f3 Rd2 37. Rxf4 e2 38. Re1 h5 39. Kf2 Kg7 40. Re4 Rxe4 41. fxe4 Ra2 42. e5 Kf7 43. e6+ Ke7 44. g3 Rxa4 45. Rxe2 Ra6 46. Kf3 Rxe6 47. Rxe6+ Kxe6 48. Kf4 Kf6 49. h3 Kf7 50. Ke5 Kg7 51. Ke6 Kh6 52. Kf6 Kh7 53. Kg5 Kg7 54. h4 Kh7 55. g4 hxg4 56. Kxg4 Kh6 57. Kh3 Kh5 58. Kg3 g5 59. hxg5 { The game is a draw. } Kxg5 1/2-1/2
