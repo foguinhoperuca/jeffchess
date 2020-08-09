@@ -1,12 +1,14 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
+[Site "https://lichess.org/K4S69UTA"]
 [Date "6/4/2019, 10:01:51 PM"]
 [White "Jefferson Campos"]
 [Black "João Carlos Oliveira"]
-[Result "*"]
+[Result "0-1"]
 [PlyCount "32"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. Nc3 Nf6 5. a3 Bc5 6. d3 Ng4 7. O-O d6 8. b4 Bb6 9. Nd5 Nf6 10. Nxb6 axb6 11. h3 Nxb4 12. c3 Nc6 13. d4 Nxe4 14. Bb5 Nxc3 15. Qd3 Nxb5 16. Qxb5 Bd7 *
+{Com a entrega da Dama foi possível equilibrar o jogo mas a tomada do peão abriu espaço para um xeque na última fileira sendo possível recuperar a Dama entregue. Muito mal calculado e analisada as posições.}
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. Nc3 Nf6 5. a3 Bc5 6. d3 Ng4 7. O-O d6 8. b4 Bb6 9. Nd5 Nf6 10. Nxb6 axb6 11. h3 Nxb4 12. c3 Nc6 13. d4 Nxe4 14. Bb5 Nxc3 15. Qd3 Nxb5 16. Qxb5 Bd7 {restarted at 2020.07.14T16:45:10 with FEN "r2qk2r/1ppb1pp1/1pnp3p/1Q2p3/3P4/P4N1P/5PP1/R1B2RK1 w kq - 1 17" } 17. dxe5 Nxe5 18. Qe2 Ra5 19. Bb2 Bb5 20. Qe3 Bxf1 21. Kxf1 O-O 22. Re1 Re8 23. Qe4 Rb5 24. Bxe5 dxe5 25. Nh4 Qd4 26. Qxd4 exd4 27. Rxe8+ Kh7 28. Re7 d3 29. Nf3 c5 30. Rxf7 Rb1+ 31. Ne1 d2 32. Re7 d1=Q 33. g4 Qd3+ 34. Kg2 Qxa3 35. Nc2 Qb3 36. Ne3 Re1 37. Rxb7 Rxe3 38. fxe3 Qd5+ 39. e4 Qxe4+ 40. Kg3 Qxb7 { White resigns. } 0-1
