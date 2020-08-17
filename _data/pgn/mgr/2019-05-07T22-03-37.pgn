@@ -1,14 +1,16 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
-[Date "5/7/2019, 10:03:37 PM"]
+[Site "https://lichess.org/c3iSHFHV"]
+[Date "2019-05-07T22:03:37"]
 [White "Jefferson Campos"]
 [Black "João Carlos Oliveira"]
-[Result "*"]
-[PlyCount "30"]
+[Result "1-0"]
+[PlyCount "33"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
 {Image "2019-05-07T22-03-37_image-01,2019-05-07T22-03-37_image-02"}
-1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d4 Qe7 5. d5 Qb4+ 6. Nfd2 Nce7 7. a3 Qb6 8. Qf3 d6 9. b4 a6 10. Nc3 Bd7 11. Rb1 Nf6 12. h3 c6 13. Qd3 Ng6 14. a4 Nf4 15. Qf3 Be7 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d4 Qe7 5. d5 Qb4+ 6. Nfd2 Nce7 7. a3 Qb6 8. Qf3 d6 9. b4 a6 10. Nc3 Bd7 11. Rb1 Nf6 12. h3 c6 13. Qd3 Ng6 14. a4 Nf4 15. Qf3 Be7
 {Continuação semana passada. Dia 02.}
-31. b5 axb5 32. axb5 c5 33. O-O g5 34. Ne2 g4 35. hxg4 Bxg4 36. Qe3 Bxe2 37. Bxe2 Rg8 38. Bf3 h5 39. Rd1 Ng4 40. Qc3 Nf6 41. Nc4 Qc7 42. Bxf4 exf4 43. b6 Qd7 44. Kf1 h4 45. Ra1 Qc8 46. Rxa8 Qxa8 47. Ra1 Qc8 48. e5 Nd7 *
+16. b5 axb5 17. axb5 c5 18. O-O g5 19. Ne2 g4 20. hxg4 Bxg4 21. Qe3 Bxe2 22. Bxe2 Rg8 23. Bf3 h5 24. Rd1 Ng4 25. Qc3 Nf6 26. Nc4 Qc7 27. Bxf4 exf4 28. b6 Qd7 29. Kf1 h4 30. Ra1 Qc8 31. Rxa8 Qxa8 32. Ra1 Qc8 33. e5 Nd7
+{Continuação online da partida FEN "2q1k1r1/1p1nbp2/1P1p4/2pPP3/2N2p1p/2Q2B2/2P2PP1/R4K2 w - - 1 34" 2020-08-09T16:56:08}
+34. e6 fxe6 35. dxe6 Ne5 36. Nxe5 Bf6 37. Ra7 Rg7 38. Qa5 { Black resigns. } 1-0
