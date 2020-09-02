@@ -1,13 +1,14 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
-[Date "11/5/2019, 9:53:58 PM"]
+[Site "https://lichess.org/6uOFtJpX"]
+[Date "2019-11-05T21:53:58"]
 [White "Jefferson Campos"]
 [Black "@Emerson Sbrana"]
-[Result "*"]
+[Result "1-0"]
 [PlyCount "52"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
 [Images "2019-11-05T21-53-58_image-01.jpeg"]
 
-1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. Nc3 Nf6 5. h3 Be7 6. Nd5 a6 7. Nxe7 Qxe7 8. O-O Nxe4 9. d3 Nf6 10. Re1 b5 11. Bb3 c6 12. d4 O-O 13. dxe5 dxe5 14. Rxe5 Qc7 15. Bf4 Qb6 16. Re7 Nd5 17. Bxd5 cxd5 18. Qxd5 Nc6 19. Rc7 Be6 20. Qxc6 Qa5 21. c3 b4 22. cxb4 Qxb4 23. Bd6 Qxb2 24. Rc1 Rfd8 25. a4 Qb3 26. Nd4 Qd5 *
+1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. Nc3 Nf6 5. h3 Be7 6. Nd5 a6 7. Nxe7 Qxe7 8. O-O Nxe4 9. d3 Nf6 10. Re1 b5 11. Bb3 c6 12. d4 O-O 13. dxe5 dxe5 14. Rxe5 Qc7 15. Bf4 Qb6 16. Re7 Nd5 17. Bxd5 cxd5 18. Qxd5 Nc6 19. Rc7 Be6 20. Qxc6 Qa5 21. c3 b4 22. cxb4 Qxb4 23. Bd6 Qxb2 24. Rc1 Rfd8 25. a4 Qb3 26. Nd4 Qd5 {Game restarted with FEN FEN "r2r2k1/2R2pp1/p1QBb2p/3q4/P2N4/7P/5PP1/2R3K1 w - - 3 27" at 2020-04-14T17:24:41} 27. Nxe6 Qxe6 28. Qb7 Rab8 { Black resigns. } 1-0
