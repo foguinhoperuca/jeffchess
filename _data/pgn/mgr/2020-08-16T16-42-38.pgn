@@ -1,0 +1,22 @@
+[Event "Casual Standard game"]
+[Site "https://lichess.org/awUwjOk7"]
+[Date "2020.08.16"]
+[White "Hefferson Campos"]
+[Black "JOão Carlos Oliveira"]
+[Result "0-1"]
+[UTCDate "2020.08.16"]
+[UTCTime "16:42:38"]
+[WhiteElo "1720"]
+[BlackElo "1500"]
+[Variant "From Position"]
+[TimeControl "-"]
+[ECO "?"]
+[Opening "?"]
+[Termination "Normal"]
+[FEN "r3k1nr/1pp1qpp1/pbnpb2p/8/4P3/2PBQN1P/PP1N1PP1/R1B2RK1 w - - 0 1"]
+[SetUp "1"]
+[Annotator "lichess.org"]
+
+{Avaliei mal o ataque ao roque e furei no cálculo achando que era defensável.}
+
+1. Qe2 Nf6 2. b4 Nh5 3. Nd4 Nf4 4. Qf3 Qf6 5. Nxe6 Nxe6 6. Qxf6 gxf6 7. Re1 Nf4 8. Bc2 Rg8 9. Kf1 Rxg2 10. Re2 Rh2 11. Ke1 Nxe2 12. Kxe2 Bxf2 13. Nf3 Rxh3 14. Kxf2 Ne5 15. Nxe5 fxe5 16. Ke2 Ke7 17. Kd2 Rg8 18. Ba3 Rg2+ 19. Kc1 Rxc3 20. Kd1 Rcxc2 21. Rc1 Rxc1+ 22. Bxc1 Rxa2 23. Bxh6 Ra4 24. Bg5+ Ke6 25. Bd2 f5 26. exf5+ Kxf5 27. Kc2 c6 28. Kb3 d5 29. Kxa4 b6 30. Kb3 b5 31. Kc3 Ke4 32. Bh6 d4+ 33. Kd2 Kd5 34. Bg7 e4 35. Ke2 Kc4 36. Kd2 c5 37. bxc5 Kxc5 38. Kc2 Kc4 39. Kb2 d3 40. Kc1 b4 41. Bh8 a5 42. Kd2 b3 43. Ke3 a4 44. Kd2 a3 45. Bg7 b2 46. Bxb2 { White resigns. } 0-1
