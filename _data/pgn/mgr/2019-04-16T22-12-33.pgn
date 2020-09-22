@@ -1,12 +1,12 @@
 [Event "Casual Game"]
 [Site "https://lichess.org"]
-[Date "4/16/2019, 10:12:33 PM"]
+[Date "2019-04-16T22:12:33"]
 [White "Jefferson Campos"]
 [Black "João Carlos Oliveira"]
-[Result "*"]
+[Result "0-1"]
 [PlyCount "95"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "abandoned"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bb5 Bb4 4. c3 Bc5 5. d4 exd4 6. cxd4 Bb6 7. O-O h6 8. Re1 Qf6 9. e5 Qg6 10. a3 Nge7 11. Nc3 O-O 12. Bc4 Nf5 13. Be3 d6 14. d5 Nxe3 15. fxe3 Nxe5 16. Nxe5 dxe5 17. Bd3 Qg5 18. Qf3 Qg4 19. Be4 f5 20. Qxg4 fxg4 21. Rf1 Bxe3+ 22. Kh1 Rf2 23. Rxf2 Bxf2 24. Rf1 g3 25. hxg3 Bxg3 26. Bg6 Bg4 27. Rf7 Rf8 28. Rxf8+ Kxf8 29. Nb5 Ke7 30. Nxc7 Kd6 31. Nb5+ Kxd5 32. Nxa7 e4 33. Bxe4+ Kxe4 34. b4 Kd5 35. a4 Bc7 36. a5 Be2 37. b5 Kc5 38. b6 Bb8 39. Nc8 Kb5 40. Na7+ Ka6 41. Kg1 Kxa5 42. Kf2 Kxb6 43. Nc8+ Kc7 44. Kxe2 Kxc8 45. g4 b5 46. Kd3 b4 47. Kc4 Bd6 48. Kb3 *
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Bb4 4. c3 Bc5 5. d4 exd4 6. cxd4 Bb6 7. O-O h6 8. Re1 Qf6 9. e5 Qg6 10. a3 Nge7 11. Nc3 O-O 12. Bc4 Nf5 13. Be3 d6 14. d5 Nxe3 15. fxe3 Nxe5 16. Nxe5 dxe5 17. Bd3 Qg5 18. Qf3 Qg4 19. Be4 f5 20. Qxg4 fxg4 21. Rf1 Bxe3+ 22. Kh1 Rf2 23. Rxf2 Bxf2 24. Rf1 g3 25. hxg3 Bxg3 26. Bg6 Bg4 27. Rf7 Rf8 28. Rxf8+ Kxf8 29. Nb5 Ke7 30. Nxc7 Kd6 31. Nb5+ Kxd5 32. Nxa7 e4 33. Bxe4+ Kxe4 34. b4 Kd5 35. a4 Bc7 36. a5 Be2 37. b5 Kc5 38. b6 Bb8 39. Nc8 Kb5 40. Na7+ Ka6 41. Kg1 Kxa5 42. Kf2 Kxb6 43. Nc8+ Kc7 44. Kxe2 Kxc8 45. g4 b5 46. Kd3 b4 47. Kc4 Bd6 48. Kb3 {white resigned}
