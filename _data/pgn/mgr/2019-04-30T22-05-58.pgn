@@ -3,10 +3,11 @@
 [Date "4/30/2019, 10:05:58 PM"]
 [White "João Carlos Oliveira"]
 [Black "Jefferson Campos"]
-[Result "*"]
+[Result "1-0"]
 [PlyCount "33"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
 {Image "2019-04-30T22-05-58_image-01.jpeg"}
-1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. Nc3 a6 5. a3 Bc5 6. d3 Nge7 7. O-O d6 8. h3 Nd4 9. Nxd4 Bxd4 10. Qf3 O-O 11. Qg3 b5 12. Bxh6 g6 13. Bxf8 Qxf8 14. Bb3 Bb7 15. Nd5 Nxd5 16. c3 Ba7 17. exd5 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. Nc3 a6 5. a3 Bc5 6. d3 Nge7 7. O-O d6 8. h3 Nd4 9. Nxd4 Bxd4 10. Qf3 O-O 11. Qg3 b5 12. Bxh6 g6 13. Bxf8 Qxf8 14. Bb3 Bb7 15. Nd5 Nxd5 16. c3 Ba7 17. exd5 {Restarted at 2020-09-15T20:08:26 at FEN "r4qk1/bbp2p2/p2p2p1/1p1Pp3/8/PBPP2QP/1P3PP1/R4RK1 b - - 0 17"} Qg7 18. c4 Re8 19. Bd1 e4 20. Be2 Qxb2 21. Rfe1 exd3 22. Rab1 Qxa3 23. Bxd3 Rxe1+ 24. Rxe1 Kf8 25. Qh4 Bxf2+ 26. Kxf2 Qb2+ 27. Re2 { Black resigns. } Qg7 1-0
