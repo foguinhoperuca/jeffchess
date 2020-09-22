@@ -3,10 +3,11 @@
 [Date "2019-02-12T21:51:30"]
 [White "Emerson Sbrana"]
 [Black "Jefferson Campos"]
-[Result "*"]
+[Result "0-1"]
 [PlyCount "70"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
 {Images "2019-02-12T21-51-30_image-01.jpeg"}
-1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. Qh5 d6 5. f4 Bg4 6. Qg5 Qxg5 7. fxg5 O-O-O 8. h3 Bh5 9. Nc3 Bg6 10. Be2 Re8 11. Nf3 Nd7 12. Bd3 f5 13. Be2 fxe4 14. Nh4 d5 15. Nxg6 hxg6 16. Nxd5 Bc5 17. Ne3 Ne7 18. Bd2 Nf5 19. Nxf5 gxf5 20. O-O-O g6 21. Bc3 Rhg8 22. Rhf1 Be3+ 23. Kb1 Bxg5 24. Bc4 Rgf8 25. Bg7 Nb6 26. Bxf8 Rxf8 27. Bb3 e3 28. Rfe1 f4 29. Re2 Kb8 30. Be6 a6 31. Bg4 Nc4 32. Rd5 Bf6 33. b3 Nd2+ 34. Kc1 Ne4 35. Rd7 Nc3 *
+1. e4 e5 2. d4 Nc6 3. dxe5 Nxe5 4. Qh5 d6 5. f4 Bg4 6. Qg5 Qxg5 7. fxg5 O-O-O 8. h3 Bh5 9. Nc3 Bg6 10. Be2 Re8 11. Nf3 Nd7 12. Bd3 f5 13. Be2 fxe4 14. Nh4 d5 15. Nxg6 hxg6 16. Nxd5 Bc5 17. Ne3 Ne7 18. Bd2 Nf5 19. Nxf5 gxf5 20. O-O-O g6 21. Bc3 Rhg8 22. Rhf1 Be3+ 23. Kb1 Bxg5 24. Bc4 Rgf8 25. Bg7 Nb6 26. Bxf8 Rxf8 27. Bb3 e3 28. Rfe1 f4 29. Re2 Kb8 30. Be6 a6 31. Bg4 Nc4 32. Rd5 Bf6 33. b3 Nd2+ 34. Kc1 Ne4 35. Rd7 Nc3 {restarted at 2020-09-03T13:00:14 with FEN "1k3r2/1ppR4/p4bp1/8/5pB1/1Pn1p2P/P1P1R1P1/2K5 w - - 5 36" with analyse: Inicio com desvantagem para negras no material (qualidade a menos) mas com um peão de compensação na ala do rei e a iniciativa com duplo na ala do rei na torre e a2.} 36. Re1 Nxa2+ 37. Kb1 Nc3+ 38. Kc1 Bh4 39. Rg1 Re8 40. Rd3 Nb5 { No lance 40 estou tentando promover o peão ou ganhar material (qualidade) pra levar pra um final com peões a mais. } 41. Be2 Nd6 42. Kb2 Nf5 43. Kc1 Bf2 44. Rf1 Ng3 45. Kd1 Nxf1 46. Bxf1 Bh4 47. Ke2 Rd8 { White resigns. } 0-1
