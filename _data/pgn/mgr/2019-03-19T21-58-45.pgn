@@ -3,11 +3,11 @@
 [Date "2019-03-19T21:58:45"]
 [White "Jefferson Campos"]
 [Black "João Carlos Oliveira"]
-[Result "*"]
-[PlyCount "30"]
+[Result "0-1"]
+[PlyCount "96"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
 {Images "2019-03-19T21-58-45_image-01.jpeg,2019-03-19T21-58-45_image-02.jpeg"}
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Bc5 5. Nc3 d6 6. Nd5 Bg4 7. h3 Bh5 8. g4 Bg6 9. Bd2 Nd4 10. Nxd4 Bxd4 11. Qe2 Bxb2 12. Rb1 Bd4 13. Rxb7 Bb6 14. Ba6 Rb8 15. Bb5+ Kf8 16. Rxb8 Qxb8 17. O-O Qd8 18. a4 Nf6 19. Nxb6 axb6 20. Bc6 Nd7 21. Bxd7 Qxd7 22. Ra1 h5 23. f3 hxg4 24. fxg4 Rxh3 25. Qg2 Rh4 26. Kf2 Rxg4 27. Qh2 Qe6 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Bc5 5. Nc3 d6 6. Nd5 Bg4 7. h3 Bh5 8. g4 Bg6 9. Bd2 Nd4 10. Nxd4 Bxd4 11. Qe2 Bxb2 12. Rb1 Bd4 13. Rxb7 Bb6 14. Ba6 Rb8 15. Bb5+ Kf8 16. Rxb8 Qxb8 17. O-O Qd8 18. a4 Nf6 19. Nxb6 axb6 20. Bc6 Nd7 21. Bxd7 Qxd7 22. Ra1 h5 23. f3 hxg4 24. fxg4 Rxh3 25. Qg2 Rh4 26. Kf2 Rxg4 27. Qh2 Qe6 {Game restarted at 2020-09-22T16:51:43 with FEN 5k2/2p2pp1/1p1pq1b1/4p3/P3P1r1/3P4/2PB1K1Q/R7 w - - 2 28 } 28. Rh1 f5 29. Qh8+ Qg8 30. Qxg8+ Kxg8 31. Rg1 Rxg1 32. Kxg1 fxe4 33. dxe4 Bxe4 34. c4 c6 35. Be3 c5 36. Kf2 Kf7 37. Ke2 Bc6 38. a5 bxa5 39. Kd2 Ba4 40. Kc3 Ke6 41. Bc1 Kf5 42. Bd2 g5 43. Kd3 g4 44. Ke2 Bb3 45. Bxa5 Bxc4+ 46. Kf2 Bb5 47. Bc7 d5 48. Bb6 c4 { White resigns. } 0-1
