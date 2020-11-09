@@ -3,11 +3,13 @@
 [Date "2018-11-20T22:00:10 PM"]
 [White "Jefferson Campos"]
 [Black "João Carlos Oliveira"]
-[Result "*"]
+[Result "1/2-1/2"]
 [PlyCount "74"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
 {Images "Whatsapp Image 2018-11-20 at 22.02.12.jpeg"}
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Bc5 5. Nc3 d6 6. a3 Nf6 7. h3 a6 8. b4 Bb6 9. O-O Nd4 10. Nxd4 Bxd4 11. Bb2 c6 12. Rb1 b5 13. Bb3 a5 14. Ne2 a4 15. Nxd4 exd4 16. Ba2 c5 17. c4 Be6 18. Ra1 bxc4 19. bxc5 dxc5 20. dxc4 Nxe4 21. Re1 Nd6 22. Qh5 Qg5 23. Rxe6+ Kd7 24. Qxg5 hxg5 25. Re5 g4 26. hxg4 Rh4 27. Rxc5 Rah8 28. Kf1 d3 29. Ke1 Rh1+ 30. Kd2 Ne4+ 31. Kxd3 Nxc5+ 32. Kc2 f6 33. g5 Rxa1 34. Bxa1 Ne4 35. gxf6 Nxf6 36. c5 Rh2 37. Bxf6 gxf6 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Bc5 5. Nc3 d6 6. a3 Nf6 7. h3 a6 8. b4 Bb6 9. O-O Nd4 10. Nxd4 Bxd4 11. Bb2 c6 12. Rb1 b5 13. Bb3 a5 14. Ne2 a4 15. Nxd4 exd4 16. Ba2 c5 17. c4 Be6 18. Ra1 bxc4 19. bxc5 dxc5 20. dxc4 Nxe4 21. Re1 Nd6 22. Qh5 Qg5 23. Rxe6+ Kd7 24. Qxg5 hxg5 25. Re5 g4 26. hxg4 Rh4 27. Rxc5 Rah8 28. Kf1 d3 29. Ke1 Rh1+ 30. Kd2 Ne4+ 31. Kxd3 Nxc5+ 32. Kc2 f6 33. g5 Rxa1 34. Bxa1 Ne4 35. gxf6 Nxf6 36. c5 Rh2 37. Bxf6 gxf6 {Game restarted at 2020-11-03T18:34:03 with FEN "8/3k4/5p2/2P5/p7/P7/B1K2PPr/8 w - - 0 38" } 38. Bd5 Rh5 39. c6+ Kd6 40. Bf3 Rc5+ 41. Kb2 Ke5 42. Ka2 Kd4 43. Kb2 { The game is a draw. } 1/2-1/2
