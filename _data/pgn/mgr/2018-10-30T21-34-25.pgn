@@ -1,12 +1,12 @@
 [Event "Casual Game"]
 [Site "https://lichess.org"]
-[Date "10/30/2018, 9:34:25 PM"]
+[Date "2018-10-30T21:34:25"]
 [White "João Carlos Oliveira"]
 [Black "Jefferson Campos"]
-[Result "White resign"]
+[Result "0-1"]
 [PlyCount "77"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "White resign"]
+[Termination "Normal"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 d6 5. h3 Nf6 6. c3 Be7 7. a3 a6 8. Qb3 O-O 9. Qd1 b5 10. Bb3 Bb7 11. Nh4 Nxe4 12. dxe4 Bxh4 13. Nd2 Na5 14. Bc2 Nc4 15. Nxc4 bxc4 16. Be3 d5 17. exd5 Qxd5 18. Qxd5 Bxd5 19. O-O a5 20. f3 Rab8 21. Rab1 Rfe8 22. Be4 Be6 23. f4 exf4 24. Rxf4 Bg5 25. Rf3 Bxe3+ 26. Rxe3 Red8 27. Bf3 Rd2 28. Re2 Bf5 29. Rbe1 Rdxb2 30. Rxb2 Rxb2 31. Bd5 Rb3 32. Re8+ Kh7 33. Bxc4 Rxc3 34. Bxf7 Rxa3 35. Bg8+ Kg6 36. Re7 Ra1+ 37. Kh2 Rc1 38. Bf7+ Kf6 39. Re8 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 d6 5. h3 Nf6 6. c3 Be7 7. a3 a6 8. Qb3 O-O 9. Qd1 b5 10. Bb3 Bb7 11. Nh4 Nxe4 12. dxe4 Bxh4 13. Nd2 Na5 14. Bc2 Nc4 15. Nxc4 bxc4 16. Be3 d5 17. exd5 Qxd5 18. Qxd5 Bxd5 19. O-O a5 20. f3 Rab8 21. Rab1 Rfe8 22. Be4 Be6 23. f4 exf4 24. Rxf4 Bg5 25. Rf3 Bxe3+ 26. Rxe3 Red8 27. Bf3 Rd2 28. Re2 Bf5 29. Rbe1 Rdxb2 30. Rxb2 Rxb2 31. Bd5 Rb3 32. Re8+ Kh7 33. Bxc4 Rxc3 34. Bxf7 Rxa3 35. Bg8+ Kg6 36. Re7 Ra1+ 37. Kh2 Rc1 38. Bf7+ Kf6 39. Re8 { white resigns } 0-1

@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2018-11-06T21:46:13"]
+[White "Jefferson Campos"]
+[Black "João Carlos Oliveira"]
+[Result "1-0"]
+[PlyCount "87"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 Bc5 5. a3 Nf6 6. h3 d6 7. Nc3 Qe7 8. O-O a6 9. b4 Bd4 10. Bb2 b5 11. Bd5 Bb7 12. Nh4 Bxc3 13. Bxc3 Nxd5 14. exd5 Nd4 15. Qg4 Qg5 16. Rae1 Qxg4 17. hxg4 O-O-O 18. Bxd4 exd4 19. Nf5 Kb8 20. Nxg7 Rdg8 21. Nf5 Rxg4 22. Ne7 h5 23. Nc6+ Bxc6 24. dxc6 h4 25. Re7 h3 26. g3 f5 27. Rfe1 Rgg8 28. Rf7 Rf8 29. Ree7 Rxf7 30. Rxf7 Rh5 31. Rf8+ Ka7 32. Rc8 Kb6 33. Rf8 Kxc6 34. Ra8 Kb7 35. Rg8 f4 36. gxf4 Rh4 37. Rf8 Rg4+ 38. Kh2 Rg2+ 39. Kxh3 Rxf2 40. f5 Rxc2 41. f6 Rf2 42. f7 Rf3+ 43. Kg4 Rxd3 44. Rb8+ { black resigns }
