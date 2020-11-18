@@ -1,0 +1,18 @@
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/LZIBejDQ"]
+[Date "2020.09.28"]
+[White "foguinho_peruca"]
+[Black "jrso61"]
+[Result "1-0"]
+[UTCDate "2020.09.28"]
+[UTCTime "01:48:19"]
+[WhiteElo "1776"]
+[BlackElo "1223"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 d5 2. exd5 Qxd5 { B01 Scandinavian Defense: Mieses-Kotroc Variation } 3. Nc3 Qd8 4. d4 Bf5 5. Nf3 Nc6 6. Bb5 f6 7. d5 a6 8. Nd4 axb5 9. dxc6 Bc8 10. Qh5+ g6 11. Qxb5 Rb8 12. Qd3 e5 13. cxb7 exd4 14. bxc8=Q Rxc8 15. Ne2 c5 16. O-O Ne7 17. a3 Bg7 18. b4 f5 19. bxc5 Rxc5 20. Bb2 O-O 21. Bxd4 Rd5 22. Qc4 Kh8 23. Bxg7+ Kxg7 24. Nf4 Rd6 25. Ne6+ Rxe6 26. Qxe6 Nd5 27. Rfd1 Re8 28. Rxd5 Rxe6 29. Rxd8 Rc6 30. Ra2 { Black resigns. } 1-0
