@@ -3,10 +3,11 @@
 [Date "2018-10-30T20:23:05"]
 [White "João Carlos Oliveira"]
 [Black "Jefferson Campos"]
-[Result "*"]
+[Result "0-1"]
 [PlyCount "27"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 d6 5. h3 Nf6 6. c3 Be7 7. a3 a6 8. Qb3 O-O 9. Qd1 b5 10. Bb3 Bb7 11. Nh4 Nxe4 12. dxe4 Bxh4 13. Nd2 Na5 14. Bc2 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d3 d6 5. h3 Nf6 6. c3 Be7 7. a3 a6 8. Qb3 O-O 9. Qd1 b5 10. Bb3 Bb7 11. Nh4 Nxe4 12. dxe4 Bxh4 13. Nd2 Na5 14. Bc2 { Game restarted at 2020-11-09T15:57:50 FEN "r2q1rk1/1bp2pp1/p2p3p/np2p3/4P2b/P1P4P/1PBN1PP1/R1BQK2R b KQ - 3 14" }  Qg5 15. Qf3 f5 16. Nb3 fxe4 17. Qxf8+ Rxf8 18. Bxg5 Bxf2+ 19. Ke2 Nc4 20. Bd8 e3 21. Bxc7 { White resigns. } Bxg2 0-1
