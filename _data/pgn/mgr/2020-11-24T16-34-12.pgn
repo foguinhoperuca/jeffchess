@@ -1,0 +1,21 @@
+[Event "Casual Standard game"]
+[Site "https://lichess.org/nQJMLkRE"]
+[Date "2020.11.24"]
+[White "foguinho_peruca"]
+[Black "jc1952"]
+[Result "1-0"]
+[UTCDate "2020.11.24"]
+[UTCTime "16:34:12"]
+[WhiteElo "1822"]
+[BlackElo "1500"]
+[Variant "From Position"]
+[TimeControl "-"]
+[ECO "?"]
+[Opening "?"]
+[Termination "Normal"]
+[FEN "r3k2r/1bp1qpp1/p1np1n1p/1p1Bp3/1P1NP3/P1NP3P/1BP2PP1/R2Q1RK1 b Qkq - 0 1"]
+[SetUp "1"]
+[Annotator "lichess.org"]
+
+1... exd4 2. Ne2 Nxd5 3. exd5 Ne5 4. Nxd4 O-O 5. Re1 Qd7 6. Nf3 f6 7. Nxe5 fxe5 8. c4 c6 9. Rc1 Qf5 10. f3 cxd5 11. c5 d4 12. cxd6 Bd5 13. Rc5 Qe6 14. Bxd4 Qxd6 15. {15. Bxe5 pode levar pro mate se ele recuar o bispo pra Bb7 ou Bc6. Se ele manter a diagonal exposta do rei defendida pelo bispo não encontrei como progredir na posição ainda.
+Outra linha: se tomar com torre em Rxe5 é possível encurralar a Dama caso Qd7 trocando uma torre pela Dama. Preciso avaliar corretamente os lances do adversário para enxergar se realmente há a perca da dama ou se mesmo é necessário abandonar (com a dama) o bispo Bd5 (o quê faria-o cair)} Rxe5 Bxf3 16. Qb3+ Kh7 17. Bb2 Qg6 18. Qc2 Kh8 19. Re7 Rg8 { Black resigns. } 20. Rcc7 1-0
