@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-02-01T21:17:28"]
+[White "Jefferson Campos"]
+[Black "Mário Sérgio Bueno de Miranda"]
+[Result "1-0"]
+[PlyCount "55"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 h6 5. c3 d6 6. Nbd2 a6 7. Bb3 a5 8. Ba4 Bd7 9. O-O Ng4 10. Re1 Ne7 11. Bc2 Ng6 12. d4 Qf6 13. Nf1 Nh4 14. Ng3 Be7 15. dxe5 dxe5 16. Ba4 b5 17. Bc2 Bc5 18. Be3 Bd6 19. h3 Nxe3 20. Rxe3 O-O-O 21. Nxh4 Qxh4 22. Nf5 Qf6 23. Rf3 g5 24. Qd5 Kb8 25. Rd1 g4 26. hxg4 Rhg8 27. Nxd6 cxd6 28. Rxf6 *
