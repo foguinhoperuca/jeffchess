@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2021-11-16T21:46:47"]
+[White "Jefferson Campos"]
+[Black "@Emerson Sbrana"]
+[Result "*"]
+[PlyCount "38"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. c3 Nf6 5. d3 Be7 6. Nbd2 Bd7 7. O-O c6 8. Bb3 g5 9. h3 g4 10. hxg4 Nxg4 11. Re1 h5 12. Nf1 Bh4 13. Ng3 Bxg3 14. fxg3 Qb6+ 15. d4 Na6 16. Qd2 O-O-O 17. Bxf7 c5 18. Bc4 Rdf8 19. Rd1 Nf6 *
