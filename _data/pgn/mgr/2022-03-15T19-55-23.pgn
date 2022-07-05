@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-03-15T19:55:23"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "58"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. d4 Nc6 3. Nf3 exd4 4. Nxd4 Nf6 5. Nc3 Bc5 6. Nf3 Ng4 7. Be3 Nxe3 8. fxe3 Bxe3 9. Nd5 Bc5 10. Bc4 h6 11. a3 a6 12. b4 Ba7 13. c3 d6 14. a4 O-O 15. b5 axb5 16. axb5 Ne5 17. Nxe5 Qh4+ 18. g3 Qxe4+ 19. Be2 Qxh1+ 20. Kd2 Qxd5+ 21. Nd3 Qxb5 22. Rb1 Qa5 23. Kc2 Qa4+ 24. Rb3 Be6 25. Nb2 Qxb3+ 26. Kb1 Qa2+ 27. Kc2 Bb3+ 28. Kc1 Bxd1 29. Bxd1 Be3+ *
