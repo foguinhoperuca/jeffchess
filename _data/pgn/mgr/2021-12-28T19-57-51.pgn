@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2021-12-28T19:57:51"]
+[White "Jefferson Campos"]
+[Black "José Carlos Bento Dias da Rocha"]
+[Result "*"]
+[PlyCount "31"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 Qf6 3. Bc4 a6 4. c3 b5 5. Bb3 d6 6. d3 h6 7. a4 g5 8. axb5 g4 9. Nfd2 h5 10. f3 a5 11. Nc4 c6 12. Rxa5 Rxa5 13. Nxa5 cxb5 14. h4 Qd8 15. d4 Qxa5 16. dxe5 *
