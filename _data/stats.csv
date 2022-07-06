@@ -1,3 +1,26 @@
-game_timestamp;white;black;result
-game-01_2019-01-02;João Carlos Oliveira; José Roberto Oliveira;0-1
-game-02_2019-01-02;José Roberto Oliveira;Jefferson Campos;0-1
+game_timestamp;white;black;result;observation
+game-01_2019-01-02;João Carlos Oliveira; José Roberto Oliveira;0-1;
+game-02_2019-01-02;José Roberto Oliveira;Jefferson Campos;0-1;
+;;;;
+2022-06-07;João Carlos Oliveira;Jefferson Campos;1-0;
+;João Carlos Oliveira;José Roberto Oliveira;1-0;
+;Mário Sérgio Bueno Miranda;José Carlos Bento Dias da Rocha;*;
+;José Roberto Oliveira;João Carlos Oliveira;0-1;Finalizada em 2022-06-21
+2022-06-14;João Carlos Oliveira;Jefferson Campos;0-1;
+;José Roberto Oliveira;José Carlos Bento Dias da Rocha;1-0;Finalizada em 2022-06-28
+2022-06-21;Jefferson Campos;José Carlos Bento Dias da Rocha;0-1;
+;João Carlos Oliveira;José Roberto Oliveira;1-0;
+;Jefferson Campos;João Carlos Oliveira;*;Negras jogam
+2022-06-28;Mário Sérgio Bueno Miranda;Jefferson Campos;1-0;
+;Jefferson Campos;Mário Sérgio Bueno Miranda;1/2-1/2;
+;João Carlos Oliveira;Emerson Sbrana;1-0;
+;José Roberto Oliveira;José Carlos Bento Dias da Rocha;1-0;
+;José Carlos Bento Dias da Rocha;José Roberto Oliveira;0-1;
+;;;;
+;;;;
+1;João Carlos Oliveira;5;5;
+2;José Roberto Oliveira;3;3;
+3;Jefferson Campos;2,5;2,5;
+4;José Carlos Bento Dias da Rocha;1;1;
+5;Mário Sérgio Bueno Miranda;0,5;0,5;
+6;Emerson Sbrana;0;0;
