@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-05-17T21:27:41"]
+[White "Jefferson Campos"]
+[Black "Jefferson Nunes"]
+[Result "*"]
+[PlyCount "48"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 c6 2. Nf3 d5 3. exd5 cxd5 4. d4 Bg4 5. Be2 Nc6 6. Nc3 e6 7. Ne5 Bxe2 8. Nxe2 Bb4+ 9. c3 Bd6 10. Bf4 Nge7 11. O-O Bxe5 12. Bxe5 O-O 13. Ng3 Nxe5 14. dxe5 Ng6 15. Re1 Qc7 16. Qd4 Ne7 17. b3 b5 18. Rac1 Rad8 19. Qb4 Rb8 20. Qd6 Qb7 21. Ne2 Rfd8 22. Qb4 Ng6 23. Nf4 a5 24. Qd4 Ne7 *
