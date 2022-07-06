@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-05-24T19:33:45"]
+[White "Jefferson Campos"]
+[Black "José Carlos Bento Dias da Rocha"]
+[Result "1-0"]
+[PlyCount "21"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 a6 4. c3 b5 5. Bb3 a5 6. Ng5 Qxg5 7. d4 Qxg2 8. Rf1 Qxh2 9. Qf3 b4 10. Qxf7+ Kd8 11. Qxf8# 1-0
