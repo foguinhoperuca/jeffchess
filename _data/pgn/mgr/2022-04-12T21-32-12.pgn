@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-04-12T21:32:12"]
+[White "Jefferson Campos"]
+[Black "João Carlos Oliveira"]
+[Result "*"]
+[PlyCount "43"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. O-O Bc5 5. c3 d6 6. h3 Nxe4 7. d3 Ng3 8. Re1 Nf5 9. Ng5 Qf6 10. Bxf7+ Ke7 11. d4 Bb6 12. Bd5 h6 13. Ne4 Qg6 14. Qg4 Qxg4 15. hxg4 Nh4 16. Ng3 Bxg4 17. Bxc6 bxc6 18. dxe5 Kd7 19. Re4 h5 20. e6+ Ke7 21. Bg5+ Ke8 22. Bxh4 *
