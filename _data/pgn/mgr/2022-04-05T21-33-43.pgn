@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-04-05T21:33:43"]
+[White "Emerson Sbrana"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "51"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Nf6 5. Nd2 Bc5 6. h3 O-O 7. Ngf3 Re8 8. Bd3 d5 9. O-O dxe4 10. Bc4 exf3 11. Qxf3 Ne5 12. Qg3 Nxc4 13. Nxc4 h6 14. Bf4 Nh5 15. Qf3 Qd4 16. Qxh5 Qxf4 17. Qxc5 b6 18. Qc6 Be6 19. Ne3 Re7 20. Qxa8+ Kh7 21. Rfe1 c5 22. Nd5 Qg5 23. Nxe7 Bxh3 24. Qe4+ Kh8 25. Qa8+ Kh7 26. Qg8# 1-0
