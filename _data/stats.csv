@@ -1,26 +1,33 @@
-game_timestamp;white;black;result;observation
-game-01_2019-01-02;João Carlos Oliveira; José Roberto Oliveira;0-1;
-game-02_2019-01-02;José Roberto Oliveira;Jefferson Campos;0-1;
-;;;;
+timestamp;white;black;result;observation
 2022-06-07;João Carlos Oliveira;Jefferson Campos;1-0;
-;João Carlos Oliveira;José Roberto Oliveira;1-0;
-;Mário Sérgio Bueno Miranda;José Carlos Bento Dias da Rocha;*;
-;José Roberto Oliveira;João Carlos Oliveira;0-1;Finalizada em 2022-06-21
+2022-06-07;João Carlos Oliveira;José Roberto Oliveira;1-0;
+2022-06-07;Mário Sérgio Bueno Miranda;José Carlos Bento Dias da Rocha;1-0;Finalizada em 2022-07-12
+2022-06-07;José Roberto Oliveira;João Carlos Oliveira;0-1;Finalizada em 2022-06-21
 2022-06-14;João Carlos Oliveira;Jefferson Campos;0-1;
-;José Roberto Oliveira;José Carlos Bento Dias da Rocha;1-0;Finalizada em 2022-06-28
+2022-06-14;José Roberto Oliveira;José Carlos Bento Dias da Rocha;1-0;Finalizada em 2022-06-28
 2022-06-21;Jefferson Campos;José Carlos Bento Dias da Rocha;0-1;
-;João Carlos Oliveira;José Roberto Oliveira;1-0;
-;Jefferson Campos;João Carlos Oliveira;*;Negras jogam
-2022-06-28;Mário Sérgio Bueno Miranda;Jefferson Campos;1-0;
-;Jefferson Campos;Mário Sérgio Bueno Miranda;1/2-1/2;
-;João Carlos Oliveira;Emerson Sbrana;1-0;
-;José Roberto Oliveira;José Carlos Bento Dias da Rocha;1-0;
-;José Carlos Bento Dias da Rocha;José Roberto Oliveira;0-1;
-;;;;
-;;;;
-1;João Carlos Oliveira;5;5;
-2;José Roberto Oliveira;3;3;
-3;Jefferson Campos;2,5;2,5;
-4;José Carlos Bento Dias da Rocha;1;1;
-5;Mário Sérgio Bueno Miranda;0,5;0,5;
-6;Emerson Sbrana;0;0;
+2022-06-21;João Carlos Oliveira;José Roberto Oliveira;1-0;
+2022-06-21;Jefferson Campos;João Carlos Oliveira;*;Negras jogam
+2022-06-28;Mário Sérgio Bueno Miranda;Jefferson Campos;0-1;
+2022-06-28;Jefferson Campos;Mário Sérgio Bueno Miranda;0,5-0,5;
+2022-06-28;João Carlos Oliveira;Emerson Sbrana;1-0;
+2022-06-28;José Roberto Oliveira;José Carlos Bento Dias da Rocha;1-0;
+2022-06-28;José Carlos Bento Dias da Rocha;José Roberto Oliveira;0-1;
+2022-07-05;Jefferson Campos;José Carlos Bento Dias da Rocha;1-0;Continuada durante toda a noite em 2022-08-03 sem conclusão. Finalizada em 2022-08-09
+2022-07-05;José Carlos Bento Dias da Rocha;José Roberto Oliveira;1-0;
+2022-07-05;João Carlos Oliveira;Jefferson Nunes;1-0;
+2022-07-12;João Carlos Oliveira;Jefferson Campos;*;Lance ilegal brancas: 22. Qd4
+2022-07-12;João Carlos Oliveira;Emerson Sbrana;1-0;
+2022-07-12;José Carlos Bento Dias da Rocha;José Roberto Oliveira;1-0;De memória do @José Carlos Bento Dias da Rocha
+2022-07-19;Jefferson Campos;Emerson Sbrana;*;Brancas jogam
+2022-07-19;José Roberto Oliveira;João Carlos Oliveira;0-1;
+2022-07-19;José Carlos Bento Dias da Rocha;João Carlos Oliveira;1-0;Finalizada em 2002-07-26
+2022-07-26;José Carlos Bento Dias da Rocha;Jefferson Campos;*;Negras jogam
+2022-07-26;José Carlos Bento Dias da Rocha;José Roberto Oliveira;1-0;2nd partida do dia
+2022-07-26;José Carlos Bento Dias da Rocha;João Carlos Oliveira;1-0;
+2022-08-02;José Roberto Oliveira;Emerson Sbrana;0-1;1st partida do dia
+2022-08-02;José Roberto Oliveira;Emerson Sbrana;0-1;2nd partida do dia
+2022-08-02;Emerson Sbrana;José Roberto Oliveira;1-0;3rd
+2022-08-09;João Carlos Oliveira;Emerson Sbrana;0-1;
+2022-08-09;João Carlos Oliveira;Emerson Sbrana;1-0;Revanche da primeira partida do dia
+2022-08-09;Mário Sérgio Bueno Miranda;José Roberto Oliveira;*;Partida não finalizada
