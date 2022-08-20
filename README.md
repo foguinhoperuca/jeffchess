@@ -28,3 +28,4 @@ I was using layout that is recomended in PGN standard. There is some adaptations
 
 [Python-Chess](https://python-chess.readthedocs.io/en/latest/pgn.html)
 [Openingtree](https://www.openingtree.com/)
+[BChess](https://github.com/PadawanBreslau/bchess)

@@ -1,0 +1,7 @@
+selenium
+python-dotenv
+termcolor
+setuptools-version-command
+cx_Freeze
+coverage
+chess
