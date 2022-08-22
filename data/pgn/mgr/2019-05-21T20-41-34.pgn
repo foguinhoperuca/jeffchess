@@ -2,11 +2,12 @@
 [Site "https://lichess.org"]
 [Date "5/21/2019, 8:41:34 PM"]
 [White "Jefferson Campos"]
-[Black "João Carlos Oliveira/Emerson Sbrana (3rd dia)"]
+[Black "Emerson Sbrana"]
 [Result "*"]
 [PlyCount "119"]
 [FEN "r3k2r/1p1bbpp1/pqpp1n1p/3Pp3/PPB1Pn2/2N2Q1P/2PN1PP1/1RB1K2R w Kkq - 3 16"]
 [Variant "Standard"]
 [Termination "?"]
 
+{Variação da Partida Originalmente 2019-05-07T22:03:37 Jefferson Campos - João Carlos Oliveira porém o Emerson Sbrana assumiu o lugar das negras}
 31. b5 axb5 32. axb5 c5 33. O-O g5 34. Ne2 g4 35. hxg4 Bxg4 36. Qe3 Bxe2 37. Bxe2 Rg8 38. Bf3 h5 39. Rd1 Ng4 40. Qc3 Nf6 41. Nc4 Qc7 42. Bxf4 exf4 43. b6 Qd7 44. Kf1 h4 45. Ra1 Qc8 46. Rxa8 Qxa8 47. Ra1 Qc8 48. e5 Nd7 49. exd6 Bg5 50. Bg4 Bf6 51. Re1+ Kf8 52. Qxf6 Rxg4 53. Qh6+ Kg8 54. f3 Rg6 55. Qxh4 Qf8 56. Ne5 Qxd6 57. Nxg6 Qxg6 58. Re8+ Nf8 59. Qg4 Qxg4 60. fxg4 Kg7 61. Kf2 Nd7 62. d6 Nxb6 63. Kf3 f6 64. Kxf4 Kf7 65. Re7+ Kf8 66. Kf5 Nd5 67. Ke6 Nxe7 68. dxe7+ Ke8 69. Kxf6 b5 70. Ke6 c4 71. Kd5 c3 72. Kd4 b4 73. Kc4 b3 74. Kxb3 Kxe7 75. Kxc3 *
