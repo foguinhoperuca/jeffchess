@@ -1,13 +1,13 @@
 [Event "Casual Game"]
 [Site "https://lichess.org"]
-[Date "11/26/2019, 9:51:00 PM"]
-[White "@João Carlos Oliveira"]
+[Date "2019-11-26T21:51:00"]
+[White "João Carlos Oliveira"]
 [Black "Jefferson Campos"]
-[Result "abandoned"]
+[Result "1-0"]
 [PlyCount "124"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "1-0"]
+[Termination "abandoned"]
 [Images "2019-11-26T21-51-00_image-01.jpeg"]
 {In 2019-12-03T22:06:45 the games was finished after started, in same day, from position 16. Qg3}
 

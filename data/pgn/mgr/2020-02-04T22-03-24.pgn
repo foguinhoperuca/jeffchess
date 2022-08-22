@@ -1,13 +1,13 @@
 [Event "Casual Game"]
 [Site "https://lichess.org"]
-[Date "2/4/2020, 10:03:24 PM"]
+[Date "2020-02-04T22:03:24"]
 [White "Jefferson Campos"]
-[Black "@João Carlos Oliveira"]
-[Result "abandoned"]
+[Black "João Carlos Oliveira"]
+[Result "0-1"]
 [PlyCount "59"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "0-1"]
+[Termination "abandoned"]
 [Images "2020-02-04T22-03-24_image-01.jpeg, 2020-02-04T22-03-24_image-02.jpeg, 2020-02-04T22-03-24_image-03.jpeg"]
 
 {sacrifício da torre prematuro sem compensação. Distraído por conversa paralela}

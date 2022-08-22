@@ -1,12 +1,14 @@
 [Event "Casual Game"]
 [Site "https://lichess.org"]
-[Date "9/8/2018, 8:03:36 PM"]
-[White "Jefferson Campos (provavelmente)"]
-[Black "Unknow: João, José Roberto, Emerson, Mário, Jefferson Nunes, José Carlos"]
+[Date "2018-09-08T20:03:36"]
+[White "Jefferson Campos"]
+[Black "?"]
 [Result "0-1"]
 [PlyCount "26"]
 [FEN "4r3/1pB3p1/p3rk1p/1pPpp1p1/3n4/P2P4/1P1R1PPP/4R1K1 w - - 0 1"]
 [Variant "Standard"]
 [Termination "mate"]
+
+{acredito que eu estava de brancas nesta partida e não sei dizer quem jogou comigo.}
 
 1. h3 Nb3 2. Rc2 Rc8 3. Bb6 Rec6 4. Rce2 Nxc5 5. Bxc5 Rxc5 6. Rxe5 R8c6 7. d4 Rc1 8. Kh2 Rxe1 9. Rxe1 Rc2 10. Kg3 Rxb2 11. Kg4 Rxf2 12. Re5 Rf4+ 13. Kh5 Rh4# 0-1

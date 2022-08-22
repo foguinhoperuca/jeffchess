@@ -42,7 +42,7 @@ if __name__ == "__main__":
     if args.manual:
         print(args.manual)
         games.manual_load(args.manual)
-    if args.stats == "all":
+    elif args.stats == "all":
         stats = games.padoca_championship_2022_02()
         pprint(stats)
     elif args.stats == "jeff":
