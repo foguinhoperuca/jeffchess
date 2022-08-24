@@ -1,0 +1,13 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-08-23T21:03:40"]
+[White "Emerson Sbrana"]
+[Black "Jefferson Campos"]
+[Result "*"]
+[PlyCount "21"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Ng5 Qxg5 5. d4 Qxg2 6. Rf1 Qxe4+ 7. Qe2 Qxe2+ 8. Bxe2 Nxd4 9. Kd1 b6 10. b3 d6 11. Bd3 *
+{Partida interrompida pois o Emerson necessitou sair}
