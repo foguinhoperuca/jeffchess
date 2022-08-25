@@ -90,4 +90,4 @@ class Util:
 
     def debug(msg):
         """This function standardize the message and simplified the use to standard output."""
-        return colored(msg, 'grey', attrs=['reverse', 'bold', 'underline'])
+        return colored(msg, 'white', attrs=['reverse', 'bold', 'underline'])

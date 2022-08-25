@@ -6,9 +6,8 @@ import configparser
 from decimal import Decimal
 import logging
 import argparse
-import sys
 from util import Util
-import games
+import game_analysis
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description = "Parse for my personal chess data.")
@@ -36,11 +35,11 @@ if __name__ == "__main__":
 
     stats = None
     if args.debug_game:
-        games.debug_game(args.debug_game)
+        game_analysis.debug_game(args.debug_game)
     elif args.stats == "padoca-2022-02":
-        games.padoca_championship_2022_02()
+        game_analysis.padoca_championship_2022_02()
     elif args.stats == "jeff":
-        games.my_games()
+        game_analysis.my_games()
     else:
         logging.error(Util.error("Can't work!! Please, inform all parameters!!"))
         sys.exit("Failed execution. Please, see the log above.")
