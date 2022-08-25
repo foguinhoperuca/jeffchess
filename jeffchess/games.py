@@ -4,11 +4,11 @@ import csv
 import logging
 from collections import OrderedDict
 from pprint import pprint
+from prettytable import PrettyTable
 from util import Util
 
 def padoca_championship_2022_02():
     # stats.csv --> timestamp;white;black;result;observation
-
     with open("data/stats.csv") as stats:
         csv_reader = csv.reader(stats, delimiter = ';')
         total_games = 0
@@ -43,8 +43,6 @@ def padoca_championship_2022_02():
             },
         }
         for row in csv_reader:
-            # print("white: {w} - black {b} - result: {r}".format(w = row[1], b = row[2], r = row[3]))
-            # if row[1] == "Jefferson Campos" or row[2] == "Jefferson Campos":
             if total_games == 0:
                 total_games = 1
                 continue
@@ -71,9 +69,15 @@ def padoca_championship_2022_02():
         logging.info(Util.info("total games: {t}".format(t = total_games)))
 
         od = OrderedDict(sorted(classification.items(), key = lambda x: x[1]["points"], reverse = True))
+        ptable = PrettyTable()
+        ptable.field_names = ['Player', 'Points', 'Unfinished']
+        
+        for key, value in od.items():
+            points, unfinished = value.items()
+            ptable.add_row([key, points[1], unfinished[1]])
 
-        return od
-
+        logging.debug(Util.debug("args: {v}".format(v = od)))
+        print(ptable)
 
 # w 79 }
 # d 15 }
@@ -103,11 +107,30 @@ def padoca_championship_2022_02():
 def my_games():
     # TODO implement  more detailed analisys
     # championship.ods #	Player	White	Black	Total	Unfinished	JUN/2022	JUL/2022	AUG/2022
-    unfinished = 0
     total_errors = 0
     total_games = 0
-    total_finished = 0
-    total_draw = 0
+    total_win_loss = 0
+    total_draws = 0
+    unfinished = 0
+
+    leader_board = {
+        "player": {
+            "white": {
+                "win": 0,
+                "lost": 0,
+                "draw": 0,
+                "unfinished": 0
+            },
+            "black": {
+                "win": 0,
+                "lose": 0,
+                "draw": 0,
+                "unfinished": 0
+            }
+        }
+    }
+    unknow_games = 0
+
     with open("data/jeff_stats.csv", "w") as s:
         writer = csv.writer(s, delimiter = ";")
         writer.writerow(["timestamp", "white", "black", "result"])
@@ -122,22 +145,104 @@ def my_games():
                 writer.writerow([game.headers["Date"], game.headers["White"], game.headers["Black"], game.headers["Result"]])
                 # print("--------------------------------------------") }
                 if game.headers["Result"] == "1-0" or game.headers["Result"] == "0-1":
-                    total_finished += 1
+                    total_win_loss += 1
                 elif game.headers["Result"] == "1/2-1/2":
-                    total_draw += 1
+                    total_draws += 1
                 elif game.headers["Result"] == "*":
                     # print("file: {f!#\ white: {w!#\ black: {b!#\ result: {r!#\".format(f = path, w = game.headers["White"], b = game.headers["Black"], r = game.headers["Result"])) }
                     unfinished += 1
 
-    print("total_games: {g} - total_finished: {f} - total unfinished: {u} - total_draw:{d} - total_errors: {e}".format(u = unfinished, e = total_errors, g = total_games, f = total_finished, d = total_draw))
+                
+                if game.headers["White"] == "Jefferson Campos":
+                    if game.headers["Result"] == "1-0":
+                        leader_board["player"]["white"]["win"] += 1
+                    elif game.headers["Result"] == "0-1":
+                        leader_board["player"]["white"]["lose"] += 1
+                    elif game.headers["Result"] == "1/2-1/2":
+                        leader_board["player"]["white"]["draw"] += 1
+                    elif game.headers["Result"] == "*":
+                        leader_board["player"]["white"]["unfinished"] += 1
+                    else:
+                        raise Exception("Unexpected Game Result")
+                elif game.headers["Black"] == "Jefferson Campos":
+                    if game.headers["Result"] == "1-0":
+                        leader_board["player"]["black"]["lose"] += 1
+                    elif game.headers["Result"] == "0-1":
+                        leader_board["player"]["black"]["win"] += 1
+                    elif game.headers["Result"] == "1/2-1/2":
+                        leader_board["player"]["black"]["draw"] += 1
+                    elif game.headers["Result"] == "*":
+                        leader_board["player"]["black"]["unfinished"] += 1
+                    else:
+                        raise Exception("Unexpected Game Result")
+                elif game.headers["White"] == "?" and game.headers["Black"] == "?":
+                    unknow_games += 1
+                else:
+                    FIXME 
+                    raise Exception("Unexpected Player: neither black/white is Jefferson Campos")
 
-# TODO fix files using sed: sed -i -e 's/Hefferson Campos/Jefferson Campos/g' jeff_stats.csv
-# 2020-01-14T21-58-09
-def manual_load(game):
-    print("Game was: {g}".format(g = game))
+    ptable = PrettyTable()
+    ptable.field_names = ['TOTAL GAMES', 'WIN/LOSS', 'DRAWS', 'UNFINISHED', 'ERRORS']
+    ptable.add_row([total_games, total_win_loss, total_draws, unfinished, total_errors])
+    print(ptable)
+    logging.info(Util.info("total_games: {g} - total_win_loss: {f} - total unfinished: {u} - total_draw:{d} - total_errors: {e}".format(u = unfinished, e = total_errors, g = total_games, f = total_win_loss, d = total_draws)))
+
+def debug_game(game):
+    logging.debug(Util.debug("Game was: {g}".format(g = game)))
     with open("data/pgn/mgr/{g}.pgn".format(g = game), encoding = "utf-8") as pgn:
         game = chess.pgn.read_game(pgn)
-        print("*****************")
-        print(game.errors)
-        print(len(game.errors))
+        print(len(game.errors), game.errors)
+        print(game)
 
+
+# TODO fix files using sed: sed -i -e 's/Hefferson Campos/Jefferson Campos/g' jeff_stats.csv
+
+# White: }
+# w: Jefferson Campos 08 - 00 João Carlos }
+# l: Jefferson Campos 00 - 11 João Carlos }
+# d: Jefferson Campos 04 - 04 João Carlos }
+# *: Jefferson Campos 06 - 06 João Carlos }
+
+# Black: }
+# w: João Carlos 10 - 00 Jefferson Campos }
+# l: João Carlos 00 - 13 Jefferson Campos }
+# d: João Carlos 02 - 02 Jefferson Campos }
+# *: João Carlos 15 - 15 Jefferson Campos }
+
+# jeff 21 - 21 joao carlos }
+
+# ---- }
+
+# White: }
+# w: Jefferson Campos 16 - 00 José Roberto }
+# l: Jefferson Campos 00 - 06 José Roberto }
+# d: Jefferson Campos 01 - 01 José Roberto }
+# *: Jefferson Campos 02 - 02 José Roberto }
+
+# Black: }
+# w: José Roberto 00 - 11 Jefferson Campos }
+# l: José Roberto 07 - 00 Jefferson Campos }
+# d: José Roberto 01 - 01 Jefferson Campos }
+# *: José Roberto 01 - 01 Jefferson Campos }
+
+# jeff 28 - 14 josé roberto }
+
+# ------------------
+
+# white:
+# w: jeff 03 - 00 jose carlos bento
+# l: jeff 00 - 03 jose carlos bento
+# d: jeff 00 - 00 jose carlos bento
+# *: jeff 02 - 02 jose carlos bento
+
+# jeff 3 - 3 jose carlos
+
+# black:
+# w: jose carlos bento 00 - 03 jeff
+# l: jose carlos bento 02 - 00 jeff
+# d: jose carlos bento 00 - 00 jeff
+# *: jose carlos bento 07 - 07 jeff
+
+# jose carlos 02 - 03 jeff
+
+# jeff 6x5

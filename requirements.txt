@@ -5,3 +5,5 @@ setuptools-version-command
 cx_Freeze
 coverage
 chess
+prettytable
+pandas
