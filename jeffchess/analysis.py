@@ -82,7 +82,7 @@ def padoca_championship_2022_02():
         print(ptable)
 
 def my_games():
-    # TODO implement  more detailed analisys
+    # TODO implement more detailed analisys
     total_errors = 0
     total_games = 0
     total_win_loss = 0
@@ -130,7 +130,11 @@ def my_games():
                     unknow_opponent += 1
 
                 if not game_result.is_undefined_game():
-                    leader_board[game.headers[game_result.opponent_color()]].count_result(game_result)
+                    try:
+                        leader_board[game.headers[game_result.opponent_color()]].count_result(game_result)
+                    except Exception as e:
+                        logging.error(Util.error("My games failed! {p}".format(p = path)))
+                        logging.error(Util.error(e))
                 else:
                     undefined_opponents += 1
 
