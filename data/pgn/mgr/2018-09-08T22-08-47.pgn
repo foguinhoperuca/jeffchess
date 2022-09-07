@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2018-09-08T22:08:47"]
+[White "João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "*"]
+[PlyCount "31"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 d6 5. Ng5 Nh6 6. Qh5 Qf6 7. Nf3 Bg4 8. Qg5 Nd4 9. Qxf6 gxf6 10. Nxd4 Bxd4 11. c3 Bb6 12. Bxh6 f5 13. Nd2 f4 14. f3 Bd7 15. g3 Be3 16. gxf4 *
