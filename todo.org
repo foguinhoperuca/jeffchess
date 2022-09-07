@@ -3,6 +3,10 @@
 ** Whatsapp
 *** DONE Apenas conferência de jogos que estão no google keep
 *** DONE 2017
+*** Conversas individuais wpp
+**** João Carlos Oliveira
+**** José Roberto Oliveira
+**** Demais jogadores
 *** TODO 2018
 **** DONE Until march/2018
 **** DONE Apr-May-13T10:19

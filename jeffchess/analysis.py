@@ -4,7 +4,8 @@ import csv
 import logging
 from collections import OrderedDict
 from pprint import pprint
-from prettytable import PrettyTable
+from prettytable import PrettyTable, ORGMODE
+from prettytable.colortable import ColorTable, Themes
 from util import Util
 from game import GameResult
 from player import OpponentStats
@@ -107,18 +108,29 @@ def my_games():
 
     with open("data/jeff_stats.csv", "w") as s:
         writer = csv.writer(s, delimiter = ";")
-        writer.writerow(["timestamp", "white", "black", "result"])
+        writer.writerow(["timestamp", "white", "black", "result", "filename"])
         for path in os.listdir("data/pgn/mgr/"):
             with open("data/pgn/mgr/" + path, encoding = "utf-8") as pgn:
                 total_games += 1
                 game = chess.pgn.read_game(pgn)
-                game_result = GameResult(game.headers["Date"], game.headers["White"], game.headers["Black"], game.headers["Result"])
+                game_result = GameResult(game.headers["Date"], game.headers["White"], game.headers["Black"], game.headers["Result"], path)
 
                 if len(game.errors) != 0:
                     logging.info(Util.error("file: {f}".format(f = path)))
                     total_errors += 1
 
-                writer.writerow([game.headers["Date"], game.headers["White"], game.headers["Black"], game.headers["Result"]])
+                # if path == "2018-10-23T21-12-54.pgn":
+                #     print("..............................")
+                #     print(f'game.headers["Date"]: {game.headers["Date"]!#\')
+                #     print(f'game.headers["White"]: {game.headers["White"]!#\')
+                #     print(f'game.headers["Black"]: {game.headers["Black"]!#\')
+                #     print(f'game.headers["Result"]: {game.headers["Result"]!#\')
+                #     print(f'path: {path!#\')
+                #     print(len(game.errors), game.errors)
+                #     print(game)
+                #     print("..............................")
+
+                writer.writerow([game.headers["Date"], game.headers["White"], game.headers["Black"], game.headers["Result"], path])
                 if game.headers["Result"] == "1-0" or game.headers["Result"] == "0-1":
                     total_win_loss += 1
                 elif game.headers["Result"] == "1/2-1/2":
@@ -144,27 +156,61 @@ def my_games():
     print(ptable)
     logging.debug(Util.info("total_games: {g} - total_win_loss: {f} - total unfinished: {u} - total_draw:{d} - unknow_opponent: {k} - undefined_opponents: {o} - total_errors: {e}".format(u = unfinished, e = total_errors, g = total_games, f = total_win_loss, d = total_draws, k = unknow_opponent, o = undefined_opponents)))
 
-    leader_board_table = PrettyTable()
+    # TODO get more themes
+    leader_board_table = ColorTable(theme=Themes.OCEAN) # PrettyTable()
+    # leader_board_table.set_style(ORGMODE) # only works with PrettyTable
     leader_board_table.field_names = [
         'Player',
-        'W Wins',
-        'B Wins',
-        'T Wins',
-        'W Losses',
-        'B Losses',
-        'T Losses',
-        'W Draws',
-        'B Draws',
-        'T Draws',
-        'W Unfin',
-        'B Unfin',
-        'T Unfin',
-        'W Games',
-        'B Games',
-        'T Games'
+        'W W', # 'W Wins',
+        'B W', # 'B Wins',
+        'T W', # 'T Wins',
+        'W L', # 'W Losses',
+        'B L', # 'B Losses',
+        'T L', # 'T Losses',
+        'W D', # 'W Draws',
+        'B D', # 'B Draws',
+        'T D', # 'T Draws',
+        'W U', # 'W Unfin',
+        'B U', # 'B Unfin',
+        'T U', # 'T Unfin',
+        'W G', # 'W Games',
+        'B G', # 'B Games',
+        'T G'  # 'T Games'
     ]
-    
+    leader_board_table.align["Player"] = "l"
+
+    total_white_wins = 0
+    total_black_wins = 0
+    total_wins = 0
+    total_white_losses = 0
+    total_black_losses = 0
+    total_losses = 0
+    total_white_draws = 0
+    total_black_draws = 0
+    total_draws = 0
+    total_white_unfinished = 0
+    total_black_unfinished = 0
+    total_unfinished = 0
+    total_white_games = 0
+    total_black_games = 0
+    total_games = 0
     for key, player in leader_board.items():
+        total_white_wins += player.white["wins"]
+        total_black_wins += player.black["wins"]
+        total_wins += player.white["wins"] + player.black["wins"]
+        total_white_losses += player.white["losses"]
+        total_black_losses += player.black["losses"]
+        total_losses += player.white["losses"] + player.black["losses"]
+        total_white_draws += player.white["draws"]
+        total_black_draws += player.black["draws"]
+        total_draws += player.white["draws"] + player.black["draws"]
+        total_white_unfinished += player.white["unfinished"]
+        total_black_unfinished += player.black["unfinished"]
+        total_unfinished += player.white["unfinished"] + player.black["unfinished"]
+        total_white_games += player.white["wins"] + player.white["losses"] + player.white["draws"] + player.white["unfinished"]
+        total_black_games += player.black["wins"] + player.black["losses"] + player.black["draws"] + player.black["unfinished"]
+        total_games += (player.white["wins"] + player.black["wins"]) + (player.white["losses"] + player.black["losses"]) + (player.white["draws"] + player.black["draws"]) + (player.white["unfinished"] + player.black["unfinished"])
+
         leader_board_table.add_row([
             player.name,
             player.white["wins"],
@@ -183,8 +229,45 @@ def my_games():
             player.black["wins"] + player.black["losses"] + player.black["draws"] + player.black["unfinished"],
             (player.white["wins"] + player.black["wins"]) + (player.white["losses"] + player.black["losses"]) + (player.white["draws"] + player.black["draws"]) + (player.white["unfinished"] + player.black["unfinished"])
         ])
-    
+
+    leader_board_table.add_row([
+        "-------------------------------",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--",
+        "--"
+    ])
+    leader_board_table.add_row([
+        "TOTAL",
+        total_white_wins,
+        total_black_wins,
+        total_wins,
+        total_white_losses,
+        total_black_losses,
+        total_losses,
+        total_white_draws,
+        total_black_draws,
+        total_draws,
+        total_white_unfinished,
+        total_black_unfinished,
+        total_unfinished,
+        total_white_games,
+        total_black_games,
+        total_games
+    ])
     print(leader_board_table)
+    print("A B --> (A) [White | Black | Total]; (B) [Wins | Losses | Draws | Unfinished | Games]")
 
 def debug_game(game):
     logging.debug(Util.debug("Game was: {g}".format(g = game)))

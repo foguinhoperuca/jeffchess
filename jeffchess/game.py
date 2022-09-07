@@ -7,12 +7,14 @@ class GameResult():
     _white = None
     _black = None
     _result = None
+    _filename = None
 
-    def __init__(self, timestamp, white, black, result, target_player = "Jefferson Campos"):
+    def __init__(self, timestamp, white, black, result, filename, target_player = "Jefferson Campos"):
         self._timestamp = timestamp
         self._white = white
         self._black = black
         self._result = result
+        self._filename = filename
         self._target_player = target_player
 
     def target_player_result(self, tp):
