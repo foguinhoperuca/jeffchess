@@ -1,3 +1,16 @@
+* jeffchess
+** Implementar aproveitamento:
+|---------------------------------+--------+------------+-------------+-----|
+| Player                          | Points | Unfinished | Total Games |   % |
+|---------------------------------+--------+------------+-------------+-----|
+| João Carlos Oliveira            |     10 |          3 |          22 | 50% |
+| Emerson Sbrana                  |    9.5 |          1 |          16 | 60% |
+| Jefferson Campos                |    7.5 |          3 |          12 | 54% |
+| José Carlos Bento Dias da Rocha |    7.5 |          0 |          15 | 50% |
+| José Roberto Oliveira           |      7 |          1 |          21 | 35% |
+| Mário Sérgio Bueno Miranda      |    1.5 |          0 |           6 | 25% |
+| Jefferson Nunes                 |      0 |          0 |           1 | 00% |
+|---------------------------------+--------+------------+-------------+-----|
 * My games
 ** DONE Google Keep
 ** Whatsapp
