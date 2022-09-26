@@ -3,11 +3,12 @@
 [Date "2022-08-23T21:03:40"]
 [White "Emerson Sbrana"]
 [Black "Jefferson Campos"]
-[Result "*"]
-[PlyCount "21"]
+[Result "0-1"]
+[PlyCount "27"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "abandoned"]
 
 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. Ng5 Qxg5 5. d4 Qxg2 6. Rf1 Qxe4+ 7. Qe2 Qxe2+ 8. Bxe2 Nxd4 9. Kd1 b6 10. b3 d6 11. Bd3 *
-{Partida interrompida pois o Emerson necessitou sair}
+{Partida interrompida pois o Emerson necessitou sair. Continuada em 2022-09-20T19:11:52 com FEN "r1b1k1nr/p1p2ppp/1p1p4/2b1p3/3n4/1P1B4/P1P2P1P/RNBK1R2 b kq - 1 11"}
+11... Bg4+ 12. Kd2 Nf3+ 13. Kc3 Bd4+ 14. Kb4 {partida abandonada pelas brancas pois o blunder comprometeu a partida e o rei já estava em uma rede de mate}

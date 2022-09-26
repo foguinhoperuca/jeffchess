@@ -34,7 +34,7 @@ timestamp;white;black;result;observation
 2022-08-16;José Roberto Oliveira;Emerson Sbrana;0-1;
 2022-08-16;João Carlos Oliveira;Emerson Sbrana;0-1;
 2022-08-16;José Roberto Oliveira;João Carlos Oliveira;1-0;Finalizada em 2022-08-30
-2022-08-23;Emerson Sbrana;Jefferson Campos;*;Partida não finalizada. Brancas cometem um blunder com o cavalo.
+2022-08-23;Emerson Sbrana;Jefferson Campos;0-1;Partida não finalizada. Brancas cometem um blunder com o cavalo. Finalizado em 2022-09-20.
 2022-08-23;José Roberto Oliveira;Mário Sérgio Bueno Miranda;1-0;
 2022-08-23;João Carlos Oliveira;José Carlos Bento Dias da Rocha;0-1;
 2022-08-30;Jefferson Campos;José Carlos Bento Dias da Rocha;1-0;Partida finalizada em 2022-09-06
@@ -46,3 +46,14 @@ timestamp;white;black;result;observation
 2022-09-13;João Carlos Oliveira;Jefferson Campos;0-1;
 2022-09-13;José Carlos Bento Dias da Rocha;Emerson Sbrana;0,5-0,5;
 2022-09-13;João Carlos Oliveira;José Roberto Oliveira;*;
+2022-09-20;Jefferson Campos;Emerson Sbrana;0,5-0,5;
+2022-09-20;Jefferson Campos;Rodrigo de Guimarães Azevedo;1-0;
+2022-09-20;Rodrigo de Guimarães Azevedo;Jefferson Campos;*;
+2022-09-20;Jefferson Nunes;Rodrigo de Guimarães Azevedo;1-0;
+2022-09-20;Rodrigo de Guimarães Azevedo;Jefferson Nunes;0-1;
+2022-09-20;Emerson Sbrana;Jefferson Nunes;1-0;
+2022-09-20;João Carlos Oliveira;Mário Sérgio Bueno Miranda;1-0;
+2022-09-20;Mário Sérgio Bueno Miranda;João Carlos Oliveira;0-1;
+2022-09-20;Mário Sérgio Bueno Miranda;João Carlos Oliveira;0-1;
+2022-09-20;José Carlos Bento Dias da Rocha;José Roberto Oliveira;1-0;
+2022-09-20;José Roberto Oliveira;José Carlos Bento Dias da Rocha;0-1;

@@ -44,6 +44,10 @@ def padoca_championship_2022_02():
                 "points": 0,
                 "unfinished": 0
             },
+            "Rodrigo de Guimarães Azevedo": {
+                "points": 0,
+                "unfinished": 0
+            }
         }
         for row in csv_reader:
             if total_games == 0:
@@ -103,6 +107,7 @@ def my_games():
         "José Roberto Oliveira": OpponentStats("José Roberto Oliveira"),
         "João Carlos Oliveira": OpponentStats("João Carlos Oliveira"),
         "Mário Sérgio Bueno de Miranda": OpponentStats("Mário Sérgio Bueno de Miranda"),
+        "Rodrigo de Guimarães Azevedo": OpponentStats("Rodrigo de Guimarães Azevedo"),
         "?": OpponentStats("?")
     }
 
