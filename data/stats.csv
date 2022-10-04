@@ -45,10 +45,10 @@ timestamp;white;black;result;observation
 2022-09-06;Emerson Sbrana;José Roberto Oliveira;1-0;
 2022-09-13;João Carlos Oliveira;Jefferson Campos;0-1;
 2022-09-13;José Carlos Bento Dias da Rocha;Emerson Sbrana;0,5-0,5;
-2022-09-13;João Carlos Oliveira;José Roberto Oliveira;*;
+2022-09-13;João Carlos Oliveira;José Roberto Oliveira;0-1;Brancas abandonam
 2022-09-20;Jefferson Campos;Emerson Sbrana;0,5-0,5;
 2022-09-20;Jefferson Campos;Rodrigo de Guimarães Azevedo;1-0;
-2022-09-20;Rodrigo de Guimarães Azevedo;Jefferson Campos;*;
+2022-09-20;Rodrigo de Guimarães Azevedo;Jefferson Campos;0-1;Finalizada em 2022-09-27
 2022-09-20;Jefferson Nunes;Rodrigo de Guimarães Azevedo;1-0;
 2022-09-20;Rodrigo de Guimarães Azevedo;Jefferson Nunes;0-1;
 2022-09-20;Emerson Sbrana;Jefferson Nunes;1-0;
@@ -58,3 +58,13 @@ timestamp;white;black;result;observation
 2022-09-20;José Carlos Bento Dias da Rocha;José Roberto Oliveira;1-0;
 2022-09-20;José Roberto Oliveira;José Carlos Bento Dias da Rocha;0-1;
 2022-09-20;José Carlos Bento Dias da Rocha;José Roberto Oliveira;*;
+2022-09-27;Jefferson Campos;Erick de Briito Melo;1-0;
+2022-09-27;Erick de Briito Melo;Jefferson Campos;*;
+2022-09-27;Jefferson Nunes;Erick de Briito Melo;1-0;
+2022-09-27;João Carlos Oliveira;Emerson Sbrana;0-1;
+2022-09-27;Erick de Briito Melo;Isac nunes;1-0;
+2022-09-27;José Carlos Bento Dias da Rocha;José Roberto Oliveira;0-1;
+2022-09-27;Jefferson Nunes;Emerson Sbrana;1-0;
+2022-09-27;João Carlos Oliveira;Rodrigo de Guimarães Azevedo;1-0;
+2022-09-27;Jefferson Nunes;João Carlos Oliveira;1-0;
+2022-09-27;José Carlos Bento Dias da Rocha;José Roberto Oliveira;0-1;
