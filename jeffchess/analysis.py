@@ -10,9 +10,9 @@ from util import Util
 from game import GameResult
 from player import OpponentStats
 
-def padoca_championship_2022_02():
+def padoca_championship(championship_data_file = "stats.csv"):
     # TODO calc keys instead hard code it! }
-    with open("data/stats.csv") as stats:
+    with open(f"data/{championship_data_file}") as stats:
         csv_reader = csv.reader(stats, delimiter = ';')
         total_games = 0
         classification = {
@@ -44,7 +44,11 @@ def padoca_championship_2022_02():
                 "points": 0,
                 "unfinished": 0
             },
-            "Rodrigo de Guimarães Azevedo": {
+            "Rodrigo Guimarães de Azevedo": {
+                "points": 0,
+                "unfinished": 0
+            },
+            "Erick de Brito Melo": {
                 "points": 0,
                 "unfinished": 0
             }
@@ -107,7 +111,8 @@ def my_games():
         "José Roberto Oliveira": OpponentStats("José Roberto Oliveira"),
         "João Carlos Oliveira": OpponentStats("João Carlos Oliveira"),
         "Mário Sérgio Bueno de Miranda": OpponentStats("Mário Sérgio Bueno de Miranda"),
-        "Rodrigo de Guimarães Azevedo": OpponentStats("Rodrigo de Guimarães Azevedo"),
+        "Rodrigo Guimarães de Azevedo": OpponentStats("Rodrigo de Guimarães Azevedo"),
+        "Erick de Brito Melo": OpponentStats("Erick de Brito Melo"),
         "?": OpponentStats("?")
     }
 
@@ -280,3 +285,9 @@ def debug_game(game):
         game = chess.pgn.read_game(pgn)
         print(len(game.errors), game.errors)
         print(game)
+
+def extract_opponent_from_my_games(player = "Jefferson Campos"):
+    pass
+
+def extract_players_from_championship(championship_data_file = "stats.csv"):
+    pass

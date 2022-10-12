@@ -37,7 +37,9 @@ if __name__ == "__main__":
     if args.debug_game:
         analysis.debug_game(args.debug_game)
     elif args.stats == "padoca-2022-02":
-        analysis.padoca_championship_2022_02()
+        analysis.padoca_championship("stats.csv")
+    elif args.stats == "padoca-cup-2022":
+        analysis.padoca_championship("padoca_cup_2022.csv")
     elif args.stats == "jeff":
         analysis.my_games()
     else:

@@ -1,0 +1,12 @@
+[Event "Padoca's Cup 2022"]
+[Site "https://lichess.org"]
+[Date "2022-10-04T20:07:28"]
+[White "Emerson Sbrana"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "81"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Bc4 Nf6 3. f3 Bc5 4. d3 Nc6 5. Ne2 O-O 6. Nbc3 d6 7. b3 Bb4 8. Bb2 Na5 9. a3 Nxc4 10. dxc4 Bc5 11. Na4 Be3 12. Qd3 Bh6 13. O-O a6 14. Rad1 Bd7 15. Nac3 Rb8 16. Nd5 b5 17. c5 dxc5 18. Nxf6+ Qxf6 19. Qxd7 Rbd8 20. Qxc7 Rc8 21. Qxe5 Qg6 22. Rd6 Qg5 23. Qxg5 Bxg5 24. Rxa6 Rcd8 25. Ng3 Rd2 26. Bc1 Be3+ 27. Kh1 Rf2 28. Bxe3 Rxf1+ 29. Nxf1 Rd8 30. Nd2 h6 31. Rc6 c4 32. bxc4 bxc4 33. Rxc4 Rb8 34. h3 Kh7 35. a4 Kg6 36. a5 Kh5 37. Ra4 Kh4 38. a6 Kg3 39. e5 Rb1+ 40. Bg1 Rd1 41. Rg4# 1-0
