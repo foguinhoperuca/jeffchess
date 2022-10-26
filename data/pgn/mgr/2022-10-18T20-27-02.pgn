@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-10-18T20:27:02"]
+[White "Vicente Rodrigues de Moraes"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "54"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e3 e5 2. d4 Nc6 3. Nc3 Nf6 4. Nh3 Bb4 5. a3 Ba5 6. Ng5 Nd5 7. Bc4 Nxc3 8. bxc3 Qxg5 9. h4 Qxg2 10. Rf1 Bxc3+ 11. Bd2 Bxa1 12. Qxa1 d6 13. d5 Ne7 14. f4 Bg4 15. Rf2 Qh1+ 16. Rf1 Qxh4+ 17. Rf2 f6 18. Qb1 O-O-O 19. fxe5 fxe5 20. e4 Rhf8 21. Be3 Qh1+ 22. Bf1 Rxf2 23. Kxf2 Qf3+ 24. Kg1 Qxe3+ 25. Kg2 Rf8 26. Qb4 Qh3+ 27. Kg1 Rxf1# 0-1

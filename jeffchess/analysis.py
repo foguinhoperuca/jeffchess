@@ -51,6 +51,10 @@ def padoca_championship(championship_data_file = "stats.csv"):
             "Erick de Brito Melo": {
                 "points": 0,
                 "unfinished": 0
+            },
+            "Vicente Rodrigues de Moraes": {
+                "points": 0,
+                "unfinished": 0
             }
         }
         for row in csv_reader:
@@ -113,6 +117,7 @@ def my_games():
         "Mário Sérgio Bueno de Miranda": OpponentStats("Mário Sérgio Bueno de Miranda"),
         "Rodrigo Guimarães de Azevedo": OpponentStats("Rodrigo de Guimarães Azevedo"),
         "Erick de Brito Melo": OpponentStats("Erick de Brito Melo"),
+        "Vicente Rodrigues de Moraes": OpponentStats("Erick de Brito Melo"),
         "?": OpponentStats("?")
     }
 

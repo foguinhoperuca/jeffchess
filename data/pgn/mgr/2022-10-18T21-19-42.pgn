@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-10-18T21:19:42"]
+[White "Jefferson Campos"]
+[Black "Erick de Brito Melo"]
+[Result "1-0"]
+[PlyCount "77"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Na5 4. d3 d6 5. c3 Be6 6. Bb5+ c6 7. Ba4 b5 8. Bc2 Nf6 9. O-O d5 10. exd5 cxd5 11. Nxe5 Bd6 12. d4 Bxe5 13. dxe5 Ne4 14. Nd2 Nc6 15. Nxe4 dxe4 16. Bxe4 Nxe5 17. Bxa8 Qxa8 18. Re1 Qb8 19. Bf4 f6 20. Qd4 Qb6 21. Rad1 Bxa2 22. Qxb6 axb6 23. Ra1 Bd5 24. Ra6 O-O 25. Rxb6 Nd3 26. Bd2 Nxb2 27. Rxb5 Rb8 28. Rxb8+ Kf7 29. Rxb2 h5 30. Rb5 Kg6 31. Rxd5 Kf7 32. c4 g5 33. c5 Kf8 34. c6 Kf7 35. c7 h4 36. c8=Q Kg7 37. Qf5 Kf7 38. Qh7+ Kf8 39. Rd8# 1-0
