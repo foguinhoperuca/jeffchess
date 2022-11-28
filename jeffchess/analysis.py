@@ -18,43 +18,93 @@ def padoca_championship(championship_data_file = "stats.csv"):
         classification = {
             "Emerson Sbrana": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "Jefferson Campos": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "Jefferson Nunes": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "João Carlos Oliveira": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "José Carlos Bento Dias da Rocha": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "José Roberto Oliveira": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "Mário Sérgio Bueno Miranda": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "Rodrigo Guimarães de Azevedo": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "Erick de Brito Melo": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             },
             "Vicente Rodrigues de Moraes": {
                 "points": 0,
-                "unfinished": 0
+                "unfinished": 0,
+                "wins": 0,
+                "losses": 0,
+                "draws": 0,
+                "total_games": 0,
+                "lost_points": 0
             }
         }
         for row in csv_reader:
@@ -67,17 +117,35 @@ def padoca_championship(championship_data_file = "stats.csv"):
                 case "1-0":
                     logging.debug("white wins! white: {w} - black {b} - result: {r}".format(w = row[1], b = row[2], r = row[3]))
                     classification[row[1]]["points"] += 1
+                    classification[row[1]]["wins"] += 1
+                    classification[row[2]]["losses"] += 1
+                    classification[row[1]]["total_games"] += 1
+                    classification[row[2]]["total_games"] += 1
+                    classification[row[2]]["lost_points"] += 1
                 case "0-1":
                     logging.debug("black wins! white: {w} - black {b} - result: {r}".format(w = row[1], b = row[2], r = row[3]))
                     classification[row[2]]["points"] += 1
+                    classification[row[2]]["wins"] += 1
+                    classification[row[1]]["losses"] += 1
+                    classification[row[2]]["total_games"] += 1
+                    classification[row[1]]["total_games"] += 1
+                    classification[row[1]]["lost_points"] += 1
                 case "0,5-0,5":
                     logging.debug("draw! white: {w} - black {b} - result: {r}".format(w = row[1], b = row[2], r = row[3]))
                     classification[row[1]]["points"] += 0.5
                     classification[row[2]]["points"] += 0.5
+                    classification[row[1]]["draws"] += 1
+                    classification[row[2]]["draws"] += 1
+                    classification[row[1]]["total_games"] += 1
+                    classification[row[2]]["total_games"] += 1
+                    classification[row[1]]["lost_points"] += 0.5
+                    classification[row[2]]["lost_points"] += 0.5
                 case "*":
                     logging.debug("unfinished! white: {w} - black {b} - result: {r}".format(w = row[1], b = row[2], r = row[3]))
                     classification[row[1]]["unfinished"] += 1
                     classification[row[2]]["unfinished"] += 1
+                    classification[row[1]]["total_games"] += 1
+                    classification[row[2]]["total_games"] += 1
                 case _:
                     logging.debug("got an invalid value! white: {w} - black {b} - result: {r}".format(w = row[1], b = row[2], r = row[3]))
 
@@ -85,11 +153,11 @@ def padoca_championship(championship_data_file = "stats.csv"):
 
         od = OrderedDict(sorted(classification.items(), key = lambda x: x[1]["points"], reverse = True))
         ptable = PrettyTable()
-        ptable.field_names = ['Player', 'Points', 'Unfinished']
+        ptable.field_names = ['Player', 'Points', 'Unfinished', 'Wins', 'Losses', 'Draws', 'Total Games', 'Lost Points']
 
         for key, value in od.items():
-            points, unfinished = value.items()
-            ptable.add_row([key, points[1], unfinished[1]])
+            points, unfinished, wins, losses, draws, total_games, lost_points = value.items()
+            ptable.add_row([key, points[1], unfinished[1], wins[1], losses[1], draws[1], total_games[1], lost_points[1]])
 
         logging.debug(Util.debug("args: {v}".format(v = od)))
         print(ptable)
