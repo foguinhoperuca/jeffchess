@@ -10,7 +10,7 @@ from util import Util
 from game import GameResult
 from player import OpponentStats
 
-def padoca_championship(championship_data_file = "stats.csv"):
+def padoca_championship(championship_data_file="stats.csv", set_unfinished_column=True):
     # TODO calc keys instead hard code it! }
     with open(f"data/{championship_data_file}") as stats:
         csv_reader = csv.reader(stats, delimiter = ';')
@@ -153,11 +153,17 @@ def padoca_championship(championship_data_file = "stats.csv"):
 
         od = OrderedDict(sorted(classification.items(), key = lambda x: x[1]["points"], reverse = True))
         ptable = PrettyTable()
-        ptable.field_names = ['Player', 'Points', 'Unfinished', 'Wins', 'Losses', 'Draws', 'Total Games', 'Lost Points']
+        if set_unfinished_column:
+            ptable.field_names = ['Player', 'Points', 'Unfinished', 'Wins', 'Losses', 'Draws', 'Total Games', 'Lost Points']
+        else:
+            ptable.field_names = ['Player', 'Points', 'Wins', 'Losses', 'Draws', 'Total Games', 'Lost Points']
 
         for key, value in od.items():
             points, unfinished, wins, losses, draws, total_games, lost_points = value.items()
-            ptable.add_row([key, points[1], unfinished[1], wins[1], losses[1], draws[1], total_games[1], lost_points[1]])
+            if set_unfinished_column:
+                ptable.add_row([key, points[1], unfinished[1], wins[1], losses[1], draws[1], total_games[1], lost_points[1]])
+            else:
+                ptable.add_row([key, points[1], wins[1], losses[1], draws[1], total_games[1], lost_points[1]])
 
         logging.debug(Util.debug("args: {v}".format(v = od)))
         print(ptable)

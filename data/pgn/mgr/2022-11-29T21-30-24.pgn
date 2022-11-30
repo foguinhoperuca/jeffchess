@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2022-11-29T21:30:24"]
+[White "João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "64"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nf6 3. Bc4 Nc6 4. d3 Bc5 5. h3 h6 6. Nc3 d6 7. a3 Nd4 8. Be3 a6 9. Na4 Ba7 10. Nc3 Be6 11. Bxe6 Nxe6 12. Bxa7 Rxa7 13. O-O O-O 14. Nh4 Nxe4 15. Nxe4 Qxh4 16. Qf3 Nd4 17. Qd1 c5 18. Nxd6 b5 19. c3 Ne6 20. Nf5 Qg5 21. Ng3 Rd8 22. Ne4 Qg6 23. f3 Nf4 24. g4 Nxh3+ 25. Kh2 Nf4 26. Nxc5 Rd5 27. b4 a5 28. Re1 Nxd3 29. Re3 Nf4 30. Qe1 Qc2+ 31. Kg3 Qg2+ 32. Kh4 Qh3# 0-1

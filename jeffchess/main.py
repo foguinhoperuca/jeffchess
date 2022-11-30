@@ -39,7 +39,7 @@ if __name__ == "__main__":
     elif args.stats == "padoca-2022-02":
         analysis.padoca_championship("stats.csv")
     elif args.stats == "padoca-cup-2022":
-        analysis.padoca_championship("padoca_cup_2022.csv")
+        analysis.padoca_championship(championship_data_file="padoca_cup_2022.csv", set_unfinished_column=False)
     elif args.stats == "jeff":
         analysis.my_games()
     else:
