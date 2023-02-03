@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-01-10T21:34:43"]
+[White "Jefferson Campos"]
+[Black "João Carlos Oliveira"]
+[Result "1/2-1/2"]
+[PlyCount "109"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Bc5 5. d3 a6 6. Nbd2 d6 7. h3 Nf6 8. Bb3 O-O 9. O-O Re8 10. Re1 Be6 11. Bc2 b5 12. Nf1 Ne7 13. Ng3 Ng6 14. d4 exd4 15. cxd4 Bb6 16. e5 dxe5 17. dxe5 Qxd1 18. Rxd1 Nd7 19. Nd4 Bxd4 20. Rxd4 Ngxe5 21. Bf4 g5 22. Bxe5 Nxe5 23. f4 Nc6 24. Re4 f5 25. Re2 gxf4 26. Nxf5 f3 27. gxf3 Bxf5 28. Rxe8+ Rxe8 29. Bxf5 Nd4 30. Be4 Rf8 31. Kf2 c5 32. Rg1+ Kh8 33. Rg6 a5 34. Rxh6+ Kg7 35. Rg6+ Kf7 36. h4 Rh8 37. Kg3 Rg8 38. h5 Rxg6+ 39. hxg6+ Kf6 40. Kg4 Ne6 41. f4 Ng7 42. f5 c4 43. Bc6 b4 44. Ba4 Nxf5 45. Bc2 Ne3+ 46. Kh5 Kg7 47. Ba4 c3 48. bxc3 bxc3 49. Kg5 c2 50. Bxc2 Nxc2 51. Kf5 a4 52. Ke5 a3 53. Kd5 Nb4+ 54. Kc4 Nxa2 55. Kb3 *
