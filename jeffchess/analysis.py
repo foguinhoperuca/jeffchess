@@ -11,7 +11,8 @@ from game import GameResult
 from player import OpponentStats
 
 def padoca_championship(championship_data_file="stats.csv", set_unfinished_column=True):
-    # TODO calc keys instead hard code it! }
+    # TODO calc keys instead hard code it!
+    # TODO implement ignored player (optional)
     with open(f"data/{championship_data_file}") as stats:
         csv_reader = csv.reader(stats, delimiter = ';')
         total_games = 0
@@ -106,6 +107,15 @@ def padoca_championship(championship_data_file="stats.csv", set_unfinished_colum
                 "total_games": 0,
                 "lost_points": 0
             }
+            # ,"Isac Nunes": { }
+            #     "points": 0, }
+            #     "unfinished": 0, }
+            #     "wins": 0, }
+            #     "losses": 0, }
+            #     "draws": 0, }
+            #     "total_games": 0, }
+            #     "lost_points": 0 }
+            # !#\ }
         }
         for row in csv_reader:
             if total_games == 0:
@@ -191,7 +201,7 @@ def my_games():
         "Mário Sérgio Bueno de Miranda": OpponentStats("Mário Sérgio Bueno de Miranda"),
         "Rodrigo Guimarães de Azevedo": OpponentStats("Rodrigo de Guimarães Azevedo"),
         "Erick de Brito Melo": OpponentStats("Erick de Brito Melo"),
-        "Vicente Rodrigues de Moraes": OpponentStats("Erick de Brito Melo"),
+        "Vicente Rodrigues de Moraes": OpponentStats("Vicente Rodrigues de Moraes"),
         "?": OpponentStats("?")
     }
 
