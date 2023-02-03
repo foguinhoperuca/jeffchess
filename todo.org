@@ -1,4 +1,9 @@
 * jeffchess
+** Implementar gerador de tabelas:
+*** https://pt.wikipedia.org/wiki/Competi%C3%A7%C3%B5es_de_todos_contra_todos
+*** http://www.biasoli.com/torneios/gera_torneio1.php
+*** https://tabelas.fiatjaf.com/torneios
+*** https://copafacil.com/
 ** Implementar aproveitamento:
 |---------------------------------+--------+------------+-------------+-----|
 | Player                          | Points | Unfinished | Total Games |   % |

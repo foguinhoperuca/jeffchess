@@ -33,6 +33,7 @@ if __name__ == "__main__":
     if args.verbose:
         logging.debug(Util.debug("args: {v}".format(v = vars(args))))
 
+    # TODO implement validation of game result (José roberto Oliveira vs Emerson Sbrana) was 2x
     stats = None
     if args.debug_game:
         analysis.debug_game(args.debug_game)
@@ -42,6 +43,10 @@ if __name__ == "__main__":
         analysis.padoca_championship(championship_data_file="padoca_cup_2022.csv", set_unfinished_column=False)
     elif args.stats == "jeff":
         analysis.my_games()
+
+    elif args.stats == "games_by_player":
+        analysis.games_by_player("Jefferson Campos")
+
     else:
         logging.error(Util.error("Can't work!! Please, inform all parameters!!"))
         sys.exit("Failed execution. Please, see the log above.")

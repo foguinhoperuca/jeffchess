@@ -10,6 +10,68 @@ from util import Util
 from game import GameResult
 from player import OpponentStats
 
+ALL_PLAYERS = [
+    "Jefferson Campos",
+    "Emerson Sbrana",
+    "José Carlos Bento Dias da Rocha",
+    "Jefferson Nunes",
+    "João Carlos Oliveira",
+    "Mário Sérgio Bueno Miranda",
+    "José Roberto Oliveira",
+    "Erick de Brito Melo",
+    "Rodrigo Guimarães de Azevedo",
+    "Vicente Rodrigues de Moraes"
+]
+
+def games_by_player(choosen_player='Jefferson Campos'):
+    total_games_white = 0
+    total_missing_white = 0
+    total_games_black = 0
+    total_missing_black = 0
+    players = list(filter(lambda p: p != choosen_player, ALL_PLAYERS))
+    players_table = ColorTable(theme=Themes.OCEAN) # PrettyTable()
+    players_table.field_names = [
+        'Round',
+        'White',
+        'Result',
+        'Black',
+        'Date'
+    ]
+
+    with open(f"data/padoca_cup_2022.csv") as stats:
+        games_choosen_player = list(filter(lambda row: (row[1] == choosen_player or row[2] == choosen_player), csv.reader(stats, delimiter = ';')))
+
+    for index, player in enumerate(players):
+        game = list(filter(lambda g: g[1] == choosen_player and g[2] == player, games_choosen_player))
+        if len(game) > 0:
+            game_result = game[0][3]
+            game_date = game[0][0]
+            total_games_white += 1
+        else:
+            game_result = '?-?'
+            game_date = 'YYYY-MM-DD'
+            total_missing_white += 1
+
+        players_table.add_row([index + 1, choosen_player, game_result, player, game_date])
+
+    for index, player in enumerate(players):
+        game = list(filter(lambda g: g[1] == player and g[2] == choosen_player, games_choosen_player))
+        if len(game) > 0:
+            game_result = game[0][3]
+            game_date = game[0][0]
+            total_games_black += 1
+        else:
+            game_result = '?-?'
+            game_date = 'YYYY-MM-DD'
+            total_missing_black += 1
+
+        players_table.add_row([(len(players) + (index + 1)), player, game_result, choosen_player, game_date])
+
+    print(players_table)
+    print(f"{total_games_white = } {total_missing_white = }")
+    print(f"{total_games_black = } {total_missing_black = }")
+
+# FIXME draws isn't working - See José Carlos Bento Dias da Rocha }
 def padoca_championship(championship_data_file="stats.csv", set_unfinished_column=True):
     # TODO calc keys instead hard code it!
     # TODO implement ignored player (optional)
