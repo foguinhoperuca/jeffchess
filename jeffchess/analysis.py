@@ -23,6 +23,19 @@ ALL_PLAYERS = [
     "Vicente Rodrigues de Moraes"
 ]
 
+ALL_PLAYERS_NAME_NICKNAMES = {
+    "Jefferson Campos":                "Jefferson Campos ",
+    "Emerson Sbrana":                  "Emerson Sbrana   ",
+    "José Carlos Bento Dias da Rocha": "José C B D Rocha ",
+    "Jefferson Nunes":                 "Jefferson Nunes  ",
+    "João Carlos Oliveira":            "João C Oliveira  ",
+    "Mário Sérgio Bueno Miranda":      "Mário S B Miranda",
+    "José Roberto Oliveira":           "José R Oliveira  ",
+    "Erick de Brito Melo":             "Erick Brito Melo ",
+    "Rodrigo Guimarães de Azevedo":    "Rodrigo G Azevedo",
+    "Vicente Rodrigues de Moraes":     "Vicente R Moraes "
+}
+
 def games_by_player(choosen_player='Jefferson Campos'):
     total_games_white = 0
     total_missing_white = 0
@@ -68,8 +81,78 @@ def games_by_player(choosen_player='Jefferson Campos'):
         players_table.add_row([(len(players) + (index + 1)), player, game_result, choosen_player, game_date])
 
     print(players_table)
-    print(f"{total_games_white = } {total_missing_white = }")
-    print(f"{total_games_black = } {total_missing_black = }")
+    print(Util.white_piece(f"{total_games_white = } {total_missing_white = }"))
+    print(Util.black_piece(f"{total_games_black = } {total_missing_black = }"))
+
+def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv"):
+    players = ALL_PLAYERS
+    # players = [
+    #     "Jefferson Campos",
+    #     "Emerson Sbrana",
+    #     "José Carlos Bento Dias da Rocha",
+    #     "Jefferson Nunes",
+    #     "João Carlos Oliveira",
+    #     "José Roberto Oliveira"
+    # ]
+
+    # players = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
+    # players = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
+    # players = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+    # players = ['A', 'B', 'C', 'D', 'E', 'F']
+    # players = ['A', 'B', 'C', 'D']
+    middle = int(len(players) / 2)
+    up = players[0:middle]
+    down = players[middle:len(players)]
+    # print(f"{players} {up} {down} {middle}")
+
+    with open(f"data/padoca_cup_2022.csv") as stats:
+        games = list(csv.reader(stats, delimiter = ';'))
+
+    for match_game in range(1, len(players), 1):
+        print(f"Match #{match_game}")
+        match_table = ColorTable(theme=Themes.OCEAN)
+        match_table.field_names = [
+            'Match',
+            Util.white_piece('White (1)'),
+            'Result (1)',
+            Util.black_piece('Black (1)'),
+            'Date (1)',
+            Util.white_piece('White (2)'),
+            'Result (2)',
+            Util.black_piece('Black (2)'),
+            'Date (2)'
+        ]
+
+        for index, player in enumerate(up):
+            match_game_tbl = match_game if index == 0 else ''
+            not_played_yet = ['YYYY-MM-DD', player, down[index], '?-?', 'Not played yet!']
+            white_1 = ALL_PLAYERS_NAME_NICKNAMES[player]
+            black_1 = ALL_PLAYERS_NAME_NICKNAMES[down[index]]
+            white_2 = ALL_PLAYERS_NAME_NICKNAMES[down[index]]
+            black_2 = ALL_PLAYERS_NAME_NICKNAMES[player]
+
+            game_1 = list(filter(lambda row: row[1] == player and row[2] == down[index], games))
+            g1 = game_1[0] if len(game_1) > 0 else not_played_yet
+
+            game_2 = list(filter(lambda row: row[1] == down[index] and row[2] == player, games))
+            g2 = game_2[0] if len(game_2) > 0 else not_played_yet
+
+            # print(f"{game_1}")
+            # print(f"{g1}")
+            # print("-----------")
+            # print(f"{game_2}")
+            # print(f"{g2}")
+            # print("===========")
+            # breakpoint()
+
+            match_table.add_row([Util.warning(match_game_tbl), Util.white_piece(f' {white_1} '), g1[3], Util.black_piece(f' {black_1} '), g1[0], Util.white_piece(f' {white_2} '), g2[3], Util.black_piece(f' {black_2} '), g2[0]])
+
+        print(match_table)
+
+        tail = up.pop(len(up) - 1)
+        down.insert(len(down), tail)
+        head = down.pop(0)
+        up.insert(1, head)
 
 # FIXME draws isn't working - See José Carlos Bento Dias da Rocha }
 def padoca_championship(championship_data_file="stats.csv", set_unfinished_column=True):

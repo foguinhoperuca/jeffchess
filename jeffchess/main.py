@@ -45,7 +45,9 @@ if __name__ == "__main__":
         analysis.my_games()
 
     elif args.stats == "games_by_player":
-        analysis.games_by_player("Jefferson Campos")
+        analysis.games_by_player("José Carlos Bento Dias da Rocha")
+    elif args.stats == "pairing":
+        analysis.generate_pairing_tables()
 
     else:
         logging.error(Util.error("Can't work!! Please, inform all parameters!!"))

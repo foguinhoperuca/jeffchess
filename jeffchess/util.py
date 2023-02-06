@@ -91,3 +91,9 @@ class Util:
     def debug(msg):
         """This function standardize the message and simplified the use to standard output."""
         return colored(msg, 'white', attrs=['reverse', 'bold', 'underline'])
+
+    def white_piece(value):
+        return colored(value, 'white', attrs=['reverse', 'bold', 'underline'])
+
+    def black_piece(value):
+        return colored(value, 'green', attrs=['reverse', 'bold', 'underline'])
