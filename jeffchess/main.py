@@ -15,6 +15,7 @@ if __name__ == "__main__":
     parser.add_argument("-v", "--verbose", action = 'store_true', help = "Set *VERBOSE* logging i.e.: loglevel = logging.DEBUG")
     parser.add_argument("-dg", "--debug_game", help = "Load game and verify if there is some errors")
     parser.add_argument("-s", "--stats", required = False, help = "Calc stats")
+    parser.add_argument("-gbp", "--games-by-player", required = False, help = "Calc stats")
 
     args = parser.parse_args()
     if args.verbose:
@@ -44,10 +45,10 @@ if __name__ == "__main__":
     elif args.stats == "jeff":
         analysis.my_games()
 
-    elif args.stats == "games_by_player":
-        analysis.games_by_player("José Carlos Bento Dias da Rocha")
     elif args.stats == "pairing":
         analysis.generate_pairing_tables()
+    elif args.games_by_player:
+        analysis.games_by_player(args.games_by_player)
 
     else:
         logging.error(Util.error("Can't work!! Please, inform all parameters!!"))

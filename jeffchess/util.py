@@ -96,4 +96,11 @@ class Util:
         return colored(value, 'white', attrs=['reverse', 'bold', 'underline'])
 
     def black_piece(value):
-        return colored(value, 'green', attrs=['reverse', 'bold', 'underline'])
+        # return colored(value, 'blue', attrs=['reverse', 'bold', 'underline'])
+        return value
+
+    def emphasys(value):
+        return colored(value, 'yellow', attrs=['reverse', 'bold', 'underline'])
+
+    def player_named_by(value):
+        return colored(value, 'red', attrs=['reverse', 'bold', 'underline'])

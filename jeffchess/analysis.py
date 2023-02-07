@@ -4,7 +4,7 @@ import csv
 import logging
 from collections import OrderedDict
 from pprint import pprint
-from prettytable import PrettyTable, ORGMODE
+from prettytable import PrettyTable, ORGMODE, ALL
 from prettytable.colortable import ColorTable, Themes
 from util import Util
 from game import GameResult
@@ -33,16 +33,24 @@ ALL_PLAYERS_NAME_NICKNAMES = {
     "José Roberto Oliveira":           "José R Oliveira  ",
     "Erick de Brito Melo":             "Erick Brito Melo ",
     "Rodrigo Guimarães de Azevedo":    "Rodrigo G Azevedo",
-    "Vicente Rodrigues de Moraes":     "Vicente R Moraes "
+    "Vicente Rodrigues de Moraes":     "Vicente R Moraes ",
+    "BY PLAYER":                       "--- BY PLAYER ---",
 }
 
-def games_by_player(choosen_player='Jefferson Campos'):
+INFREQUENT_PLAYERS = [
+    # "Mário Sérgio Bueno Miranda",
+    "Erick de Brito Melo",
+    "Rodrigo Guimarães de Azevedo",
+    "Vicente Rodrigues de Moraes"
+]
+
+def games_by_player(choosen_player='Jefferson Campos', infrequent_players=False):
     total_games_white = 0
     total_missing_white = 0
     total_games_black = 0
     total_missing_black = 0
-    players = list(filter(lambda p: p != choosen_player, ALL_PLAYERS))
     players_table = ColorTable(theme=Themes.OCEAN) # PrettyTable()
+    # players_table.hrules = ALL
     players_table.field_names = [
         'Round',
         'White',
@@ -51,61 +59,78 @@ def games_by_player(choosen_player='Jefferson Campos'):
         'Date'
     ]
 
-    with open(f"data/padoca_cup_2022.csv") as stats:
+    if not infrequent_players:
+        # players = list(filter(lambda p: p != choosen_player, ALL_PLAYERS))
+        players = list(filter(lambda player: player not in INFREQUENT_PLAYERS and player != choosen_player, ALL_PLAYERS))
+    else:
+        players = list(filter(lambda p: p != choosen_player, ALL_PLAYERS))
+
+    logging.debug("players {p}".format(p=players))
+    logging.info(f"{choosen_player = }")
+
+    with open(f"data/padoca_cup_2022.csv", encoding="UTF-8") as stats:
         games_choosen_player = list(filter(lambda row: (row[1] == choosen_player or row[2] == choosen_player), csv.reader(stats, delimiter = ';')))
 
     for index, player in enumerate(players):
         game = list(filter(lambda g: g[1] == choosen_player and g[2] == player, games_choosen_player))
         if len(game) > 0:
+            round_played = index + 1
+            white = choosen_player
+            black = player
             game_result = game[0][3]
             game_date = game[0][0]
             total_games_white += 1
         else:
-            game_result = '?-?'
-            game_date = 'YYYY-MM-DD'
+            round_played = Util.emphasys(index + 1)
+            white = Util.emphasys(choosen_player)
+            black = Util.emphasys(player)
+            game_result = Util.emphasys('?-?')
+            game_date = Util.emphasys('YYYY-MM-DD')
             total_missing_white += 1
 
-        players_table.add_row([index + 1, choosen_player, game_result, player, game_date])
+        players_table.add_row([round_played, white, game_result, black, game_date])
+
+    players_table.add_row(['-----', '-----', '-----', '-----', '-----'])
 
     for index, player in enumerate(players):
         game = list(filter(lambda g: g[1] == player and g[2] == choosen_player, games_choosen_player))
         if len(game) > 0:
+            round_played = len(players) + (index + 1)
+            white = player
+            black = choosen_player
             game_result = game[0][3]
             game_date = game[0][0]
             total_games_black += 1
         else:
-            game_result = '?-?'
-            game_date = 'YYYY-MM-DD'
+            round_played = Util.emphasys(len(players) + (index + 1))
+            white = Util.emphasys(player)
+            black = Util.emphasys(choosen_player)
+            game_result = Util.emphasys('?-?')
+            game_date = Util.emphasys('YYYY-MM-DD')
             total_missing_black += 1
 
-        players_table.add_row([(len(players) + (index + 1)), player, game_result, choosen_player, game_date])
+        players_table.add_row([round_played, white, game_result, black, game_date])
 
-    print(players_table)
+    print(players_table.get_html_string())
     print(Util.white_piece(f"{total_games_white = } {total_missing_white = }"))
     print(Util.black_piece(f"{total_games_black = } {total_missing_black = }"))
 
-def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv"):
-    players = ALL_PLAYERS
-    # players = [
-    #     "Jefferson Campos",
-    #     "Emerson Sbrana",
-    #     "José Carlos Bento Dias da Rocha",
-    #     "Jefferson Nunes",
-    #     "João Carlos Oliveira",
-    #     "José Roberto Oliveira"
-    # ]
+def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv", infrequent_players=True):
+    if not infrequent_players:
+        players = list(filter(lambda player: player not in INFREQUENT_PLAYERS, ALL_PLAYERS))
+    else:
+        players = ALL_PLAYERS
 
-    # players = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L']
-    # players = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
-    # players = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
-    # players = ['A', 'B', 'C', 'D', 'E', 'F']
-    # players = ['A', 'B', 'C', 'D']
+    logging.debug("players {p}".format(p=players))
+
+    if len(players) % 2 == 1:
+        players.insert((int(len(players) / 2) + 1), 'BY PLAYER')
+
     middle = int(len(players) / 2)
     up = players[0:middle]
     down = players[middle:len(players)]
-    # print(f"{players} {up} {down} {middle}")
 
-    with open(f"data/padoca_cup_2022.csv") as stats:
+    with open(f"data/padoca_cup_2022.csv", encoding="UTF-8") as stats:
         games = list(csv.reader(stats, delimiter = ';'))
 
     for match_game in range(1, len(players), 1):
@@ -124,12 +149,19 @@ def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv"):
         ]
 
         for index, player in enumerate(up):
-            match_game_tbl = match_game if index == 0 else ''
-            not_played_yet = ['YYYY-MM-DD', player, down[index], '?-?', 'Not played yet!']
-            white_1 = ALL_PLAYERS_NAME_NICKNAMES[player]
-            black_1 = ALL_PLAYERS_NAME_NICKNAMES[down[index]]
-            white_2 = ALL_PLAYERS_NAME_NICKNAMES[down[index]]
-            black_2 = ALL_PLAYERS_NAME_NICKNAMES[player]
+            match_game_tbl = Util.warning(match_game) if index == 0 else ''
+            if player == 'BY PLAYER' or down[index] == 'BY PLAYER':
+                not_played_yet = [Util.player_named_by('YYYY-MM-DD'), player, down[index], Util.player_named_by('?-?'), 'Not played yet!']
+                white_1 = Util.player_named_by(f' {ALL_PLAYERS_NAME_NICKNAMES[player]} ')
+                black_1 = Util.player_named_by(f' {ALL_PLAYERS_NAME_NICKNAMES[down[index]]} ')
+                white_2 = Util.player_named_by(f' {ALL_PLAYERS_NAME_NICKNAMES[down[index]]} ')
+                black_2 = Util.player_named_by(f' {ALL_PLAYERS_NAME_NICKNAMES[player]} ')
+            else:
+                not_played_yet = [Util.emphasys('YYYY-MM-DD'), player, down[index], Util.emphasys('?-?'), 'Not played yet!']
+                white_1 = Util.white_piece(f' {ALL_PLAYERS_NAME_NICKNAMES[player]} ')
+                black_1 = Util.black_piece(f' {ALL_PLAYERS_NAME_NICKNAMES[down[index]]} ')
+                white_2 = Util.white_piece(f' {ALL_PLAYERS_NAME_NICKNAMES[down[index]]} ')
+                black_2 = Util.black_piece(f' {ALL_PLAYERS_NAME_NICKNAMES[player]} ')
 
             game_1 = list(filter(lambda row: row[1] == player and row[2] == down[index], games))
             g1 = game_1[0] if len(game_1) > 0 else not_played_yet
@@ -137,15 +169,7 @@ def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv"):
             game_2 = list(filter(lambda row: row[1] == down[index] and row[2] == player, games))
             g2 = game_2[0] if len(game_2) > 0 else not_played_yet
 
-            # print(f"{game_1}")
-            # print(f"{g1}")
-            # print("-----------")
-            # print(f"{game_2}")
-            # print(f"{g2}")
-            # print("===========")
-            # breakpoint()
-
-            match_table.add_row([Util.warning(match_game_tbl), Util.white_piece(f' {white_1} '), g1[3], Util.black_piece(f' {black_1} '), g1[0], Util.white_piece(f' {white_2} '), g2[3], Util.black_piece(f' {black_2} '), g2[0]])
+            match_table.add_row([match_game_tbl, white_1, g1[3], black_1, g1[0], white_2, g2[3], black_2, g2[0]])
 
         print(match_table)
 
@@ -158,7 +182,7 @@ def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv"):
 def padoca_championship(championship_data_file="stats.csv", set_unfinished_column=True):
     # TODO calc keys instead hard code it!
     # TODO implement ignored player (optional)
-    with open(f"data/{championship_data_file}") as stats:
+    with open(f"data/{championship_data_file}", encoding="UTF-8") as stats:
         csv_reader = csv.reader(stats, delimiter = ';')
         total_games = 0
         classification = {
