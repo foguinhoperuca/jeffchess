@@ -38,7 +38,7 @@ ALL_PLAYERS_NAME_NICKNAMES = {
 }
 
 INFREQUENT_PLAYERS = [
-    # "Mário Sérgio Bueno Miranda",
+    "Mário Sérgio Bueno Miranda",
     "Erick de Brito Melo",
     "Rodrigo Guimarães de Azevedo",
     "Vicente Rodrigues de Moraes"
@@ -111,11 +111,12 @@ def games_by_player(choosen_player='Jefferson Campos', infrequent_players=False)
 
         players_table.add_row([round_played, white, game_result, black, game_date])
 
-    print(players_table.get_html_string())
+    # print(players_table.get_html_string())
+    print(players_table)
     print(Util.white_piece(f"{total_games_white = } {total_missing_white = }"))
     print(Util.black_piece(f"{total_games_black = } {total_missing_black = }"))
 
-def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv", infrequent_players=True):
+def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv", infrequent_players=False):
     if not infrequent_players:
         players = list(filter(lambda player: player not in INFREQUENT_PLAYERS, ALL_PLAYERS))
     else:
@@ -179,95 +180,18 @@ def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv", infreq
         up.insert(1, head)
 
 # FIXME draws isn't working - See José Carlos Bento Dias da Rocha }
-def padoca_championship(championship_data_file="stats.csv", set_unfinished_column=True):
-    # TODO calc keys instead hard code it!
-    # TODO implement ignored player (optional)
+def padoca_championship(championship_data_file="stats.csv", set_unfinished_column=True, infrequent_players=False):
     with open(f"data/{championship_data_file}", encoding="UTF-8") as stats:
         csv_reader = csv.reader(stats, delimiter = ';')
         total_games = 0
-        classification = {
-            "Emerson Sbrana": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "Jefferson Campos": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "Jefferson Nunes": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "João Carlos Oliveira": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "José Carlos Bento Dias da Rocha": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "José Roberto Oliveira": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "Mário Sérgio Bueno Miranda": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "Rodrigo Guimarães de Azevedo": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "Erick de Brito Melo": {
-                "points": 0,
-                "unfinished": 0,
-                "wins": 0,
-                "losses": 0,
-                "draws": 0,
-                "total_games": 0,
-                "lost_points": 0
-            },
-            "Vicente Rodrigues de Moraes": {
+        gemes_jump = 0
+        classification = {}
+        players = ALL_PLAYERS
+        if not infrequent_players:
+            players = list(filter(lambda player: player not in INFREQUENT_PLAYERS, ALL_PLAYERS))
+
+        for player in players:
+            classification[f"{player}"] = {
                 "points": 0,
                 "unfinished": 0,
                 "wins": 0,
@@ -276,19 +200,14 @@ def padoca_championship(championship_data_file="stats.csv", set_unfinished_colum
                 "total_games": 0,
                 "lost_points": 0
             }
-            # ,"Isac Nunes": { }
-            #     "points": 0, }
-            #     "unfinished": 0, }
-            #     "wins": 0, }
-            #     "losses": 0, }
-            #     "draws": 0, }
-            #     "total_games": 0, }
-            #     "lost_points": 0 }
-            # !#\ }
-        }
+
         for row in csv_reader:
             if total_games == 0:
                 total_games = 1
+                continue
+
+            if row[1] in INFREQUENT_PLAYERS or row[2] in INFREQUENT_PLAYERS:
+                gemes_jump += 1
                 continue
 
             total_games += 1
@@ -333,16 +252,19 @@ def padoca_championship(championship_data_file="stats.csv", set_unfinished_colum
         od = OrderedDict(sorted(classification.items(), key = lambda x: x[1]["points"], reverse = True))
         ptable = PrettyTable()
         if set_unfinished_column:
-            ptable.field_names = ['Player', 'Points', 'Unfinished', 'Wins', 'Losses', 'Draws', 'Total Games', 'Lost Points']
+            ptable.field_names = ['Clas', 'Player', 'Points', 'Unfinished', 'Wins', 'Losses', 'Draws', 'Total Games', 'Lost Points']
         else:
-            ptable.field_names = ['Player', 'Points', 'Wins', 'Losses', 'Draws', 'Total Games', 'Lost Points']
+            ptable.field_names = ['Clas', 'Player', 'Points', 'Wins', 'Losses', 'Draws', 'Total Games', 'Lost Points']
 
+        position = 1
         for key, value in od.items():
             points, unfinished, wins, losses, draws, total_games, lost_points = value.items()
             if set_unfinished_column:
-                ptable.add_row([key, points[1], unfinished[1], wins[1], losses[1], draws[1], total_games[1], lost_points[1]])
+                ptable.add_row([position, key, points[1], unfinished[1], wins[1], losses[1], draws[1], total_games[1], lost_points[1]])
             else:
-                ptable.add_row([key, points[1], wins[1], losses[1], draws[1], total_games[1], lost_points[1]])
+                ptable.add_row([position, key, points[1], wins[1], losses[1], draws[1], total_games[1], lost_points[1]])
+
+            position += 1
 
         logging.debug(Util.debug("args: {v}".format(v = od)))
         print(ptable)

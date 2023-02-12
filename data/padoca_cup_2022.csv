@@ -35,10 +35,15 @@ timestamp;white;black;result;observation
 2022-12-13;Rodrigo Guimarães de Azevedo;João Carlos Oliveira;0-1;
 2022-12-13;Mário Sérgio Bueno Miranda;Emerson Sbrana;0-1;
 2022-12-20;José Carlos Bento Dias da Rocha;Jefferson Nunes;0-1;
-2022-12-27;Mário Sérgio Bueno Miranda;José Carlos Bento Dias da Rocha;1-0;Jogo Repetidos. Deverá ser invalidado.
-2023-01-10;Mário Sérgio Bueno Miranda;Emerson Sbrana;0-1;
+2022-12-27;Mário Sérgio Bueno Miranda;José Carlos Bento Dias da Rocha;;Jogo Repetidos. Deverá ser invalidado. Finalizado em 1-0
+2023-01-10;Mário Sérgio Bueno Miranda;Emerson Sbrana;;Partida Repetida de 2022-12-13. Deve ser cancelada. Finalizada em 0-1
 2023-01-10;Mário Sérgio Bueno Miranda;José Roberto Oliveira;1-0;
+2023-01-17;Emerson Sbrana;Jefferson Nunes;0-1;
+2023-01-17;José Carlos Bento Dias da Rocha;Jefferson Nunes;;Jogo repetido com 2022-12-20. Resultado desta partida foi 0-1
 2023-01-24;Jefferson Campos;Jefferson Nunes;0-1;
 2023-01-24;Rodrigo Guimarães de Azevedo;José Carlos Bento Dias da Rocha;0-1;
 2023-01-24;Vicente Rodrigues de Moraes;José Carlos Bento Dias da Rocha;0-1;
 2023-01-24;Vicente Rodrigues de Moraes;Emerson Sbrana;0-1;
+2023-02-07;Jefferson Nunes;Mário Sérgio Bueno Miranda;1-0;
+2023-02-07;Emerson Sbrana;José Carlos Bento Dias da Rocha;1-0;
+2023-02-07;João Carlos Oliveira;Mário Sérgio Bueno Miranda;0-1;
