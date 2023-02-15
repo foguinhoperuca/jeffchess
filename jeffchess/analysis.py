@@ -466,7 +466,7 @@ def debug_game(game):
         print(len(game.errors), game.errors)
         print(game)
 
-def generate_list_my_games(opponent, show_full_games=False):
+def generate_list_my_games(opponent, show_full_games=True):
     logging.info(Util.debug("opponent was: {o}".format(o = opponent)))
 
     games = []
