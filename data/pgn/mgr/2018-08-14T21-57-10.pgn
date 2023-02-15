@@ -3,10 +3,10 @@
 [Date "2018-08-14T21:57:10"]
 [White "José Carlos Bento Dias da Rocha"]
 [Black "Jefferson Campos"]
-[Result "*"]
-[PlyCount "30"]
+[Result "0-1"]
+[PlyCount "68"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "abandoned"]
 {Images "2018-08-14T21-57-10_image-01.jpeg"}
-1. e3 e5 2. Nc3 Nf6 3. Nf3 e4 4. Nh4 d5 5. d4 exd3 6. cxd3 Nc6 7. g3 Bb4 8. Bd2 O-O 9. a3 Ba5 10. b4 Bb6 11. d4 a6 12. Qb1 Re8 13. Bd3 g6 14. Rg1 Ne7 15. b5 a5 *
+1. e3 e5 2. Nc3 Nf6 3. Nf3 e4 4. Nh4 d5 5. d4 exd3 6. cxd3 Nc6 7. g3 Bb4 8. Bd2 O-O 9. a3 Ba5 10. b4 Bb6 11. d4 a6 12. Qb1 Re8 13. Bd3 g6 14. Rg1 Ne7 15. b5 a5 {Partida reiniciada em 2023-02-14 com FEN "r1bqr1k1/1pp1np1p/1b3np1/pP1p4/3P3N/P1NBP1P1/3B1P1P/RQ2K1R1 w Q - 0 16"} 16. f3 c6 17. g4 cxb5 18. Bxb5 Bd7 19. a4 Nc6 20. Bxc6 Bxc6 21. Qb3 Bxd4 22. O-O-O Bxe3 23. Bxe3 Rxe3 24. g5 Nh5 25. Rge1 Rxe1 26. Rxe1 Qxg5+ 27. Kb2 Qd2+ 28. Qc2 Qxe1 29. Ng2 Qe7 30. Qd2 Qb4+ 31. Kc2 d4 32. Kd3 dxc3 33. Qxc3 Rd8+ 34. Kc2 Bxa4+ {negras abandonam as 20:54:39 após ataque imparável na Dama}

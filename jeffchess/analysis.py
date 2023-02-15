@@ -179,7 +179,7 @@ def generate_pairing_tables(championship_data_file="padoca_cup_2022.csv", infreq
         head = down.pop(0)
         up.insert(1, head)
 
-# FIXME draws isn't working - See José Carlos Bento Dias da Rocha }
+# FIXME draws isn't working - See José Carlos Bento Dias da Rocha
 def padoca_championship(championship_data_file="stats.csv", set_unfinished_column=True, infrequent_players=False):
     with open(f"data/{championship_data_file}", encoding="UTF-8") as stats:
         csv_reader = csv.reader(stats, delimiter = ';')
@@ -465,6 +465,49 @@ def debug_game(game):
         game = chess.pgn.read_game(pgn)
         print(len(game.errors), game.errors)
         print(game)
+
+def generate_list_my_games(opponent, show_full_games=False):
+    logging.info(Util.debug("opponent was: {o}".format(o = opponent)))
+
+    games = []
+    total_games = 0
+    headers = [
+        'Game #',
+        'Date',
+        'White',
+        'Result',
+        'Black',
+        'Path'
+    ]
+    tbl = ColorTable(theme=Themes.OCEAN)
+    tbl.field_names = headers
+    # tbl.hrules = ALL
+    tbl_open = ColorTable(theme=Themes.OCEAN)
+    tbl_open.field_names = headers
+
+    for path in os.listdir("data/pgn/mgr/"):
+        with open("data/pgn/mgr/" + path, encoding = "utf-8") as pgn:
+            total_games += 1
+            game = chess.pgn.read_game(pgn)
+            if game.headers["White"] == opponent or game.headers["Black"] == opponent:
+                games.extend([(game.headers["Date"], game.headers["White"], game.headers["Result"], game.headers["Black"], path)])
+
+            # if len(game.errors) != 0:
+            #     logging.info(Util.error("file: {f!#\".format(f = path)))
+            #     total_errors += 1
+
+    games.sort(key=lambda e: e[0])
+
+    for index, g in enumerate(games):
+        tbl.add_row([(index + 1), g[0], g[1], g[2], g[3], g[4]])
+
+    for index, g in enumerate(list(filter(lambda g: g[2] == "*", games))):
+        tbl_open.add_row([(index + 1), g[0], g[1], g[2], g[3], g[4]])
+
+    if show_full_games:
+        print(tbl)
+
+    print(tbl_open)
 
 def extract_opponent_from_my_games(player = "Jefferson Campos"):
     pass

@@ -10,12 +10,13 @@ from util import Util
 import analysis
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description = "Parse for my personal chess data.")
-    parser.add_argument("-q", "--quiet", action = 'store_true', help = "Set *NO* verbose logging i.e.: loglevel = logging.WARN")
-    parser.add_argument("-v", "--verbose", action = 'store_true', help = "Set *VERBOSE* logging i.e.: loglevel = logging.DEBUG")
-    parser.add_argument("-dg", "--debug_game", help = "Load game and verify if there is some errors")
-    parser.add_argument("-s", "--stats", required = False, help = "Calc stats")
-    parser.add_argument("-gbp", "--games-by-player", required = False, help = "Calc stats")
+    parser = argparse.ArgumentParser(description="Parse for my personal chess data.")
+    parser.add_argument("-q", "--quiet", action='store_true', help="Set *NO* verbose logging i.e.: loglevel = logging.WARN")
+    parser.add_argument("-v", "--verbose", action='store_true', help="Set *VERBOSE* logging i.e.: loglevel = logging.DEBUG")
+    parser.add_argument("-dg", "--debug_game", help="Load game and verify if there is some errors")
+    parser.add_argument("-s", "--stats", required=False, help="Calc stats")
+    parser.add_argument("-gbp", "--games-by-player", required=False, help="Calc stats")
+    parser.add_argument("-mgo", "--my_games_opponent", required=False, help="Show my games with some opponent")
 
     args = parser.parse_args()
     if args.verbose:
@@ -44,12 +45,12 @@ if __name__ == "__main__":
         analysis.padoca_championship(championship_data_file="padoca_cup_2022.csv", set_unfinished_column=False)
     elif args.stats == "jeff":
         analysis.my_games()
-
     elif args.stats == "pairing":
         analysis.generate_pairing_tables()
     elif args.games_by_player:
         analysis.games_by_player(args.games_by_player)
-
+    elif args.my_games_opponent:
+        analysis.generate_list_my_games(args.my_games_opponent)
     else:
         logging.error(Util.error("Can't work!! Please, inform all parameters!!"))
         sys.exit("Failed execution. Please, see the log above.")

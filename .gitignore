@@ -136,3 +136,4 @@ _site
 .jekyll-metadata
 data/jeff_stats.csv
 TAGS
+*.swp
