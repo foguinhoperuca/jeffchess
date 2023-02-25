@@ -1,0 +1,12 @@
+[Event "Semifinal B-01 Padoca's Cup 2022-2"]
+[Site "https://lichess.org"]
+[Date "2023-02-21T20:12:31"]
+[White "Emerson Sbrana"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "66"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. Nxe5 Bd6 6. Nf3 Bg4 7. h3 Bh5 8. d3 Ne7 9. Nbd2 b5 10. b3 O-O 11. O-O Ng6 12. Qe1 Qf6 13. e5 Nxe5 14. Nxe5 Bxe5 15. Rb1 Rae8 16. Ne4 Qg6 17. f3 f5 18. f4 Bd6 19. Qg3 fxe4 20. Qxg6 Bxg6 21. dxe4 Bxe4 22. Bd2 Re6 23. Rbd1 Rg6 24. Rf2 Bc5 25. Kf1 Bxf2 26. Kxf2 Rxg2+ 27. Ke3 Bd5 28. Kd4 Rxd2+ 29. Kc3 Rh2 30. Rf1 Rxh3+ 31. Kd4 Re8 32. c4 bxc4 33. bxc4 Re4+ 0-1
