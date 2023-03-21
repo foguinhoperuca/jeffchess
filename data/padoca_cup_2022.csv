@@ -53,7 +53,9 @@ timestamp;white;black;result;observation
 2023-02-14;Jefferson Nunes;Emerson Sbrana;1-0;
 2023-02-21;Jefferson Nunes;José Carlos Bento Dias da Rocha;1-0;Semifinal A-01
 2023-02-21;Emerson Sbrana;Jefferson Campos;0-1;Semifinal B-01
-2023-02-28;José Carlos Bento Dias da Rocha;Jefferson Nunes;;Semifinal A-02
-2023-02-28;Jefferson Campos;Emerson Sbrana;;Semifinal B-02
-2023-03-07;Vencedor A;Vencedor B;;Final 01
-2023-03-14;Vencedor B;Vencedor A;;Final 02
+2023-02-28;José Carlos Bento Dias da Rocha;Jefferson Nunes;0-1;Semifinal A-02
+2023-02-28;Jefferson Campos;Emerson Sbrana;0-1;Semifinal B-02
+2023-03-07;Jefferson Campos;Emerson Sbrana;0,5-0,5;Semifinal B-03
+2023-03-14;Emerson Sbrana;Jefferson Campos;1-0;Semifinal B-04
+2023-03-21;Jefferson Nunes;Emerson Sbrana;;Final 01
+2023-03-28;Emerson Sbrana;Jefferson Nunes;;Final 02

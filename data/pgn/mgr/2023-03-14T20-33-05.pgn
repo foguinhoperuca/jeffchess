@@ -1,0 +1,12 @@
+[Event "Semifinal B-04 Padoca Cup 2022-2"]
+[Site "https://lichess.org"]
+[Date "2023-03-14T20:33:05"]
+[White "Emerson Sbrana"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "99"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 h6 5. Bd2 Nf6 6. Bc3 d6 7. Nbd2 Bg4 8. h3 Bh5 9. b4 Nxb4 10. Qb1 a5 11. a3 Nc6 12. Bb5 O-O 13. Bc4 b6 14. Bb5 Nd4 15. Nxd4 exd4 16. Bb2 Nd7 17. O-O Ne5 18. Qe1 Qg5 19. f4 Nxd3 20. cxd3 Qf6 21. Qg3 Be2 22. Rf2 Bh5 23. Kh1 Rac8 24. Bc6 Qe7 25. Re1 b5 26. Rff1 b4 27. a4 Rb8 28. f5 f6 29. Bd5+ Kh8 30. Nb3 Qe5 31. Qxe5 dxe5 32. Nxc5 Rbc8 33. Be6 Rcd8 34. Nb3 Be8 35. Ra1 Bh5 36. Rf2 Ra8 37. g4 Be8 38. Rh2 c6 39. Nd2 Rb8 40. Nf3 b3 41. Nh4 Rb4 42. Ba3 Rxa4 43. Ng6+ Bxg6 44. fxg6 Rb8 45. Rb2 Rxa3 46. Rxa3 a4 47. Rxa4 c5 48. Rxb3 Rxb3 49. Ra8+ Rb8 50. Rxb8# 1-0
