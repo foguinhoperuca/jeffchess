@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "4/11/2023, 9:32:18 PM"]
+[White "Jefferson Nunes"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "97"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "black timeout"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 g6 4. d4 cxd4 5. Nxd4 Bg7 6. Nxc6 bxc6 7. Bd2 e6 8. Bd3 d5 9. exd5 cxd5 10. O-O Nf6 11. Ne2 O-O 12. Bg5 Rb8 13. Rb1 Bb7 14. Qd2 Re8 15. Qe3 a6 16. Rfd1 Rc8 17. c4 Qa5 18. cxd5 exd5 19. Qd2 Qxa2 20. Ra1 Qb3 21. Be3 d4 22. Nxd4 Qd5 23. Nf3 Ng4 24. Bf4 Ne5 25. Bxe5 Rxe5 26. h3 Re6 27. Rac1 Rxc1 28. Qxc1 Rf6 29. Bxa6 Qe4 30. Bxb7 Qxb7 31. Rd8+ Bf8 32. Qc8 Qxc8 33. Rxc8 Rb6 34. Ne5 Rxb2 35. Nd7 f5 36. Rxf8+ Kg7 37. Rb8 Rd2 38. Rb7 Kh6 39. f3 Kg5 40. Kh2 h5 41. Ne5 Kf4 42. Nxg6+ Kg5 43. Rb6 h4 44. Ne7 Re2 45. Rg6+ Kf4 46. Nd5+ Ke5 47. Re6+ Kxe6 48. Nf4+ Kd6 49. Nxe2 *
