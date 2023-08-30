@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-07-19T21:30:28 PM"]
+[White "Jefferson Campos"]
+[Black "Isac Nunes"]
+[Result "1-0"]
+[PlyCount "47"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 c6 2. Nf3 d5 3. d3 e6 4. Nc3 Nf6 5. e5 Bb4 6. exf6 gxf6 7. a3 Ba5 8. d4 O-O 9. Bh6 Re8 10. Nh4 e5 11. dxe5 fxe5 12. Nf3 f6 13. Rg1 d4 14. b4 Bb6 15. Ne4 c5 16. bxc5 Ba5+ 17. Nfd2 Qd5 18. Nxf6+ Kh8 19. Nxd5 Rd8 20. Nf6 e4 21. Nxe4 Re8 22. Qf3 b6 23. Qf7 Bd7 24. Qg7# 1-0

@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-07-02T15:40:25"]
+[White "Jefferson Campos"]
+[Black "Rafaela"]
+[Result "1-0"]
+[PlyCount "21"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nge7 5. d4 exd4 6. cxd4 Bb6 7. Ng5 O-O 8. Qh5 h6 9. Nxf7 Rxf7 10. Bxf7+ Kh8 11. Bxh6 *

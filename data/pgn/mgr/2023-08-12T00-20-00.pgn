@@ -1,0 +1,12 @@
+[Event "Finalizacao jogo angerior"]
+[Site "https://lichess.org"]
+[Date "2023-08-12T00:20:00"]
+[White "@José Roberto Oliveira "]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "4"]
+[FEN "2r3k1/p1r2p1p/bp2p1p1/q2p4/2P3R1/1B4Q1/P4PPP/2R3K1 w - - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. c5 Rxc5 2. Rxc5 Qe1# 0-1 {Finished at 2023-08-16T19:39:37}

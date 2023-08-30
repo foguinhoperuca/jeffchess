@@ -1,0 +1,12 @@
+[Event "Old Sicilian Tematic"]
+[Site "https://lichess.org"]
+[Date "2023-05-17T21:20:48"]
+[White "João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "71"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bc4 e6 4. d3 g6 5. Bg5 Nf6 6. Qd2 d5 7. Bb5 dxe4 8. dxe4 Qxd2+ 9. Kxd2 Bg7 10. e5 Ne4+ 11. Ke2 Nxg5 12. Nxg5 Bxe5 13. c3 O-O 14. Rd1 Bxh2 15. g3 Rd8 16. Nd2 a6 17. Bd3 Ne5 18. Be4 Bd7 19. Rh1 Bb5+ 20. Ke1 Nd3+ 21. Bxd3 Bxg3 22. Bxb5 Bxf2+ 23. Kxf2 Rxd2+ 24. Be2 Rxb2 25. Rxh7 Rd8 26. Rah1 Rdd2 27. Re1 f6 28. Re7 fxg5 29. Rxe6 Kg7 30. Kf3 Rxa2 31. Rg1 Kf7 32. Bc4 Rf2+ 33. Kg3 Rad2 34. Re2+ Kg7 35. Rxf2 Rd8 36. Rf7+ 0-1

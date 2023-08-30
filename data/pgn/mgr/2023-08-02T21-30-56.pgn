@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-08-02T21:30:56"]
+[White "João Carlos Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "80"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bc4 e6 4. d3 h6 5. Bf4 Nf6 6. h3 d6 7. Nc3 Be7 8. a3 O-O 9. O-O a6 10. Re1 b5 11. Bb3 Nd4 12. Nxd4 cxd4 13. Ne2 Qb6 14. e5 dxe5 15. Bxe5 Rd8 16. Qc1 Qc5 17. Bf4 Qh5 18. Ng3 Qg6 19. Be5 Bb7 20. Qd2 a5 21. c3 dxc3 22. bxc3 a4 23. Bc2 Nd7 24. d4 f5 25. Bf4 Nb6 26. Qe2 Bd5 27. Qh5 Qxh5 28. Nxh5 Rac8 29. Be5 Rxc3 30. Re2 Rdc8 31. Bd1 Bf8 32. Nf4 Bc4 33. Rc2 Rxa3 34. Rxa3 Bxa3 35. Rc3 Bf8 36. Ng6 Nd7 37. Bf4 Nf6 38. Nxf8 Kxf8 39. Bd6+ Kg8 40. Bb4 Nd5 *

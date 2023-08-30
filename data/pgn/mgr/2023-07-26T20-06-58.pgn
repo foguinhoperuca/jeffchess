@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-07-26T20:06:58"]
+[White "Jefferson Campos"]
+[Black "Emerson Sbrana"]
+[Result "1/2-1/2"]
+[PlyCount "101"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "draw"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. c3 Nf6 5. d3 a6 6. Nbd2 b5 7. Bb3 a5 8. a3 a4 9. Ba2 Nc6 10. h3 Be7 11. d4 exd4 12. cxd4 Na5 13. O-O Bb7 14. Re1 O-O 15. e5 dxe5 16. dxe5 Nh7 17. b4 axb3 18. Nxb3 Qxd1 19. Rxd1 Nxb3 20. Bxb3 Kh8 21. Rd7 Bxf3 22. gxf3 Bd8 23. Rxf7 Rxf7 24. Bxf7 Be7 25. f4 Nf8 26. Bd5 Ra6 27. Kg2 b4 28. a4 Nd7 29. Bc4 Ra5 30. Bb5 Nc5 31. Rb1 Nxa4 32. Bxa4 Rxa4 33. f5 Kg8 34. f6 gxf6 35. exf6 Bxf6 36. Bxh6 c5 37. Bd2 Bc3 38. Bxc3 bxc3 39. Rc1 Rc4 40. Rc2 Kf7 41. Kf3 Ke6 42. Ke3 Kd5 43. f4 Re4+ 44. Kd3 Rxf4 45. Rxc3 Rf3+ 46. Kd2 Rxc3 47. Kxc3 Ke4 48. Kc4 Kf4 49. h4 Kg4 50. h5 Kxh5 51. Kxc5 1/2-1/2

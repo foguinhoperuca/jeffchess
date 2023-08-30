@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-07-26T21:31:18"]
+[White "Mário Sérgio Bueno de Miranda"]
+[Black "Jefferson Campos"]
+[Result "1/2-1/2"]
+[PlyCount "100"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "normal"]
+
+1. e4 e5 2. Bc4 Nf6 3. Nc3 Bc5 4. d3 Nc6 5. h3 d6 6. Nf3 h6 7. O-O O-O 8. a3 a6 9. b4 Ba7 10. Nd5 Nd4 11. c3 Nxf3+ 12. Qxf3 Nxd5 13. Bxd5 c6 14. Bb3 Kh8 15. Bd1 f5 16. Qe2 f4 17. Qf3 b5 18. d4 exd4 19. Bxf4 dxc3 20. Qg3 d5 21. e5 d4 22. Bc2 Be6 23. Qg6 Bg8 24. Bg3 Qd5 25. Rae1 Rad8 26. e6 Rf6 27. Qe4 Qxe4 28. Rxe4 Rxe6 29. Rxe6 Bxe6 30. Rd1 Rf8 31. Re1 Bf5 32. Rc1 d3 33. Bxd3 Bxd3 34. Rxc3 Bc4 35. Rf3 Re8 36. Kh2 c5 37. bxc5 Bxc5 38. Rc3 Re2 39. h4 Bxf2 40. Bxf2 Rxf2 41. Kg3 Rf6 42. Rc1 Bd3 43. Rc8+ Kh7 44. Rd8 Bc4 45. Ra8 Kg6 46. Rd8 Kh7 47. h5 g5 48. Rd7+ Kh8 49. Rd4 Kh7 50. Rd7+ Kh8 *

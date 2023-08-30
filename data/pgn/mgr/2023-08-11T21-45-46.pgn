@@ -1,0 +1,12 @@
+[Event "Rapid 10+5"]
+[Site "https://lichess.org"]
+[Date "8/11/2023, 9:45:46 PM"]
+[White "Jefferson Nunes"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "42"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O d6 5. h3 Nf6 6. c3 O-O 7. d4 Bb6 8. Re1 exd4 9. Nxd4 d5 10. exd5 Nxd5 11. Nxc6 bxc6 12. Qh5 Qf6 13. Rf1 Be6 14. Nd2 Nf4 15. Qf3 Rad8 16. Bb3 c5 17. Ne4 Qf5 18. Qxf4 Qxf4 19. Bxf4 Bxb3 20. axb3 Rfe8 21. Ng3 Re4 *

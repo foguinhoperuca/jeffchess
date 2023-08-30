@@ -1,14 +1,13 @@
-# -*- coding: utf-8 -*-
+import configparser
+import logging
+from termcolor import colored
+from pathlib import Path
+
 """
 Util module to concetrate all reusable code.
 
 This modules support all other classes/modules with usefull source code that doesn't belong to any other entity.
 """
-
-import configparser
-import logging
-from termcolor import colored, cprint
-from pathlib import Path
 
 class Util:
     """Helper class used to provide configuration, defaults and so on."""

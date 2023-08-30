@@ -3,8 +3,7 @@ import os
 import csv
 import logging
 from collections import OrderedDict
-from pprint import pprint
-from prettytable import PrettyTable, ORGMODE, ALL
+from prettytable import PrettyTable  #, ORGMODE, ALL
 from prettytable.colortable import ColorTable, Themes
 from util import Util
 from game import GameResult
