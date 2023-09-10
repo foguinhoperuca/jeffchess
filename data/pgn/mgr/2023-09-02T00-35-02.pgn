@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-09-02T00:35:02"]
+[White "Emerson Sbrana "]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "57"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nxd4 5. Qxd4 e6 6. Nc3 h6 7. Bb5 a6 8. Bd3 Be7 9. Qxg7 Bf6 10. Qg3 d6 11. Be3 Qc7 12. Ne2 Bxb2 13. Rb1 Be5 14. Bf4 Bxf4 15. Nxf4 Nf6 16. Qg7 Qc3+ 17. Ke2 Rg8 18. Qxh6 Ng4 19. Qh4 Qd4 20. Rhd1 Qc5 21. Qg3 Nf6 22. Qh4 e5 23. Nd5 Bg4+ 24. f3 Bxf3+ 25. Kxf3 Nxd5 26. exd5 Qxd5+ 27. Be4 Qc4 28. Rxb7 f5 29. Qe7# 1-0

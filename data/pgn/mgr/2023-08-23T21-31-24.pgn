@@ -3,10 +3,14 @@
 [Date "2023-08-23T21:31:24"]
 [White "Jefferon Campos"]
 [Black "José Roberto Oliveira"]
-[Result "*"]
-[PlyCount "33"]
+[Result "1-0"]
+[PlyCount "67"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "mate"]
 
 1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Bc5 5. d3 Nf6 6. Nbd2 Ng4 7. O-O d6 8. h3 h5 9. Nb3 Qf6 10. Nxc5 dxc5 11. Bg5 Qg6 12. d4 cxd4 13. cxd4 f6 14. Bc1 Bd7 15. dxe5 O-O-O 16. e6 Be8 17. Qb3 *
+
+{continuation in 2023-09-06T20:19:39 with FEN "2krb2r/ppp3p1/2n1Ppq1/7p/2B1P1n1/1Q3N1P/PP3PP1/R1B2RK1 b - - 2 17"}
+
+17... b6 18. Bd5 Na5 19. Qd3 Ne5 20. Nxe5 fxe5 21. Qa6+ Kb8 22. b4 Bc6 23. bxa5 Bxd5 24. exd5 Rxd5 25. axb6 cxb6 26. e7 Re8 27. Ba3 Ra5 28. Qe2 Rxa3 29. Qxe5+ Kb7 30. Rfc1 Ra5 31. Rc7+ Ka6 32. Qe2+ Rb5 33. a4 Qd6 34. Qxb5# 1-0

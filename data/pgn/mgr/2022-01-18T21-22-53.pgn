@@ -1,12 +1,17 @@
 [Event "Casual Game"]
-[Site "https://lichess.org"]
+[Site "https://lichess.org/JZRiaLcK"]
 [Date "2022-01-18T21:22:53"]
 [White "Jefferson Campos"]
 [Black "José Roberto Oliveira"]
-[Result "*"]
+[Result "1-0"]
 [PlyCount "24"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Annotator "lichess.org"]
+[Termination "abandoned"]
 
 1. e4 e5 2. Bc4 Bc5 3. Nf3 d6 4. c3 Nf6 5. d3 Ng4 6. d4 exd4 7. cxd4 Bb6 8. Ng5 O-O 9. Nc3 Nf6 10. O-O h6 11. Nf3 Re8 12. Re1 Nc6 *
+
+{Continued in 2023-03-28T15:04:29 with FEN "r1bqr1k1/ppp2pp1/1bnp1n1p/8/2BPP3/2N2N2/PP3PPP/R1BQR1K1 w - - 4 13" in lichess White "foguinho_peruca" x Black "jrso61"}
+
+13. h3 Na5 14. Bb5 c6 15. Ba4 Be6 16. d5 Bd7 17. dxc6 Bxc6 18. Bc2 Bc5 19. a3 Qb6 20. Qd2 Nc4 21. Qe2 Ne5 22. Na4 Bxa4 23. Bxa4 Nxf3+ 24. Qxf3 Re5 25. Bf4 Re7 26. Re2 Bd4 27. Rd1 Rc8 28. Qd3 Bxf2+ { Black resigns. } 1-0
