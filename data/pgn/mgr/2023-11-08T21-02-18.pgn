@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-11-08T21:02:18"]
+[White "Jefferson Campos"]
+[Black "George Fekette"]
+[Result "1-0"]
+[PlyCount "43"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nc3 Nc6 4. Bc4 Bc5 5. d3 O-O 6. Qe2 d6 7. Bg5 h6 8. Bh4 Qd7 9. O-O-O Qg4 10. Bxf6 Na5 11. Bh4 Nxc4 12. dxc4 Qxg2 13. Rdg1 Qh3 14. Nd5 Qd7 15. Nf6+ Kh8 16. Nxd7 Bxd7 17. Rg2 a6 18. Rhg1 Rg8 19. Qd2 b5 20. Bf6 bxc4 21. Bxg7+ Kh7 22. Qxh6# 1-0

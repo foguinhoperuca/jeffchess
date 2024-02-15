@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-11-22T20:49:38"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "52"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. d4 exd4 3. Qxd4 Nc6 4. Qd1 Nf6 5. Nc3 Bb4 6. Bd2 d6 7. Nf3 O-O 8. Bc4 Ne5 9. a3 Bxc3 10. Bxc3 Nxc4 11. Qd3 Nb6 12. O-O-O Be6 13. Kb1 Bc4 14. Qe3 Re8 15. e5 Ng4 16. Qd4 Be6 17. exd6 Nf6 18. Qe5 Nbd5 19. dxc7 Qxc7 20. Qg5 Nxc3+ 21. bxc3 Qxc3 22. Rd3 Qc4 23. Rhd1 Rac8 24. Nd4 Ne4 25. Qa5 Qa2+ 26. Kc1 Qa1# 0-1

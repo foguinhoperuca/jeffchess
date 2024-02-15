@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2023-09-27T21:22:22"]
+[White "Jefferson Campos"]
+[Black "José Carlos Bento Dias da Rocha"]
+[Result "1-0"]
+[PlyCount "73"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 a6 4. c3 b5 5. Bb3 Bc5 6. d3 h6 7. O-O Bb7 8. Bd5 f6 9. d4 Bd6 10. Re1 exd4 11. Nxd4 Nxd4 12. Bxb7 Ne6 13. Bxa8 Qxa8 14. Nd2 Ne7 15. Nf3 O-O 16. Qb3 Kh8 17. Qc2 Bc5 18. Be3 Qa7 19. b4 Bb6 20. a3 f5 21. exf5 Nxf5 22. Bxb6 Qxb6 23. Ne5 Kh7 24. Nxd7 Qd6 25. Nxf8+ Qxf8 26. Rxe6 Kh8 27. Rae1 Kh7 28. Rxa6 g6 29. a4 bxa4 30. Qxa4 h5 31. Qd7+ Kh6 32. Qxc7 Kg5 33. b5 Qg8 34. b6 Qb3 35. b7 Qd5 36. b8=Q Nh4 37. Qf4# 1-0

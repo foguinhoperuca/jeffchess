@@ -1,0 +1,12 @@
+[Event "Barbecue Acad Helio Sbrana"]
+[Site "https://lichess.org"]
+[Date "2023-11-10T23:05:51"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "36"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qe3 e6 5. Bc4 b6 6. Nf3 Bc5 7. Qf4 Qf6 8. Qg3 Nd4 9. Bg5 Nxf3+ 10. gxf3 Qxb2 11. O-O Qxa1 12. Nd2 Qc3 13. Qf4 h6 14. Bh4 g5 15. Qc7 gxh4 16. Kh1 Qxd2 17. Rg1 Qxf2 18. Qe5 Qxg1# 0-1
