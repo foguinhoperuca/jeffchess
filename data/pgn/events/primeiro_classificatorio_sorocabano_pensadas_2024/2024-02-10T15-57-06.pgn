@@ -1,0 +1,13 @@
+[Event "Primeiro Classificatório Sorocabano Pensadas - 2024"]
+[Site "Xadrez Clube Sorocaba"]
+[Round "1"]
+[Date "2024-02-10T15:57:06"]
+[White "Jefferson Campos"]
+[Black "Diego Lima"]
+[Result "0-1"]
+[PlyCount "34"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 e6 4. d3 Nge7 5. O-O a6 6. Bxc6 Nxc6 7. Nc3 Be7 8. b3 O-O 9. Bb2 d5 10. Ne2 d4 11. c3 e5 12. cxd4 cxd4 13. Rc1 Bg4 14. Ng3 Bg5 15. Rc2 Nb4 16. Rc5 Qd6 17. Nxe5 Bxd1 #0-1
