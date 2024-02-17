@@ -1,0 +1,12 @@
+[Event "AXHS Barbecue"]
+[Site "José Carlos Bento Dias da Rocha's Home"]
+[Date "2024-02-03T00:42:31"]
+[White "Emerson Sbrana"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "78"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Bc5 4. Bc4 Nf6 5. Ng5 O-O 6. d3 h6 7. Nf3 d6 8. O-O Bg4 9. h3 Bxf3 10. Qxf3 Nd4 11. Qd1 c6 12. Ne2 b5 13. Bb3 a5 14. a3 Nxb3 15. cxb3 Nh5 16. d4 exd4 17. Nxd4 Re8 18. Be3 Rxe4 19. Qxh5 Bxd4 20. Bxd4 Rxd4 21. Rfe1 Rd2 22. Re3 Qf6 23. Rf3 Qe6 24. Re3 Qf6 25. f3 Qxb2 26. Qg4 Qxa1+ 27. Kh2 Qxa3 28. Qd7 Qb2 29. Re8+ Rxe8 30. Qxe8+ Kh7 31. Qe4+ g6 32. f4 d5 33. Qf3 Rf2 34. Qg3 d4 35. Qg4 d3 36. Qg3 Rxg2+ 37. Qxg2 Qxg2+ 38. Kxg2 d2 39. Kf2 d1=Q 0-1

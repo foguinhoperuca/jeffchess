@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2024-01-17T19:28:18"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "16"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 c5 2. d4 cxd4 3. Qxd4 Nc6 4. Qa4 Nf6 5. Bc4 Nxe4 6. Qb3 e6 7. Nc3 Nc5 8. Qa3 Nd3+ *
