@@ -1,6 +1,7 @@
 import logging
 from util import Util
 
+
 class OpponentStats():
     def __init__(self, name):
         self._name = name
@@ -32,8 +33,8 @@ class OpponentStats():
     # TODO count monthly stats
     def count_result(self, game):
         color, result_type = game.target_player_result("Jefferson Campos")
-        logging.debug(Util.debug("color: {c}, result_type: {r}".format(c = color, r = result_type)))
-        
+        logging.debug(Util.debug("color: {c}, result_type: {r}".format(c=color, r=result_type)))
+
         if color == "White":
             self._white[result_type] += 1
         elif color == "Black":

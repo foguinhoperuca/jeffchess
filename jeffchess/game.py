@@ -1,6 +1,7 @@
 import logging
 from util import Util
 
+
 class GameResult():
     _target_player = "Jefferson Campos"
     _timestamp = None
@@ -9,7 +10,7 @@ class GameResult():
     _result = None
     _filename = None
 
-    def __init__(self, timestamp, white, black, result, filename, target_player = "Jefferson Campos"):
+    def __init__(self, timestamp, white, black, result, filename, target_player="Jefferson Campos"):
         self._timestamp = timestamp
         self._white = white
         self._black = black
@@ -20,7 +21,7 @@ class GameResult():
     def target_player_result(self, tp):
         if tp is None:
             tp = self._target_player
-            
+
         color_target_player = None
         result = None
 
@@ -30,7 +31,7 @@ class GameResult():
             color_target_player = "Black"
         else:
             raise Exception("Target Player not found!")
-            
+
         if (self._result == "1-0" and self._white == self._target_player) or (self._result == "0-1" and self._black == self._target_player):
             result = "wins"
         elif (self._result == "1-0" and self._black == self._target_player) or (self._result == "0-1" and self._white == self._target_player):
@@ -40,11 +41,11 @@ class GameResult():
         elif self._result == "*":
             result = "unfinished"
         else:
-            logging.error(Util.error("result: {r}".format(r = self._result)))
-            logging.error(Util.error("timestamp: {t}".format(t = self._timestamp)))
-            logging.error(Util.error("white: {w}".format(w = self._white)))
-            logging.error(Util.error("black: {b}".format(b = self._black)))
-            logging.error(Util.error("target_player: {tp}".format(tp = self._target_player)))
+            logging.error(Util.error("result: {r}".format(r=self._result)))
+            logging.error(Util.error("timestamp: {t}".format(t=self._timestamp)))
+            logging.error(Util.error("white: {w}".format(w=self._white)))
+            logging.error(Util.error("black: {b}".format(b=self._black)))
+            logging.error(Util.error("target_player: {tp}".format(tp=self._target_player)))
             raise Exception("Invalid Result!!")
 
         return color_target_player, result
@@ -56,11 +57,11 @@ class GameResult():
         elif self._black == self._target_player:
             oc = "White"
         else:
-            logging.error(Util.error("result: {r}".format(r = self._result)))
-            logging.error(Util.error("timestamp: {t}".format(t = self._timestamp)))
-            logging.error(Util.error("white: {w}".format(w = self._white)))
-            logging.error(Util.error("black: {b}".format(b = self._black)))
-            logging.error(Util.error("target_player: {tp}".format(tp = self._target_player)))
+            logging.error(Util.error("result: {r}".format(r=self._result)))
+            logging.error(Util.error("timestamp: {t}".format(t=self._timestamp)))
+            logging.error(Util.error("white: {w}".format(w=self._white)))
+            logging.error(Util.error("black: {b}".format(b=self._black)))
+            logging.error(Util.error("target_player: {tp}".format(tp=self._target_player)))
             raise Exception("Target player not found! Unable to identify opponent's color!")
 
         return oc
@@ -74,8 +75,8 @@ class GameResult():
 
     def is_undefined_game(self):
         return True if (self._white == "?" and self._black == "?") else False
-    
-    def points():
+
+    def points(self):
         result = None
         point = None
         if self._result == "1-0":

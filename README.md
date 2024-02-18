@@ -39,3 +39,39 @@ Rafael Vicente Leite:
 [Python-Chess](https://python-chess.readthedocs.io/en/latest/pgn.html)
 [Openingtree](https://www.openingtree.com/)
 [BChess](https://github.com/PadawanBreslau/bchess)
+
+# My Analysis #
+
+analysis.debug_game(args.debug_game)
+
+
+
+analysis.padoca_championship(championship_data_file="padoca_cup_2022.csv", set_unfinished_column=False)
+"""Serve para analisar um campeonato. Pode ser replicado para outros? - campeonato de pontos corridos - todos contra todos"""
+clear; date; time python3 jeffchess/main.py -s "padoca-2022-02"; date
+
+
+analysis.games_by_player(args.games_by_player)
+"""Serve para mostrar o resultado de um jogador no campeonato"""
+clear; date; time python3 jeffchess/main.py -gbp 'Emerson Sbrana'; date
+
+
+Ambos vão usar uma lista padrão de campeonato (championship.csv)
+
+analysis.generate_pairing_tables()
+"""Combine a list of players to generate a table game"""
+clear; date; time python3 jeffchess/main.py -s "pairing"; date
+
+
+vai usar players.csv
+
+------------------------------
+
+analysis.my_games()
+"""Analisa os meus jogos toda a vida"""
+clear; date; time python3 jeffchess/main.py -s jeff; date
+
+analysis.generate_list_my_games(args.my_games_opponent)
+"""Lista os meus jogos contra um oponente com um destaque para os jogos em aberto."""
+clear; date; time python3 jeffchess/main.py -mgo 'João Carlos Oliveira'; date
+
