@@ -3,8 +3,9 @@ import chess.pgn
 from collections import OrderedDict
 import csv
 import logging
+import math
 import os
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 from prettytable import PrettyTable  # , ORGMODE, ALL
 from prettytable.colortable import ColorTable, Themes
@@ -282,6 +283,7 @@ class Championship(Analysis, ABC):
 
 class PersonalAnaysis(Analysis, ABC):
     MYSELF: str = "Jefferson Campos"
+    DEFAULT_INITIAL_RATING: float = 1000.0
 
     def define_leader_board(self, opponent: Optional[str]) -> dict:
         leader_board = dict()
@@ -483,6 +485,65 @@ class PersonalAnaysis(Analysis, ABC):
             print(f"Resume: Jefferson Campos {total_wins} ({total_wins + (total_draws / 2)}) X {total_losses} ({total_losses + (total_draws / 2)}) {opponent}")
             print(tbl_open)
             print(tbl)
+
+    def probability(self, player, opponent) -> float:
+        return 1.0 * 1.0 / (1 + 1.0 * math.pow(10, 1.0 * (player - opponent) / 400))
+
+    def elo(self, ra: float, rb: float, k: int = 32) -> Tuple[float, float]:
+        pa: float = self.probability(ra, rb)
+        pb: float = self.probability(rb, ra)
+
+        ra: float = ra + k * (1 - pa)
+        rb: float = rb + k * (0 - pb)
+
+        return (ra, rb)
+
+    def rating(self, opponent: Optional[str] = None) -> None:
+        # FIXME not working in universe without other players games. My rating will be 5815.5488...
+        ratings: Dict[str, float] = dict()
+
+        # TODO need order games by date to rating be effective
+        # od = OrderedDict(sorted(classification.items(), key=lambda x: x[1]["points"], reverse=True))
+
+        with open(Analysis.DEFAULT_PLAYER_DATA_FILE, encoding="UTF-8") as players_data_file:
+            ratings = {f'{player["real_name"]}': PersonalAnaysis.DEFAULT_INITIAL_RATING for player in csv.DictReader(players_data_file, delimiter=";")}
+            ratings["?"] = PersonalAnaysis.DEFAULT_INITIAL_RATING
+
+        for path in os.listdir("data/pgn/mgr/"):
+            with open("data/pgn/mgr/" + path, encoding="utf-8") as pgn:
+                game = chess.pgn.read_game(pgn)
+
+                if opponent is not None:
+                    if game.headers["White"] != opponent and game.headers["Black"] != opponent:
+                        continue
+
+                if game.headers["Result"] == "1-0":
+                    winner = game.headers["White"]
+                    loser = game.headers["Black"]
+                elif game.headers["Result"] == "0-1":
+                    winner = game.headers["Black"]
+                    loser = game.headers["White"]
+                else:
+                    continue
+
+                # if (game.headers["White"] == "Jefferson Campos" and game.headers["Result"] == "0-1") or (game.headers["Black"] == "Jefferson Campos" and game.headers["Result"] == "1-0"):
+                #     breakpoint()
+
+                rating_winner = ratings[winner]
+                rating_loser = ratings[loser]
+                new_rating = self.elo(ra=rating_winner, rb=rating_loser)
+                # breakpoint()
+                ratings[winner] = round(new_rating[0], 4)
+                ratings[loser] = round(new_rating[1], 4)
+                # breakpoint()
+
+                # if (game.headers["White"] == "Jefferson Campos" and game.headers["Result"] == "0-1") or (game.headers["Black"] == "Jefferson Campos" and game.headers["Result"] == "1-0"):
+                #     breakpoint()
+
+        breakpoint()
+        print(ratings)
+
+
 
 
 def debug_game(self, game):

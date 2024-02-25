@@ -19,6 +19,7 @@ if __name__ == "__main__":
     parser.add_argument("-dg", "--debug_game", help="Load game and verify if there is some errors")
     parser.add_argument("-f", "--my_games_analysis_full", required=False, help="Show my games with some opponent (or all for full history)")
     parser.add_argument("-c", "--championship_stats", required=False, help="Show stats from championship (all for general or choose an opponent)")
+    parser.add_argument("-r", "--rating", required=False, help="Calculate rating for everyone.")
 
     args = parser.parse_args()
     if args.verbose:
@@ -49,6 +50,9 @@ if __name__ == "__main__":
         championship = Championship()
         player: Optional[str] = None if args.championship_stats == 'all' else args.championship_stats
         championship.stats(player=player)
+    elif args.rating:
+        jeff = PersonalAnaysis()
+        jeff.rating(opponent=args.rating)
     else:
         logging.error(Util.error("Can't work!! Please, inform all parameters!!"))
         sys.exit("Failed execution. Please, see the log above.")
