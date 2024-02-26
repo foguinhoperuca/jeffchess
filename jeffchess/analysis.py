@@ -2,6 +2,7 @@ from abc import ABCMeta, ABC
 import chess.pgn
 from collections import OrderedDict
 import csv
+from datetime import datetime
 import logging
 import math
 import os
@@ -498,52 +499,59 @@ class PersonalAnaysis(Analysis, ABC):
 
         return (ra, rb)
 
-    def rating(self, opponent: Optional[str] = None) -> None:
+    def rating(self, choosen: Optional[str] = None, get_infrequents: bool = False) -> None:
         # FIXME not working in universe without other players games. My rating will be 5815.5488...
         ratings: Dict[str, float] = dict()
-
-        # TODO need order games by date to rating be effective
-        # od = OrderedDict(sorted(classification.items(), key=lambda x: x[1]["points"], reverse=True))
+        games: List = []
 
         with open(Analysis.DEFAULT_PLAYER_DATA_FILE, encoding="UTF-8") as players_data_file:
-            ratings = {f'{player["real_name"]}': PersonalAnaysis.DEFAULT_INITIAL_RATING for player in csv.DictReader(players_data_file, delimiter=";")}
-            ratings["?"] = PersonalAnaysis.DEFAULT_INITIAL_RATING
+            ratings = {f'{player["real_name"]}': PersonalAnaysis.DEFAULT_INITIAL_RATING for player in csv.DictReader(players_data_file, delimiter=";")} if get_infrequents else {f'{player["real_name"]}': PersonalAnaysis.DEFAULT_INITIAL_RATING for player in csv.DictReader(players_data_file, delimiter=";") if player["infrequent"] == "False"}
+            # ratings["?"] = PersonalAnaysis.DEFAULT_INITIAL_RATING }
 
         for path in os.listdir("data/pgn/mgr/"):
             with open("data/pgn/mgr/" + path, encoding="utf-8") as pgn:
                 game = chess.pgn.read_game(pgn)
 
-                if opponent is not None:
-                    if game.headers["White"] != opponent and game.headers["Black"] != opponent:
+                if choosen is not None:
+                    if game.headers["White"] != choosen and game.headers["Black"] != choosen:
                         continue
 
-                if game.headers["Result"] == "1-0":
-                    winner = game.headers["White"]
-                    loser = game.headers["Black"]
-                elif game.headers["Result"] == "0-1":
-                    winner = game.headers["Black"]
-                    loser = game.headers["White"]
+                if game.headers["White"] == "Jefferson Campos":
+                    opponent = game.headers["Black"]
+                elif game.headers["Black"] == "Jefferson Campos":
+                    opponent = game.headers["White"]
                 else:
-                    continue
+                    raise Exception(f"Game is not against Jefferson Campos!! {game.headers['White']=} {game.headers['Black']=}")
 
-                # if (game.headers["White"] == "Jefferson Campos" and game.headers["Result"] == "0-1") or (game.headers["Black"] == "Jefferson Campos" and game.headers["Result"] == "1-0"):
-                #     breakpoint()
+                if opponent in ratings.keys() and (game.headers["Result"] == "1-0" or game.headers["Result"] == "0-1"):
+                    games.append(game)
 
-                rating_winner = ratings[winner]
-                rating_loser = ratings[loser]
-                new_rating = self.elo(ra=rating_winner, rb=rating_loser)
-                # breakpoint()
-                ratings[winner] = round(new_rating[0], 4)
-                ratings[loser] = round(new_rating[1], 4)
-                # breakpoint()
+        og = list(sorted(games, key=lambda x: datetime.strptime(x.headers["Date"], "%Y-%m-%dT%H:%M:%S")))
+        for game in og:
+            if game.headers["Result"] == "1-0":
+                winner = game.headers["White"]
+                loser = game.headers["Black"]
+            elif game.headers["Result"] == "0-1":
+                winner = game.headers["Black"]
+                loser = game.headers["White"]
+            else:
+                continue
 
-                # if (game.headers["White"] == "Jefferson Campos" and game.headers["Result"] == "0-1") or (game.headers["Black"] == "Jefferson Campos" and game.headers["Result"] == "1-0"):
-                #     breakpoint()
+            rating_winner = ratings[winner]
+            rating_loser = ratings[loser]
+            new_rating = self.elo(ra=rating_winner, rb=rating_loser, k=5)
+            # breakpoint()
+            ratings[winner] = round(new_rating[0], 4)
+            ratings[loser] = round(new_rating[1], 4)
+            # breakpoint()
 
-        breakpoint()
-        print(ratings)
+        ordered_ratings = OrderedDict(sorted(ratings.items(), key=lambda x: x[1], reverse=True))
+        general_stats_table = PrettyTable()
+        general_stats_table.field_names = ['Player', 'Rating']
+        for key, value in ordered_ratings.items():
+            general_stats_table.add_row([key, value])
 
-
+        print(general_stats_table)
 
 
 def debug_game(self, game):

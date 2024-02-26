@@ -44,15 +44,16 @@ if __name__ == "__main__":
         analysis.debug_game(args.debug_game)
     elif args.my_games_analysis_full:
         jeff = PersonalAnaysis()
-        opponent: Optional[str] = None if args.my_games_analysis_full == 'all' else args.my_games_analysis_full
+        opponent: Optional[str] = None if args.my_games_analysis_full == "all" else args.my_games_analysis_full
         jeff.my_games(opponent=opponent)
     elif args.championship_stats:
         championship = Championship()
-        player: Optional[str] = None if args.championship_stats == 'all' else args.championship_stats
+        player: Optional[str] = None if args.championship_stats == "all" else args.championship_stats
         championship.stats(player=player)
     elif args.rating:
         jeff = PersonalAnaysis()
-        jeff.rating(opponent=args.rating)
+        opponent: Optional[str] = None if args.rating == "all" else args.rating
+        jeff.rating(choosen=opponent)
     else:
         logging.error(Util.error("Can't work!! Please, inform all parameters!!"))
         sys.exit("Failed execution. Please, see the log above.")
