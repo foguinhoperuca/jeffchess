@@ -12,7 +12,7 @@ from prettytable import PrettyTable  # , ORGMODE, ALL
 from prettytable.colortable import ColorTable, Themes
 
 from util import Util
-from game import GameResult
+from game import GameResult, ResultType
 from player import OpponentStats
 
 
@@ -303,7 +303,7 @@ class PersonalAnaysis(Analysis, ABC):
 
         return leader_board
 
-    def my_games(self, opponent: Optional[str] = None) -> None:
+    def my_games(self, opponent: Optional[str] = None, games_played: Optional[List] = None) -> None:
         total_errors = 0
         total_files = 0
 
@@ -328,8 +328,9 @@ class PersonalAnaysis(Analysis, ABC):
 
         leader_board = self.define_leader_board(opponent)
         games = []
+        games_files: List = games_played if games_played is not None else os.listdir("data/pgn/mgr/")
 
-        for path in os.listdir("data/pgn/mgr/"):
+        for path in games_files:
             with open("data/pgn/mgr/" + path, encoding="utf-8") as pgn:
                 total_files += 1
                 game = chess.pgn.read_game(pgn)
@@ -487,7 +488,7 @@ class PersonalAnaysis(Analysis, ABC):
             print(tbl_open)
             print(tbl)
 
-    def probability(self, player, opponent) -> float:
+    def probability(self, player: float, opponent: float) -> float:
         return 1.0 * 1.0 / (1 + 1.0 * math.pow(10, 1.0 * (player - opponent) / 400))
 
     def elo(self, ra: float, rb: float, k: int = 32) -> Tuple[float, float]:
@@ -539,19 +540,107 @@ class PersonalAnaysis(Analysis, ABC):
 
             rating_winner = ratings[winner]
             rating_loser = ratings[loser]
-            new_rating = self.elo(ra=rating_winner, rb=rating_loser, k=5)
+            new_rating = self.elo(ra=rating_winner, rb=rating_loser, k=10)
             # breakpoint()
-            ratings[winner] = round(new_rating[0], 4)
-            ratings[loser] = round(new_rating[1], 4)
+            ratings[winner] = round(new_rating[0], 2)
+            ratings[loser] = round(new_rating[1], 2)
             # breakpoint()
 
         ordered_ratings = OrderedDict(sorted(ratings.items(), key=lambda x: x[1], reverse=True))
         general_stats_table = PrettyTable()
-        general_stats_table.field_names = ['Player', 'Rating']
-        for key, value in ordered_ratings.items():
-            general_stats_table.add_row([key, value])
+        general_stats_table.field_names = ['#', 'Player', 'Rating']
+        for index, (key, value) in enumerate(ordered_ratings.items()):
+            general_stats_table.add_row([index + 1, key, value])
+
+        # TODO consider only more than fice games against me and having a little as 0.5 points
+        print(general_stats_table)
+
+    def latest_games_perfomance(self, number_games: int = 70, opponent: Optional[str] = None) -> List[str]:
+        """See https://ratings.fide.com/calc.phtml - FIDE's site force 70 games (max)"""
+
+        choosen: Optional[str] = None
+        games_selected: List[str] = os.listdir("data/pgn/mgr/")
+        if opponent is not None and opponent != "Jefferson Campos":
+            choosen = opponent
+            games_selected = []
+            for path in os.listdir("data/pgn/mgr/"):
+                with open("data/pgn/mgr/" + path, encoding="utf-8") as pgn:
+                    game = chess.pgn.read_game(pgn)
+                    if game.headers["White"] != choosen and game.headers["Black"] != choosen:
+                        continue
+
+                    games_selected.append(path)
+
+        total_games_selected: int = min(len(games_selected), number_games)
+        games_sorted: List = [f"{path}.pgn" for path in list(sorted([path.replace('.pgn', '') for path in games_selected], key=lambda x: datetime.strptime(x, "%Y-%m-%dT%H-%M-%S"), reverse=True))[0:total_games_selected]]
+        print(f"{total_games_selected=} oldest: {games_sorted[total_games_selected - 1]} latest: {games_sorted[0]}")
+        self.my_games(opponent=choosen, games_played=games_sorted)
+
+        return games_sorted
+
+    def rating_fluctuation(self, number_games: int = 70, opponent: Optional[str] = None) -> None:
+        games_sorted: List[str] = self.latest_games_perfomance(number_games=number_games, opponent=opponent)
+
+        initial_rating: float = 1460.00 if opponent != "Jefferson Campos" else 1400.00
+        rating: float = 1460.00 if opponent != "Jefferson Campos" else 1400.00
+        for path in games_sorted:
+            game_result: GameResult
+            with open("data/pgn/mgr/" + path, encoding="utf-8") as pgn:
+                game = chess.pgn.read_game(pgn)
+                if (game.headers["White"] == opponent and game.headers["Result"] == "1-0") or (game.headers["Black"] == opponent and game.headers["Result"] == "0-1"):
+                    rating = round(self.elo(ra=rating, rb=initial_rating, k=5)[0], 2)
+                elif (game.headers["White"] == opponent and game.headers["Result"] == "0-1") or (game.headers["Black"] == opponent and game.headers["Result"] == "1-0"):
+                    rating = round(self.elo(ra=initial_rating, rb=rating, k=5)[1], 2)
+
+        print("------------------------")
+        print(f"{rating=}")
+
+    def define_min_valid_game_for_rating(self, get_infrequents: bool = False) -> Tuple[str, int]:
+        # [W, L, D, U]
+        relevant_games: Dict[str, List(int, int, int, int)]
+
+        with open(Analysis.DEFAULT_PLAYER_DATA_FILE, encoding="UTF-8") as players_data_file:
+            relevant_games = {f'{player["real_name"]}': [0, 0, 0, 0] for player in csv.DictReader(players_data_file, delimiter=";")} if get_infrequents else {f'{player["real_name"]}': [0, 0, 0, 0] for player in csv.DictReader(players_data_file, delimiter=";") if player["infrequent"] == "False"}
+
+        del relevant_games["Jefferson Campos"]
+
+        for path in os.listdir("data/pgn/mgr/"):
+            with open("data/pgn/mgr/" + path, encoding="utf-8") as pgn:
+                game = chess.pgn.read_game(pgn)
+
+                if game.headers["White"] == "Jefferson Campos":
+                    opponent = game.headers["Black"]
+                elif game.headers["Black"] == "Jefferson Campos":
+                    opponent = game.headers["White"]
+                else:
+                    raise Exception(f"Game is not against Jefferson Campos!! {game.headers['White']=} {game.headers['Black']=}")
+
+                if opponent not in relevant_games.keys():
+                    continue
+
+                if game.headers["Result"] == "*":
+                    relevant_games[opponent][3] += 1
+                elif game.headers["Result"] == "1/2-1/2" or game.headers["Result"] == "0,5-0,5":
+                    relevant_games[opponent][2] += 1
+                elif (game.headers["Result"] == "1-0" and game.headers["White"] == "Jefferson Campos") or (game.headers["Result"] == "0-1" and game.headers["Black"] == "Jefferson Campos"):
+                    relevant_games[opponent][1] += 1
+                elif (game.headers["Result"] == "1-0" and game.headers["Black"] == "Jefferson Campos") or (game.headers["Result"] == "0-1" and game.headers["White"] == "Jefferson Campos"):
+                    relevant_games[opponent][0] += 1
+
+        total_games: Dict[str, int] = {f"{key}": sum(value) for key, value in relevant_games.items() if value[0] > 0 or value[2] > 0 or value[3] > 0}
+
+        min_games: Tuple[str, int] = min(total_games.items(), key=lambda x: x[1])
+        print(f"{min_games=}")
+
+        general_stats_table = PrettyTable()
+        general_stats_table.field_names = ["#", "Player", "Wins", "Losses", "Drawns", "Unfinished", "TOTAL Required by FIDE"]
+        for index, (key, value) in enumerate(OrderedDict(sorted(relevant_games.items(), key=lambda x: total_games[x[0]] if x[0] in total_games.keys() else 0, reverse=False)).items()):
+            total: int = total_games[key] if key in total_games.keys() else 0
+            general_stats_table.add_row([index + 1, key, value[0], value[1], value[2], value[3], total])
 
         print(general_stats_table)
+
+        return min_games
 
 
 def debug_game(self, game):

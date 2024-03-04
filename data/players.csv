@@ -1,18 +1,24 @@
-real_name;lichess.org;nickname;infrequent
-Jefferson Campos;foguinho_peruca;Jefferson Campos;False
-Edson Luiz Oliveira;elo57;Edson L Oliveira;True
-Emerson Sbrana;xdx10;Emerson Sbrana;False
-Erick de Brito Melo;;Erick Brito Melo;True
-George Fekette;;George Fekette;False
-Isac Nunes;;Isac Nunes;True
-Ivone Xadrez;;Ivone Xadrez;True
-Jefferson Nunes;jenunesbrasilsp;Jefferson Nunes;False
-Jessé Garcia Galiano;;Jessé G Galiano;True
-João Carlos Oliveira;jc1952;João C Oliveira;False
-José Carlos Bento Dias da Rocha;;José C B D Rocha;False
-José Roberto Oliveira;jrso61;José R Oliveira;False
-Mário Sérgio Bueno de Miranda;mario67miranda;Mário S B Miranda;False
-Rafaela;;Rafaela;True
-Rodrigo Guimarães de Azevedo;;Rodrigo G Azevedo;True
-Vicente Rodrigues de Moraes;;Vicente R Moraes;True
-Wilson Sturm;;Wilson Sturm;False
+real_name;lichess.org;nickname;infrequent;observation;estimed_rating_against_1460;Total Wins Latest 17 games 2024-03-03;
+Jefferson Campos;foguinho_peruca;Jefferson Campos;False;My estimed rating is against 1400 (I was the start);1460;10;
+Edson Luiz Oliveira;elo57;Edson L Oliveira;True;;;;
+Emerson Sbrana;xdx10;Emerson Sbrana;False;;1439;8;
+Erick de Brito Melo;;Erick Brito Melo;True;;;;
+George Fekette;;George Fekette;True;;600;0;
+Isac Nunes;;Isac Nunes;True;;;;
+Ivone Xadrez;;Ivone Xadrez;True;;;;
+Jefferson Nunes;jenunesbrasilsp;Jefferson Nunes;False;;1520;10;
+Jessé Garcia Galiano;;Jessé G Galiano;True;;;;
+João Carlos Oliveira;jc1952;João C Oliveira;False;;1302;5;
+José Carlos Bento Dias da Rocha;;José C B D Rocha;False;;1302;5;
+José Roberto Oliveira;jrso61;José R Oliveira;False;;1198;3;
+Mário Sérgio Bueno de Miranda;mario67miranda;Mário S B Miranda;True;;600;0;
+Rafaela;;Rafaela;True;;;;
+Rodrigo Guimarães de Azevedo;;Rodrigo G Azevedo;True;;;;
+Vicente Rodrigues de Moraes;;Vicente R Moraes;True;;;;
+Wilson Sturm;;Wilson Sturm;False;;600;0;
+Allan dos Santos;;Allan dos Santos;True;XCS;;;
+José Watermann;;José Watermann;True;XCS;;;
+João Paulo;;João Paulo;True;XCS;;;
+Luan Lopes;;Luan Lopes;True;XCS;;;
+Brendom Nunes;;Brendom Nunes;True;XCS;;;
+Diego Lima;;Diego Lima;True;XCS;;;

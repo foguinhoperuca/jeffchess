@@ -1,5 +1,21 @@
+from enum import Enum
 import logging
+
 from util import Util
+
+
+class ResultType(Enum):
+    WIN: str = '1-0'
+    LOSS: str = ''
+    DRAWN: str = ''
+    UNFINISHED: str = '*'
+
+
+class ResultValue(Enum):
+    WIN: float = 1.0
+    LOSS: float = 0.0
+    DRAWN: float = 0.5
+    UNFINISHED: float = 0.0
 
 
 class GameResult():
@@ -95,3 +111,11 @@ class GameResult():
             raise Exception("Invalid Result!!")
 
         return result, point
+
+    def has_winnwer(self) -> bool:
+        has_winner: bool = False
+
+        if self._result == "1-0" or self._result == "0-1":
+            has_winner = True
+
+        return has_winner
