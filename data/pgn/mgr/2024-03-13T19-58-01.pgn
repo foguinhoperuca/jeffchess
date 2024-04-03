@@ -1,0 +1,12 @@
+[Event "Padoca's Cup 2024-01"]
+[Site "Padoca St. Rosália"]
+[Date "2024-03-13T19:58:01"]
+[White "Wilson Sturm"]
+[Black "Jefferson Campos"]
+[Result "1-0"]
+[PlyCount "29"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 e6 7. Ne5 Qf6 8. c3 c5 9. Bb5+ Kd8 10. dxc5+ Kc7 11. Nxg6 Qxg6 12. Bf4+ Kc8 13. O-O Bxc5 14. Bxb8 Rxb8 15. Qd7# 1-0

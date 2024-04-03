@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2024-03-24T17:20:25"]
+[White "Ana Rosa Ferreira Carvalho"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "6"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. h3 e5 2. f3 Qh4+ 3. g3 Qxg3# 0-1
