@@ -3,12 +3,16 @@
 [Date "2024-03-27T21:25:09"]
 [White "Jefferson Campos"]
 [Black "José Carlos Bento Dias da Rocha"]
-[Result "*"]
-[PlyCount "40"]
+[Result "1-0"]
+[PlyCount "59"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
-[Termination "?"]
+[Termination "mate"]
 
 {2024-03-27T21-25-09_image-01.jpg}
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 a6 4. c3 b5 5. Bb3 h6 6. O-O Bc5 7. d3 Nf6 8. Nbd2 d6 9. h3 g5 10. Nh2 Rg8 11. Bd5 Bb7 12. Nb3 Bb6 13. d4 exd4 14. Nxd4 Qd7 15. Re1 O-O-O 16. Nxc6 Bxc6 17. Bxc6 Qxc6 18. Qf3 Rg6 19. Ng4 Nxg4 20. hxg4 Qd7 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 a6 4. c3 b5 5. Bb3 h6 6. O-O Bc5 7. d3 Nf6 8. Nbd2 d6 9. h3 g5 10. Nh2 Rg8 11. Bd5 Bb7 12. Nb3 Bb6 13. d4 exd4 14. Nxd4 Qd7 15. Re1 O-O-O 16. Nxc6 Bxc6 17. Bxc6 Qxc6 18. Qf3 Rg6 19. Ng4 Nxg4 20. hxg4 Qd7
+
+{Cont. 2024-04-04T20:01:10 with FEN "2kr4/2pq1p2/pb1p2rp/1p4p1/4P1P1/2P2Q2/PP3PP1/R1B1R1K1 w - - 1 21"}
+
+21. Be3 c5 22. Rac1 Rh8 23. b4 Qe7 24. bxc5 Bxc5 25. e5 Kc7 26. exd6+ Kxd6 27. Bxc5+ Kxc5 28. Rxe7 Rg7 29. Qf5+ Kc4 30. Rc7# 1-0
