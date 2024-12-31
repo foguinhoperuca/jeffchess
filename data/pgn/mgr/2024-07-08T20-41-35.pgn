@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2024-07-08T20:41:35"]
+[White "Jefferson Campos"]
+[Black "Emerson Sbrana"]
+[Result "1-0"]
+[PlyCount "65"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 h6 4. d4 exd4 5. Nxd4 Nf6 6. Nc3 c5 7. Nf3 Be7 8. O-O a6 9. e5 Nh7 10. Re1 O-O 11. h3 b5 12. Bb3 b4 13. Ne4 Kh8 14. exd6 Bf6 15. Nxc5 Nc6 16. Ne4 Re8 17. Qd5 Be6 18. Qxc6 Rc8 19. Qxa6 Qd7 20. Nxf6 Nxf6 21. Be3 Rc6 22. Qa7 Qxd6 23. Qd4 Qe7 24. Ba4 Rd8 25. Qh4 Rc4 26. Qg3 Nh5 27. Qh2 Bd5 28. Ne5 Re4 29. Nc6 Bxc6 30. Bxc6 Re6 31. Bf3 Nf6 32. a3 Rc8 33. Rac1 *

@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2024-12-30T21:21:31"]
+[White "João Carlos de Oliveira"]
+[Black "Jefferson Campos"]
+[Result "*"]
+[PlyCount "66"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 h6 5. a3 d6 6. h3 Nf6 7. Nc3 Bd7 8. O-O O-O 9. Qe2 Nd4 10. Nxd4 exd4 11. Nd5 Nxd5 12. Bxd5 c6 13. Bb3 Qf6 14. Qh5 Rae8 15. f4 Be6 16. Ba2 Bxa2 17. Rxa2 Bb6 18. f5 c5 19. Rf3 Kh8 20. b3 d5 21. exd5 Re1+ 22. Rf1 Rfe8 23. Bd2 Rxf1+ 24. Kxf1 Re5 25. g4 Rxd5 26. Bf4 Ba5 27. Ra1 Bc3 28. Rd1 Kg8 29. Kg2 Qc6 30. Kg3 Rd8 31. g5 hxg5 32. Qxg5 Re8 33. Bd2 f6 *

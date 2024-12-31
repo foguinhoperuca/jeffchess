@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2024-11-16T23:08:06"]
+[White "Otto Campos"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "46"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. c3 e5 2. c4 Nc6 3. Nc3 Nf6 4. Nh3 d5 5. Na4 dxc4 6. Nc3 Bb4 7. Nb5 O-O 8. e4 Be6 9. Bd3 cxd3 10. O-O Nxe4 11. Re1 Nd6 12. Nc3 Nf5 13. b3 Nh4 14. g4 Bd5 15. Re4 Bxe4 16. Nxe4 Qd4 17. a4 Qxe4 18. f3 Nxf3+ 19. Kf1 Nxh2+ 20. Kg1 Nxg4 21. Ng5 Qf4 22. Nxf7 Qh2+ 23. Kf1 Qf2# 0-1

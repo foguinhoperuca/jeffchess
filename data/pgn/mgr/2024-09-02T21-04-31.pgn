@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2024-09-02T21:04:31"]
+[White "Jefferson Campos"]
+[Black "José Carlos Bento Dias da Rocha"]
+[Result "1-0"]
+[PlyCount "69"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 f6 5. d3 d6 6. d4 Bb6 7. Bb5 Bd7 8. dxe5 Nxe5 9. Bxd7+ Qxd7 10. Nxe5 fxe5 11. Qf3 Nf6 12. h3 h6 13. a4 O-O-O 14. a5 Bc5 15. b4 Bxf2+ 16. Kxf2 Rhf8 17. Kg1 a6 18. Qe3 Kb8 19. c4 Nh5 20. b5 axb5 21. a6 c5 22. axb7 Qxb7 23. cxb5 Qxb5 24. Kh2 Rf7 25. Nc3 Qd7 26. Nd5 Qb5 27. Bd2 Rdd7 28. Rhb1 Rb7 29. Rxb5 Rxb5 30. Qa3 Kc8 31. Qa6+ Rfb7 32. Qc6+ Kd8 33. Ra8+ Rb8 34. Qc7+ Ke8 35. Qe7# 1-0

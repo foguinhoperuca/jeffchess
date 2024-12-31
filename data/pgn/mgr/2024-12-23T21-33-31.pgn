@@ -1,0 +1,12 @@
+[Event "Brancas jogam e tentam sobreviver"]
+[Site "Padoca Santa Rosália"]
+[Date "2024-12-23T21:33:31"]
+[White "Jefferson Campos"]
+[Black "José Carlos Bento Dias da Rocha"]
+[Result "*"]
+[PlyCount "42"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. e4 e5 2. Nf3 f6 3. Bc4 Bc5 4. c3 d6 5. h3 Nc6 6. d3 Bd7 7. Bb3 Qe7 8. Nbd2 Be6 9. Ba4 Qd7 10. b4 b5 11. Bxb5 Bb6 12. Ba4 a6 13. Nc4 Bxc4 14. dxc4 Nge7 15. b5 axb5 16. cxb5 Na7 17. Rb1 c5 18. bxc6 Naxc6 19. Rxb6 Qc7 20. Rb1 O-O 21. O-O Kh8 *
