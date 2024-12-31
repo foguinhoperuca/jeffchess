@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2024-05-15T21:06:13"]
+[White "Jefferson Campos"]
+[Black "Jefferson Luiz Nunes"]
+[Result "0-1"]
+[PlyCount "13"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Be3 e6 5. Bd3 Bxd3 6. Qxd3 Qb6 7. Qc3 *

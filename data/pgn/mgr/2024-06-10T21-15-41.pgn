@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2024-06-10T21:15:41"]
+[White "José Roberto Oliveira"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "78"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 c6 2. Nf3 d5 3. e5 e6 4. d4 Bb4+ 5. c3 Ba5 6. b4 Bc7 7. c4 Ne7 8. Nc3 O-O 9. cxd5 Nxd5 10. Nxd5 cxd5 11. Bd3 Nc6 12. a3 Bb6 13. Bxh7+ Kxh7 14. Ng5+ Kg8 15. Qh5 Qxg5 16. Bxg5 Bxd4 17. O-O Bxe5 18. Be3 Bxa1 19. Rxa1 b6 20. b5 Ne7 21. Rd1 Nf5 22. g4 Nxe3 23. fxe3 Bd7 24. a4 Rac8 25. Kf2 Rc2+ 26. Kf3 Rfc8 27. Rd4 Rc1 28. Kg3 R8c3 29. Qg5 Rc8 30. Kh4 R1c2 31. h3 Be8 32. Qe7 R2c7 33. Qg5 Rc3 34. e4 dxe4 35. Rxe4 R3c5 36. Qf4 g5+ 37. Qxg5+ Rxg5 38. Kxg5 Kg7 39. Re5 f6+ *
