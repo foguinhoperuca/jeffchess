@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2025-03-03T20:57:11"]
+[White "Jefferson Campos"]
+[Black "@⁨Arnaldo Ulisses Reis⁩"]
+[Result "0-1"]
+[PlyCount "131"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 c5 2. Nf3 g6 3. Bc4 Nc6 4. d4 cxd4 5. Nxd4 Bg7 6. Nxc6 bxc6 7. Nc3 d6 8. Bf4 Qa5 9. Qd2 Rb8 10. Bb3 Nf6 11. O-O O-O 12. h3 Ba6 13. Rfe1 Nd7 14. Be3 Qc7 15. Rab1 Rfd8 16. Qc1 e6 17. Bg5 Nf6 18. Bh6 Bh8 19. Bf4 e5 20. Bg5 Rd7 21. a3 Bg7 22. Bh6 Rbd8 23. Bxg7 Kxg7 24. Qe3 d5 25. Rbd1 d4 26. Qf3 dxc3 27. bxc3 Rxd1 28. Rxd1 Rxd1+ 29. Qxd1 Nxe4 30. Qf3 Nf6 31. Ba4 e4 32. Qe3 Qb6 33. Qxb6 axb6 34. Bxc6 Kf8 35. Kh2 Bc4 36. Kg3 Nh5+ 37. Kg4 f5+ 38. Kg5 Kg7 39. g4 h6+ 40. Kh4 Bf7 41. gxh5 g5+ 42. Kg3 Bxh5 43. c4 Bf7 44. c5 bxc5 45. a4 Bc4 46. a5 Ba6 47. f4 exf3 48. Bxf3 Kf6 49. Kf2 Ke5 50. Be2 c4 51. Ke3 Kd5 52. Kd2 Kd4 53. c3+ Kc5 54. Ke3 Kb5 55. Kd4 Kxa5 56. Bxc4 Bxc4 57. Kxc4 Kb6 58. Kd5 f4 59. c4 Kc7 60. Kd4 Kd6 61. Ke4 Kc5 62. Kf3 Kxc4 63. Kg4 Kd4 64. h4 Ke3 65. hxg5 hxg5 66. Kxg5 *

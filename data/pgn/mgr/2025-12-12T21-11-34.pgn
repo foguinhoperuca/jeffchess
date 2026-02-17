@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2025-12-12T21:11:34"]
+[White "Jefferson Campos"]
+[Black "Wilson Sturm⁩ "]
+[Result "1-0"]
+[PlyCount "34"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 d6 2. Nf3 g6 3. Nc3 Bg7 4. Bc4 a6 5. d4 Bg4 6. Be3 e6 7. Be2 Nd7 8. Qd2 Ne7 9. Bh6 O-O 10. Bxg7 Kxg7 11. O-O-O c5 12. h3 Bxf3 13. Bxf3 b5 14. dxc5 dxc5 15. Qxd7 b4 16. Qxd8 Rfxd8 17. Rxd8 Rxd8 * 

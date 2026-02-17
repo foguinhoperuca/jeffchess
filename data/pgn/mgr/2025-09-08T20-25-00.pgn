@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2025-09-08T20:25:00"]
+[White "Isac Nunes"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "36"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. d3 Bc5 3. Be3 Bxe3 4. fxe3 Nf6 5. Nf3 Nc6 6. d4 exd4 7. exd4 d6 8. Bb5 a6 9. Ba4 b5 10. Bb3 Nxe4 11. O-O O-O 12. Qe1 Re8 13. c4 Ng5 14. Qd1 Bg4 15. Nc3 Nxf3+ 16. gxf3 Bh3 17. Qd3 Qg5+ 18. Kf2 Qg2# 0-1

@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2025-01-06T20:58:15"]
+[White "Mário Sérgio Bueno de Miranda⁩"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "60"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Bc4 Nf6 3. Nc3 Bc5 4. Qf3 d6 5. h3 Nc6 6. Qd3 Nb4 7. Qg3 Nh5 8. Bxf7+ Kxf7 9. Qf3+ Kg8 10. Kd1 Nf6 11. a3 Nc6 12. d3 Nd4 13. Qg3 Kf7 14. Bg5 Rf8 15. b4 Bb6 16. a4 a6 17. Nf3 Nxf3 18. Qxf3 Qe8 19. Nd5 Kg8 20. g4 Nxd5 21. Qg2 Rxf2 22. Qg3 Nc3+ 23. Ke1 Rxc2 24. Rc1 Ne2 25. Qh4 Nxc1 26. Kd1 Qc6 27. Be7 Nxd3 28. Bg5 Nf2+ 29. Ke1 Qxe4+ 30. Kf1 Qxh1# 0-1

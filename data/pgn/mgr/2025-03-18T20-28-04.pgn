@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2025-03-18T20:28:04"]
+[White "Otto Campos"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "56"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. d4 d5 2. Nd2 Nc6 3. Ne4 dxe4 4. a4 e5 5. dxe5 Qxd1+ 6. Kxd1 Nxe5 7. Be3 Nf6 8. g4 Nexg4 9. Bf4 Nxf2+ 10. Kc1 Nxh1 11. Ra3 Bxa3 12. bxa3 O-O 13. Bxc7 Nf2 14. Nf3 exf3 15. exf3 Nd5 16. Bg3 Nh3 17. Bc7 Nhf4 18. Be5 Re8 19. Ba1 Re1+ 20. Kd2 Rxf1 21. Bf6 gxf6 22. c4 Nb6 23. c5 Nxa4 24. h4 Be6 25. h5 Rd8+ 26. Kc2 Bf5+ 27. Kb3 Nxc5+ 28. Ka2 Rd2# 0-1

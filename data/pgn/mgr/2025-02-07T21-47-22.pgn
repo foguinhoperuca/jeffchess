@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2025-02-07T21:47:22"]
+[White "João Carlos de Oliveira⁩"]
+[Black "Jefferson Campos"]
+[Result "0-1"]
+[PlyCount "36"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 Nc6 3. a3 Bc5 4. Bc4 h6 5. d3 Nf6 6. h3 d5 7. Bb3 dxe4 8. dxe4 Qxd1+ 9. Kxd1 Nxe4 10. Be3 Bxe3 11. Re1 Nxf2+ 12. Ke2 Bd4 13. Nxd4 Nxd4+ 14. Kxf2 Nxb3 15. Rxe5+ Be6 16. Ra2 Nd4 17. b4 O-O 18. c3 Bxa2 *

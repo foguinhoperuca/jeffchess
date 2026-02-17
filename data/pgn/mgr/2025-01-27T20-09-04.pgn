@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2025-01-27T20:09:04"]
+[White "Jefferson Campos"]
+[Black "Carlos Eduardo"]
+[Result "0-1"]
+[PlyCount "72"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Nf6 5. d3 d5 6. O-O dxc4 7. dxc4 Qxd1 8. Rxd1 Nxe4 9. Re1 Bf5 10. Nbd2 Nxd2 11. Bxd2 Bd6 12. b4 O-O 13. c5 e4 14. Nh4 Bh7 15. cxd6 cxd6 16. Rad1 g5 17. b5 Ne5 18. Re2 b6 19. Bc1 Nc4 20. Rd4 Rac8 21. f3 gxh4 22. fxe4 Rfe8 23. Bxh6 f5 24. Rf2 Rxe4 25. g4 hxg3 26. hxg3 Rxd4 27. cxd4 d5 28. Re2 Kf7 29. Bg5 Re8 30. Rh2 Bg6 31. Rf2 Re4 32. Rf4 Rxf4 33. gxf4 Nd6 34. a4 Bh5 35. Kf2 Bd1 36. Kg3 Bxa4 *

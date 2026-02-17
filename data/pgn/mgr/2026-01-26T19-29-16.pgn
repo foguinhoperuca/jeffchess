@@ -1,0 +1,20 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2026-01-26T19:29:16"]
+[White "Jefferson Campos"]
+[Black "Emerson Sbrana⁩ "]
+[Result "1-0"]
+[PlyCount "43"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "abandoned"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8 4. d4 c6 5. Nf3 Nf6 6. Bd3 e6 7. O-O Bd6 8. Ne5 O-O 9. Ne4 Nxe4 10. Bxe4 f6 11. Nf3 f5 12. Bd3 b6 13. Re1 Re8 14. Bc4 b5 15. Bb3 a5 16. a3 a4 17. Ba2 Kh8 18. Ne5 Qf6 19. Qf3 Nd7 20. c3 Bb7 21. Nxd7 Ra7 22. Nxf6 *
+
+{
+1/26/26, 19:49 - Marcelo Mori Machado de Araujo: Bo seu lance 08 nao mexa o cavalo para e5.
+
+Espera ele rocar, depois bxh7+ rxb
+Cg5+ rg8
+Dh5 fim
+}

@@ -1,0 +1,12 @@
+[Event "Casual Game"]
+[Site "https://lichess.org"]
+[Date "2025-01-20T21:27:34"]
+[White "@⁨Vinicius Pascua⁩"]
+[Black "Jefferson Campos"]
+[Result "*"]
+[PlyCount "92"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "?"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nc3 Nxc3 6. bxc3 Nc6 7. e3 Bc5 8. d4 exd4 9. cxd4 Bb6 10. Ne2 Be6 11. O-O Bd5 12. Bb2 Bxg2 13. Kxg2 O-O 14. a3 Ne7 15. Nf4 Nd5 16. Qg4 Nf6 17. Qf3 c6 18. Rad1 Qe7 19. Rfe1 Rad8 20. d5 cxd5 21. Nxd5 Nxd5 22. Rxd5 Rxd5 23. Qxd5 Rd8 24. Qf3 Rd2 25. Re2 Rxe2 26. Qxe2 Qe4+ 27. Qf3 Qc2 28. Qf4 h6 29. Bd4 Bc7 30. Qg4 Qg6 31. Qc8+ Bd8 32. Qxd8+ Kh7 33. Qd5 b6 34. Qb7 b5 35. Bxa7 Qf5 36. Qc6 h5 37. Bc5 h4 38. Qxb5 h3+ 39. Kf1 Qf3 40. Ke1 Qh1+ 41. Ke2 Qxh2 42. Qc4 Kg8 43. Qe4 Qg2 44. Qh4 h2 45. Qd8+ Kh7 46. Qh4+ Kg8 *
