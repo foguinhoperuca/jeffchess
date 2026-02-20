@@ -17,6 +17,7 @@
 | Jefferson Nunes                 |      0 |          0 |           1 | 00% |
 |---------------------------------+--------+------------+-------------+-----|
 * My games
+** 2019-09-24T21:56:41 -> separa em dois jogos distintos o pgn ou juntar eles de acordo com os comentários
 ** DONE Google Keep
 ** Whatsapp
 *** DONE Apenas conferência de jogos que estão no google keep
