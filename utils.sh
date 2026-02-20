@@ -38,7 +38,7 @@ fix_movetext() {
 	echo "------------------------------------------"
 
 	# for arquivo in "$DIR"/*.pgn; do
-	for arquivo in "$DIR"/2020-*.pgn; do
+	for arquivo in "$DIR"/2021*.pgn; do
 		[ -e "$arquivo" ] || continue
 		((TOTAL++))
 
