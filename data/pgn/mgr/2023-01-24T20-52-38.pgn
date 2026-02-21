@@ -10,18 +10,3 @@
 [Termination "mate"]
 
 1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. d3 Nxe4 6. dxe4 Qxd1+ 7. Kxd1 g6 8. Be3 Bg7 9. Bd4 f6 10. Kd2 O-O 11. Rd1 Bh6+ 12. Be3 Rd8+ 13. Kc1 Rxd1+ 14. Kxd1 Bxe3 15. fxe3 Be6 16. b3 Nd7 17. Nd4 Bf7 18. g3 Rd8 19. Kc1 Nc5 20. Bg2 e5 21. Ne2 a5 22. Nc3 b5 23. h4 g5 24. hxg5 fxg5 25. Rh6 Bg6 26. a3 b4 27. axb4 axb4 28. Na2 Na6 29. Rh1 Kf7 30. Bf3 Kg7 31. Kb2 Rd2 32. Nc1 Nc5 33. Na2 Nxe4 34. Nxb4 Nxg3 35. Rg1 c5 36. Rxg3 cxb4 37. e4 Kf6 38. Rg2 Rxg2 39. Bxg2 h5 40. c4 bxc3+ 41. Kxc3 Ke6 42. Kc4 Kd6 43. Kb5 h4 44. b4 g4 45. Ka6 Be8 46. Bf1 h3 47. Bxh3 g3 48. b5 Bc6 49. b6 Bxe4 50. Ka7 Ke7 51. Bf5 Kd6 52. Bh3 Ke7 53. Bg2 Ke6 54. Bh3+ Kd6 55. Bc8 g2 56. Bb7 Bxb7 57. Kxb7 g1=Q 58. Kc8 Qc1+ 59. Kd8 Qc6 60. b7 Qd7# 0-1
-
-{
-[Event "Casual Game"]
-[Site "https://lichess.org"]
-[Date "1/24/2023, 8:45:38 PM"]
-[White "White"]
-[Black "@Jefferson Nunes"]
-[Result "*"]
-[PlyCount "93"]
-[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
-[Variant "Standard"]
-[Termination "?"]
-
-1. e4 c6 2. Nf3 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. d3 Nxe4 6. dxe4 Qxd1+ 7. Kxd1 g6 8. Be3 Bg7 9. Bd4 f6 10. Kd2 O-O 11. Rd1 Bh6+ 12. Be3 Rd8+ 13. Kc1 Rxd1+ 14. Kxd1 Bxe3 15. fxe3 Be6 16. b3 Nd7 17. Nd4 Bf7 18. g3 Rd8 19. Kc1 Nc5 20. Bg2 e5 21. Ne2 a5 22. Nc3 b5 23. h4 g5 24. hxg5 fxg5 25. Rh6 Bg6 26. a3 b4 27. axb4 axb4 28. Na2 Na6 29. Rh1 Kf7 30. Bf3 Kg7 31. Kb2 Rd2 32. Nc1 Nc5 33. Na2 Nxe4 34. Nxb4 Nxg3 35. Rg1 c5 36. Rxg3 cxb4 37. e4 Kf6 38. Rg2 Rxg2 39. Bxg2 h5 40. c4 bxc3+ 41. Kxc3 Ke6 42. Kc4 Kd6 43. Kb5 h4 44. b4 g4 45. Ka6 Be8 46. Bf1 h3 47. Bxh3 *
-}

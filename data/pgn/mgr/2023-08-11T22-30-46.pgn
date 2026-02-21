@@ -1,6 +1,6 @@
 [Event "Casual Game"]
 [Site "https://lichess.org"]
-[Date "2023-8-11T10:30:46"]
+[Date "2023-08-11T22:30:46"]
 [White "José Roberto Oliveira"]
 [Black "Jefferson Campos"]
 [Result "0-1"]
@@ -9,4 +9,4 @@
 [Variant "Standard"]
 [Termination "abandoned"]
 
-1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Ng5 Nh6 5. Bc4 d6 6. Bd5 Be6 7. Qf3 Ne5 8. Qf4 Rb8 9. c3 dxc3 10. Nxc3 Nd3+ *
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Ng5 Nh6 5. Bc4 d6 6. Bd5 Be6 7. Qf3 Ne5 8. Qf4 Rb8 9. c3 dxc3 10. Nxc3 Nd3+ 0-1
