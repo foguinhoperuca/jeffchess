@@ -3,9 +3,10 @@
 [Date "2026-01-22T19:02:06"]
 [White "Jefferson Campos"]
 [Black "black"
+[Result "1/2-1/2"]
 [PlyCount "31"]
 [FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
 [Variant "Standard"]
 [Termination "drawn by agreement"]
 
-1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. Nbd2 h6 6. Nf1 d5 7. exd5 Nxd5 8. Ng3 O-O 9. O-O a6 10. a3 b5 11. Ba2 Bg4 12. h3 Be6 13. Re1 f6 14. Nh4 Qe8 15. Nhf5 Qg6 16. Qf3 *
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Bc5 5. Nbd2 h6 6. Nf1 d5 7. exd5 Nxd5 8. Ng3 O-O 9. O-O a6 10. a3 b5 11. Ba2 Bg4 12. h3 Be6 13. Re1 f6 14. Nh4 Qe8 15. Nhf5 Qg6 16. Qf3 1/2-1/2

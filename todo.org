@@ -17,6 +17,7 @@
 | Jefferson Nunes                 |      0 |          0 |           1 | 00% |
 |---------------------------------+--------+------------+-------------+-----|
 * My games
+** 2025-11-24T20:07:54 -> verificar se é a finalização de alguma partida em aberto?
 ** 2019-09-24T21:56:41 -> separa em dois jogos distintos o pgn ou juntar eles de acordo com os comentários
 ** 2023-08-12T00:20:00 verificar qual o jogo anterior e juntar
 ** DONE Google Keep
